@@ -682,6 +682,104 @@ function set_key_description_text()
 	replace_text(addresses["Text"]["Key Descriptions"]["KOT"]["Address"]["Address"], addresses["Text"]["Key Descriptions"]["KOT"]["Address"]["Bytes"], new_string)
 end
 
+function get_world_cards()
+	local world_cards = {}
+	i = 1
+	local world_cards_1_byte = memory.readbyte(to_hex(addresses["World Cards"][1]["Address"]))
+	local world_cards_2_byte = memory.readbyte(to_hex(addresses["World Cards"][2]["Address"]))
+	local world_cards_1_bits = toBits(world_cards_1_byte, 8)
+	local world_cards_2_bits = toBits(world_cards_2_byte, 8)
+	for k,v in pairs(world_cards_1_bits) do
+		if v == 1 then
+			world_cards[i] = addresses["World Cards"][1]["Bits"][k]
+			i = i + 1
+		end
+	end
+	for k,v in pairs(world_cards_2_bits) do
+		if v == 1 then
+			world_cards[i] = addresses["World Cards"][2]["Bits"][k]
+			i = i + 1
+		end
+	end
+	return world_cards
+end
+
+function set_world_cards(world_cards)
+	to_assign_world_cards_1_bits = {}
+	to_assign_world_cards_2_bits = {}
+	i = 1
+	while i <= 8 do
+		local found = false
+		for k,v in pairs(world_cards) do
+			if addresses["World Cards"][1]["Bits"][i] == v then
+				found = true
+			end
+		end
+		if found then
+			to_assign_world_cards_1_bits[i] = 1
+		else
+			to_assign_world_cards_1_bits[i] = 0
+		end
+		i = i + 1
+	end
+	i = 1
+	while i <= 8 do
+		local found = false
+		for k,v in pairs(world_cards) do
+			if addresses["World Cards"][2]["Bits"][i] == v then
+				found = true
+			end
+		end
+		if found then
+			to_assign_world_cards_2_bits[i] = 1
+		else
+			to_assign_world_cards_2_bits[i] = 0
+		end
+		i = i + 1
+	end
+	local new_hex_char_1 = binary_to_hex[tostring(to_assign_world_cards_1_bits[1])..tostring(to_assign_world_cards_1_bits[2])..tostring(to_assign_world_cards_1_bits[3])..tostring(to_assign_world_cards_1_bits[4])]
+	local new_hex_char_2 = binary_to_hex[tostring(to_assign_world_cards_1_bits[5])..tostring(to_assign_world_cards_1_bits[6])..tostring(to_assign_world_cards_1_bits[7])..tostring(to_assign_world_cards_1_bits[8])]
+	local new_hex_char = new_hex_char_1..new_hex_char_2
+	memory.writebyte(to_hex(addresses["World Cards"][1]["Address"]), to_hex(new_hex_char))
+	new_hex_char_1 = binary_to_hex[tostring(to_assign_world_cards_2_bits[1])..tostring(to_assign_world_cards_2_bits[2])..tostring(to_assign_world_cards_2_bits[3])..tostring(to_assign_world_cards_2_bits[4])]
+	new_hex_char_2 = binary_to_hex[tostring(to_assign_world_cards_2_bits[5])..tostring(to_assign_world_cards_2_bits[6])..tostring(to_assign_world_cards_2_bits[7])..tostring(to_assign_world_cards_2_bits[8])]
+	new_hex_char = new_hex_char_1..new_hex_char_2
+	memory.writebyte(to_hex(addresses["World Cards"][2]["Address"]), to_hex(new_hex_char))
+end
+
+function get_world_name(current_floor)
+	local world_value = randomization["Worlds"][current_floor]
+	if world_value == "01" then
+		return "Agrabah"
+	elseif world_value == "02" then
+		return "Atlantica"
+	elseif world_value == "03" then
+		return "Olympus Coliseum"
+	elseif world_value == "04" then
+		return "Wonderland"
+	elseif world_value == "05" then
+		return "Monstro"
+	elseif world_value == "06" then
+		return "Halloween Town"
+	elseif world_value == "07" then
+		return "Neverland"
+	elseif world_value == "08" then
+		return "Hollow Bastion"
+	elseif world_value == "09" then
+		return "Destiny Islands"
+	elseif world_value == "0A" then
+		return "Traverse Town"
+	elseif world_value == "0B" then
+		return "Twilight Town"
+	elseif world_value == "0C" then
+		return "Castle Oblivion"
+	elseif world_value == "0D" then
+		return "100 Acre Wood"
+	else
+		return "Unknown"
+	end
+end
+
 function main()
 	load_dictionaries()
 	set_floors()
@@ -711,6 +809,10 @@ function main()
 					last_kob = get_current_gold_card_qty("KOB")
 					last_kog = get_current_gold_card_qty("KOG")
 					last_kot = get_current_gold_card_qty("KOT")
+					local world_name = get_world_name(current_floor)
+					new_world_cards = {}
+					new_world_cards[1] = world_name
+					set_world_cards(new_world_cards)
 				end
 				local current_kob = get_current_gold_card_qty("KOB")
 				local current_kog = get_current_gold_card_qty("KOG")
@@ -782,5 +884,3 @@ end
 
 main()
 --test()
---load_dictionaries()
---set_starting_deck()
