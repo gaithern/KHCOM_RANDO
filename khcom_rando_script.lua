@@ -380,9 +380,9 @@ function set_floors()
 end
 
 function handle_highest_warp()
-	local floor_number = get_floor_number()
+	local highest_warp_floor_number = get_highest_warp_floor_number()
 	for k,v in pairs(randomization["Goals"]) do
-		if floor_number <= v then
+		if highest_warp_floor_number <= v then
 			set_highest_wrap_floor_number(v)
 			return
 		end
