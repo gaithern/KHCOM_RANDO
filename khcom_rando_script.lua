@@ -513,15 +513,15 @@ function handle_new_items(new_battle_cards, new_premium_battle_cards, new_keys, 
 							local key_type = string.sub(iv,1,3)
 							local key_floor = tonumber(string.sub(iv,4))
 							set_stored_gold_cards(key_type, key_floor, 1)
-							set_current_gold_card_qty(key_type, get_current_gold_card_qty(key_type)-1)
+							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1)
 							print("Got GC: " .. tostring(iv))
 						elseif new_item_type == "Sleight" then
 							add_sleight(iv)
-							set_current_gold_card_qty(key_type, get_current_gold_card_qty(key_type)-1)
+							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1)
 							print("Got SL: " .. tostring(iv))
 						elseif new_item_type == "Battle Card" then
 							add_battle_card(iv, false)
-							set_current_gold_card_qty(key_type, get_current_gold_card_qty(key_type)-1)
+							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1)
 							print("Got BC: " .. tostring(iv))
 						end
 					end
