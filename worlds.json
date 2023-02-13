@@ -1,0 +1,17 @@
+{"Worlds":
+	[
+		{"Name": "Agrabah", "Value": "01"}
+		,{"Name": "Atlantica", "Value": "02"}
+		,{"Name": "Olympus Coliseum", "Value": "03"}
+		,{"Name": "Wonderland", "Value": "04"}
+		,{"Name": "Monstro", "Value": "05"}
+		,{"Name": "Halloween Town", "Value": "06"}
+		,{"Name": "Neverland", "Value": "07"}
+		,{"Name": "Hollow Bastion", "Value": "08"}
+		,{"Name": "Destiny Islands", "Value": "09"}
+		,{"Name": "Traverse Town", "Value": "0A"}
+		,{"Name": "Twilight Town", "Value": "0B"}
+		,{"Name": "Castle Oblivion", "Value": "0C"}
+		,{"Name": "100 Acre Wood", "Value": "0D"}
+	]
+}

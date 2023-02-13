@@ -1,0 +1,604 @@
+{
+	"Floors": [
+		{"Status": {"Address": "02039D34","Bytes": 1}, "Assigned World": {"Address": "02039D36","Bytes": 1}, "Progression": {"Address": "02039D37", "Bytes": 1}}
+		,{"Status": {"Address": "02039D38","Bytes": 1}, "Assigned World": {"Address": "02039D3A","Bytes": 1}, "Progression": {"Address": "02039D3B", "Bytes": 1}}
+		,{"Status": {"Address": "02039D3C","Bytes": 1}, "Assigned World": {"Address": "02039D3E","Bytes": 1}, "Progression": {"Address": "02039D3F", "Bytes": 1}}
+		,{"Status": {"Address": "02039D40","Bytes": 1}, "Assigned World": {"Address": "02039D42","Bytes": 1}, "Progression": {"Address": "02039D43", "Bytes": 1}}
+		,{"Status": {"Address": "02039D44","Bytes": 1}, "Assigned World": {"Address": "02039D46","Bytes": 1}, "Progression": {"Address": "02039D47", "Bytes": 1}}
+		,{"Status": {"Address": "02039D48","Bytes": 1}, "Assigned World": {"Address": "02039D4A","Bytes": 1}, "Progression": {"Address": "02039D4B", "Bytes": 1}}
+		,{"Status": {"Address": "02039D4C","Bytes": 1}, "Assigned World": {"Address": "02039D4E","Bytes": 1}, "Progression": {"Address": "02039D4F", "Bytes": 1}}
+		,{"Status": {"Address": "02039D50","Bytes": 1}, "Assigned World": {"Address": "02039D52","Bytes": 1}, "Progression": {"Address": "02039D53", "Bytes": 1}}
+		,{"Status": {"Address": "02039D54","Bytes": 1}, "Assigned World": {"Address": "02039D56","Bytes": 1}, "Progression": {"Address": "02039D57", "Bytes": 1}}
+		,{"Status": {"Address": "02039D58","Bytes": 1}, "Assigned World": {"Address": "02039D5A","Bytes": 1}, "Progression": {"Address": "02039D5B", "Bytes": 1}}
+		,{"Status": {"Address": "02039D5C","Bytes": 1}, "Assigned World": {"Address": "02039D5E","Bytes": 1}, "Progression": {"Address": "02039D5F", "Bytes": 1}}
+		,{"Status": {"Address": "02039D60","Bytes": 1}, "Assigned World": {"Address": "02039D62","Bytes": 1}, "Progression": {"Address": "02039D63", "Bytes": 1}}
+		,{"Status": {"Address": "02039D64","Bytes": 1}, "Assigned World": {"Address": "02039D66","Bytes": 1}, "Progression": {"Address": "02039D67", "Bytes": 1}}
+	]
+	,"Highest Warp Floor": {"Address": "0203C590", "Bytes": 1}
+	,"World Cards": [{"Address": "02039D30", "Bytes": 1}, {"Address": "02039D31", "Bytes": 1}]
+	,"Floor Number": {"Address": "02039BBE", "Bytes": 1}
+	,"Text": {
+		"O.b.t.a.i.n.e.d. .y@.K.e.y. .o.f. .B.e.g.i.n.n.i.n.g.s..@..": [
+			{"Address": "090414FA", "Bytes": 59}
+			,{"Address": "090415DE", "Bytes": 59}
+			,{"Address": "09041BB4", "Bytes": 59}
+		]
+		,"O.b.t.a.i.n.e.d. .y@.K.e.y. .o.f. .G.u.i.d.a.n.c.e..@..": [
+			{"Address": "09041BF0", "Bytes": 55}
+			,{"Address": "09041D74", "Bytes": 55}
+		]
+		,"O.b.t.a.i.n.e.d. .y@.K.e.y. .t.o. .T.r.u.t.h..@..": [
+			{"Address": "0B041C28", "Bytes": 49}
+		]
+		,"O.b.t.a.i.n.e.d. .y@S.i.m.b.a..@": [
+			{"Address": "09041D38", "Bytes": 30}
+			, {"Address": "0B041D38", "Bytes": 30}
+			, {"Address": "0D041D38", "Bytes": 30}
+		]
+		,"O.b.t.a.i.n.e.d. .y@B.a.m.b.i..@": [
+			{"Address": "09041B10", "Bytes":32}
+			,{"Address": "0B041B10", "Bytes":32}
+			,{"Address": "0D041B10", "Bytes":32}
+		]
+		,"O.b.t.a.i.n.e.d. .y@C.l.o.u.d..@": [
+			{"Address": "09041A5C", "Bytes": 32}
+			,{"Address": "0B041A5C", "Bytes": 32}
+			,{"Address": "0D041A5C", "Bytes": 32}
+		]
+		,"O.b.t.a.i.n.e.d. .y@T.i.n.k.e.r. .B.e.l.l..@": [
+			{"Address": "09041C7C", "Bytes": 44}
+			,{"Address": "0B041C7C", "Bytes": 44}
+			,{"Address": "0D041C7C", "Bytes": 44}
+		]
+		,"O.b.t.a.i.n.e.d. .y@O.b.l.i.v.i.o.n..@": [
+			{"Address": "09041CAC", "Bytes": 38}
+			,{"Address": "0B041CAC", "Bytes": 38}
+			,{"Address": "0D041CAC", "Bytes": 38}
+		]
+		,"O.b.t.a.i.n.e.d. .y@O.a.t.h.k.e.e.p.e.r..@": [
+			{"Address": "09041AE2", "Bytes": 42}
+			,{"Address": "0B041AE2", "Bytes": 42}
+			,{"Address": "0D041AE2", "Bytes": 42}
+		]
+		,"O.b.t.a.i.n.e.d. .y@M.e.g.a. .E.t.h.e.r..@": [
+			{"Address": "090419B4", "Bytes": 42}
+			,{"Address": "0B0419B4", "Bytes": 42}
+			,{"Address": "0D0419B4", "Bytes": 42}
+		]
+		,"O.b.t.a.i.n.e.d. .y@M.e.g.a. .P.o.t.i.o.n..@": [
+			{"Address": "09041984", "Bytes": 44}
+			,{"Address": "0B041984", "Bytes": 44}
+			,{"Address": "0D041984", "Bytes": 44}
+		]
+		,"L.e.a.r.n.e.d. .y@W.a.r.p.i.n.a.t.o.r..@!": [
+			{"Address": "09041492", "Bytes": 41}
+			,{"Address": "0B041492", "Bytes": 41}
+			,{"Address": "0D041492", "Bytes": 41}
+		]
+		,"L.e.a.r.n.e.d. .y@S.y.n.c.h.r.o..@!": [
+			{"Address": "09041522", "Bytes": 35}
+			,{"Address": "0B041522", "Bytes": 35}
+			,{"Address": "0D041522", "Bytes": 35}
+		]
+		,"L.e.a.r.n.e.d. .y@B.i.n.d..@!": [
+			{"Address": "09041548", "Bytes": 29}
+			,{"Address": "0B041548", "Bytes": 29}
+			,{"Address": "0D041548", "Bytes": 29}
+		]
+		,"L.e.a.r.n.e.d. .y@I.d.y.l.l. .R.o.m.p..@!": [
+			{"Address": "09041568", "Bytes": 41}
+			,{"Address": "0B041568", "Bytes": 41}
+			,{"Address": "0D041568", "Bytes": 41}
+		]
+		,"L.e.a.r.n.e.d. .y@T.r.i.n.i.t.y. .L.i.m.i.t..@!": [
+			{"Address": "09041594", "Bytes": 47}
+			,{"Address": "0B041594", "Bytes": 47}
+			,{"Address": "0D041594", "Bytes": 47}
+		]
+		,"L.e.a.r.n.e.d. .y@C.o.f.u.s.e..@!": [
+			{"Address": "09041606", "Bytes": 33}
+			,{"Address": "0B041606", "Bytes": 33}
+			,{"Address": "0D041606", "Bytes": 33}
+		]
+		,"L.e.a.r.n.e.d. .y@T.h.u.n.d.e.r. .R.a.i.d..@!": [
+			{"Address": "0904162C", "Bytes":45}
+			,{"Address": "0B04162C", "Bytes":45}
+			,{"Address": "0D04162C", "Bytes":45}
+		]
+		,"L.e.a.r.n.e.d. .y@G.i.f.t.e.d. .M.i.r.a.c.l.e..@!": [
+			{"Address": "0904165C", "Bytes": 49}
+			,{"Address": "0B04165C", "Bytes": 49}
+			,{"Address": "0D04165C", "Bytes": 49}
+		]
+		,"L.e.a.r.n.e.d. .y@G.r.a.v.i.t.y. .R.a.i.d..@!": [
+			{"Address": "09041690", "Bytes": 45}
+			,{"Address": "0B041690", "Bytes": 45}
+			,{"Address": "0D041690", "Bytes": 45}
+		]
+		,"L.e.a.r.n.e.d. .y@F.i.r.e. .R.a.i.d..@!": [
+			{"Address": "090416C0", "Bytes":39}
+			,{"Address": "0B0416C0", "Bytes":39}
+			,{"Address": "0D0416C0", "Bytes":39}
+		]
+		,"L.e.a.r.n.e.d. .y@A.q.u.a. .S.p.l.a.s.h..@!": [
+			{"Address": "090416EA", "Bytes":43}
+			,{"Address": "0B0416EA", "Bytes":43}
+			,{"Address": "0D0416EA", "Bytes":43}
+		]
+		,"L.e.a.r.n.e.d. .y@B.l.i.z.z.a.r.d. .R.a.i.d..@!": [
+			{"Address": "09041718", "Bytes":47}
+			,{"Address": "0B041718", "Bytes":47}
+			,{"Address": "0D041718", "Bytes":47}
+		]
+		,"L.e.a.r.n.e.d. .y@S.t.o.p. .R.a.i.d..@!": [
+			{"Address": "0904174A", "Bytes":39}
+			,{"Address": "0B04174A", "Bytes":39}
+			,{"Address": "0D04174A", "Bytes":39}
+		]
+		,"L.e.a.r.n.e.d. .y@S.h.o.c.k. .I.m.p.a.c.t..@!": [
+			{"Address": "09041774", "Bytes": 45}
+			,{"Address": "0B041774", "Bytes": 45}
+			,{"Address": "0D041774", "Bytes": 45}
+		]
+		,"L.e.a.r.n.e.d. .y@H.o.m.i.n.g. .B.l.i.z.z.a.r.a..@!": [
+			{"Address": "090417A4", "Bytes": 51}
+			,{"Address": "0B0417A4", "Bytes": 51}
+			,{"Address": "0D0417A4", "Bytes": 51}
+		]
+		,"L.e.a.r.n.e.d. .y@Q.u.a.k.e..@!": [
+			{"Address": "090417DA", "Bytes": 31}
+			,{"Address": "0B0417DA", "Bytes": 31}
+			,{"Address": "0D0417DA", "Bytes": 31}
+		]
+		,"L.e.a.r.n.e.d. .y@B.l.a.z.i.n.g. .D.o.n.a.l.d..@!": [
+			{"Address": "090417FC", "Bytes": 49}
+			,{"Address": "0B0417FC", "Bytes": 49}
+			,{"Address": "0D0417FC", "Bytes": 49}
+		]
+		,"L.e.a.r.n.e.d. .y@H.o.m.i.n.g. .F.i.r.a..@!": [
+			{"Address": "09041830", "Bytes": 43}
+			,{"Address": "0B041830", "Bytes": 43}
+			,{"Address": "0D041830", "Bytes": 43}
+		]
+		,"L.e.a.r.n.e.d. .y@T.e.l.e.p.o.r.t..@!": [
+			{"Address": "0904185E", "Bytes": 37}
+			,{"Address": "0B04185E", "Bytes": 37}
+			,{"Address": "0D04185E", "Bytes": 37}
+		]
+		,"L.e.a.r.n.e.d. .y@T.o.r.n.a.d.o..@!": [
+			{"Address": "09041886", "Bytes": 35}
+			,{"Address": "0B041886", "Bytes": 35}
+			,{"Address": "0D041886", "Bytes": 35}
+		]
+		,"L.e.a.r.n.e.d. .y@C.r.o.s.s.-.s.l.a.s.h.+..@!": [
+			{"Address": "0904188C", "Bytes": 45}
+			,{"Address": "0B04188C", "Bytes": 45}
+			,{"Address": "0D04188C", "Bytes": 45}
+		]
+		,"L.e.a.r.n.e.d. .y@R.e.f.l.e.c.t. .R.a.i.d..@!": [
+			{"Address": "090418DC", "Bytes": 45}
+			,{"Address": "0B0418DC", "Bytes": 45}
+			,{"Address": "0D0418DC", "Bytes": 45}
+		]
+		,"L.e.a.r.n.e.d. .y@F.i.r.a.g.a. .B.r.e.a.k..@!": [
+			{"Address": "0904190C", "Bytes": 45}
+			,{"Address": "0B04190C", "Bytes": 45}
+			,{"Address": "0D04190C", "Bytes": 45}
+		]
+		,"L.e.a.r.n.e.d. .y@W.a.r.p..@!": [
+			{"Address": "0904193C", "Bytes": 29}
+			,{"Address": "0B04193C", "Bytes": 29}
+			,{"Address": "0D04193C", "Bytes": 29}
+		]
+		,"L.e.a.r.n.e.d. .y@J.u.d.g.m.e.n.t..@!": [
+			{"Address": "0904195C", "Bytes": 37}
+			,{"Address": "0B04195C", "Bytes": 37}
+			,{"Address": "0D04195C", "Bytes": 37}
+		]
+		,"O.b.t.a.i.n.e.d. .y@E.l.i.x.i.r..@": [
+			{"Address": "090419E2", "Bytes": 34}
+			,{"Address": "0B0419E2", "Bytes": 34}
+			,{"Address": "0D0419E2", "Bytes": 34}
+		]
+		,"O.b.t.a.i.n.e.d. .y@S.p.e.l.l.b.i.n.d.e.r..@": [
+			{"Address": "09041A08", "Bytes": 44}
+			,{"Address": "0B041A08", "Bytes": 44}
+			,{"Address": "0D041A08", "Bytes": 44}
+		]
+		,"O.b.t.a.i.n.e.d. .y@G.e.n.i.e..@": [
+			{"Address": "09041A38", "Bytes": 32}
+			,{"Address": "0B041A38", "Bytes": 32}
+			,{"Address": "0D041A38", "Bytes": 32}
+		]
+		,"O.b.t.a.i.n.e.d. .y@W.o.r.l.d. .C.a.r.d.s..@..": [
+			{"Address": "09041A80", "Bytes": 46}
+			,{"Address": "0B041A80", "Bytes": 46}
+			,{"Address": "0D041A80", "Bytes": 46}
+		]
+		,"L.e.a.r.n.e.d. .y@Z.a.n.t.e.t.s.u.k.e.n..@!": [
+			{"Address": "09041AB4", "Bytes": 43}
+			,{"Address": "0B041AB4", "Bytes": 43}
+			,{"Address": "0D041AB4", "Bytes": 43}
+		]
+		,"Key Descriptions": {
+			"KOB": {
+				"Original Text": "A room where untold stories unfold."
+				,"Address": {"Address": "09045026", "Bytes": 70}
+			}
+			,"KOG": {
+				"Original Text": "A room where untold stories unfold."
+				,"Address": {"Address": "0904506E", "Bytes": 70}
+			}
+			,"KOT": {
+				"Original Text": "A room where untold stories unfold."
+				,"Address": {"Address": "090450B6", "Bytes": 70}
+			}
+		}
+	}
+	,"Map Cards": {
+		"Red": [
+			[
+				{"Address": "0203A8C0", "Bytes": 1}
+				,{"Address": "0203A8C1", "Bytes": 1}
+				,{"Address": "0203A8C2", "Bytes": 1}
+				,{"Address": "0203A8C3", "Bytes": 1}
+				,{"Address": "0203A8C4", "Bytes": 1}
+				,{"Address": "0203A8C5", "Bytes": 1}
+				,{"Address": "0203A8C6", "Bytes": 1}
+				,{"Address": "0203A8C7", "Bytes": 1}
+				,{"Address": "0203A8C8", "Bytes": 1}
+				,{"Address": "0203A8C9", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A8CA", "Bytes": 1}
+				,{"Address": "0203A8CB", "Bytes": 1}
+				,{"Address": "0203A8CC", "Bytes": 1}
+				,{"Address": "0203A8CD", "Bytes": 1}
+				,{"Address": "0203A8CE", "Bytes": 1}
+				,{"Address": "0203A8CF", "Bytes": 1}
+				,{"Address": "0203A8D0", "Bytes": 1}
+				,{"Address": "0203A8D1", "Bytes": 1}
+				,{"Address": "0203A8D2", "Bytes": 1}
+				,{"Address": "0203A8D3", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A8D4", "Bytes": 1}
+				,{"Address": "0203A8D5", "Bytes": 1}
+				,{"Address": "0203A8D6", "Bytes": 1}
+				,{"Address": "0203A8D7", "Bytes": 1}
+				,{"Address": "0203A8D8", "Bytes": 1}
+				,{"Address": "0203A8D9", "Bytes": 1}
+				,{"Address": "0203A8DA", "Bytes": 1}
+				,{"Address": "0203A8DB", "Bytes": 1}
+				,{"Address": "0203A8DC", "Bytes": 1}
+				,{"Address": "0203A8DD", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A8DE", "Bytes": 1}
+				,{"Address": "0203A8DF", "Bytes": 1}
+				,{"Address": "0203A8E0", "Bytes": 1}
+				,{"Address": "0203A8E1", "Bytes": 1}
+				,{"Address": "0203A8E2", "Bytes": 1}
+				,{"Address": "0203A8E3", "Bytes": 1}
+				,{"Address": "0203A8E4", "Bytes": 1}
+				,{"Address": "0203A8E5", "Bytes": 1}
+				,{"Address": "0203A8E6", "Bytes": 1}
+				,{"Address": "0203A8E7", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A8E8", "Bytes": 1}
+				,{"Address": "0203A8E9", "Bytes": 1}
+				,{"Address": "0203A8EA", "Bytes": 1}
+				,{"Address": "0203A8EB", "Bytes": 1}
+				,{"Address": "0203A8EC", "Bytes": 1}
+				,{"Address": "0203A8ED", "Bytes": 1}
+				,{"Address": "0203A8EE", "Bytes": 1}
+				,{"Address": "0203A8EF", "Bytes": 1}
+				,{"Address": "0203A8F0", "Bytes": 1}
+				,{"Address": "0203A8F1", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A8F2", "Bytes": 1}
+				,{"Address": "0203A8F3", "Bytes": 1}
+				,{"Address": "0203A8F4", "Bytes": 1}
+				,{"Address": "0203A8F5", "Bytes": 1}
+				,{"Address": "0203A8F6", "Bytes": 1}
+				,{"Address": "0203A8F7", "Bytes": 1}
+				,{"Address": "0203A8F8", "Bytes": 1}
+				,{"Address": "0203A8F9", "Bytes": 1}
+				,{"Address": "0203A8FA", "Bytes": 1}
+				,{"Address": "0203A8FB", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A8FC", "Bytes": 1}
+				,{"Address": "0203A8FD", "Bytes": 1}
+				,{"Address": "0203A8FE", "Bytes": 1}
+				,{"Address": "0203A8FF", "Bytes": 1}
+				,{"Address": "0203A900", "Bytes": 1}
+				,{"Address": "0203A901", "Bytes": 1}
+				,{"Address": "0203A902", "Bytes": 1}
+				,{"Address": "0203A903", "Bytes": 1}
+				,{"Address": "0203A904", "Bytes": 1}
+				,{"Address": "0203A905", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A906", "Bytes": 1}
+				,{"Address": "0203A907", "Bytes": 1}
+				,{"Address": "0203A908", "Bytes": 1}
+				,{"Address": "0203A909", "Bytes": 1}
+				,{"Address": "0203A90A", "Bytes": 1}
+				,{"Address": "0203A90B", "Bytes": 1}
+				,{"Address": "0203A90C", "Bytes": 1}
+				,{"Address": "0203A90D", "Bytes": 1}
+				,{"Address": "0203A90E", "Bytes": 1}
+				,{"Address": "0203A90F", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A910", "Bytes": 1}
+				,{"Address": "0203A911", "Bytes": 1}
+				,{"Address": "0203A912", "Bytes": 1}
+				,{"Address": "0203A913", "Bytes": 1}
+				,{"Address": "0203A914", "Bytes": 1}
+				,{"Address": "0203A915", "Bytes": 1}
+				,{"Address": "0203A916", "Bytes": 1}
+				,{"Address": "0203A917", "Bytes": 1}
+				,{"Address": "0203A918", "Bytes": 1}
+				,{"Address": "0203A919", "Bytes": 1}
+			]
+		]
+		,"Green": [
+			[
+				{"Address": "0203A91A", "Bytes": 1}
+				,{"Address": "0203A91B", "Bytes": 1}
+				,{"Address": "0203A91C", "Bytes": 1}
+				,{"Address": "0203A91D", "Bytes": 1}
+				,{"Address": "0203A91E", "Bytes": 1}
+				,{"Address": "0203A91F", "Bytes": 1}
+				,{"Address": "0203A920", "Bytes": 1}
+				,{"Address": "0203A921", "Bytes": 1}
+				,{"Address": "0203A922", "Bytes": 1}
+				,{"Address": "0203A923", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A924", "Bytes": 1}
+				,{"Address": "0203A925", "Bytes": 1}
+				,{"Address": "0203A926", "Bytes": 1}
+				,{"Address": "0203A927", "Bytes": 1}
+				,{"Address": "0203A928", "Bytes": 1}
+				,{"Address": "0203A929", "Bytes": 1}
+				,{"Address": "0203A92A", "Bytes": 1}
+				,{"Address": "0203A92B", "Bytes": 1}
+				,{"Address": "0203A92C", "Bytes": 1}
+				,{"Address": "0203A92D", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A92E", "Bytes": 1}
+				,{"Address": "0203A92F", "Bytes": 1}
+				,{"Address": "0203A930", "Bytes": 1}
+				,{"Address": "0203A931", "Bytes": 1}
+				,{"Address": "0203A932", "Bytes": 1}
+				,{"Address": "0203A933", "Bytes": 1}
+				,{"Address": "0203A934", "Bytes": 1}
+				,{"Address": "0203A935", "Bytes": 1}
+				,{"Address": "0203A936", "Bytes": 1}
+				,{"Address": "0203A937", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A938", "Bytes": 1}
+				,{"Address": "0203A939", "Bytes": 1}
+				,{"Address": "0203A93A", "Bytes": 1}
+				,{"Address": "0203A93B", "Bytes": 1}
+				,{"Address": "0203A93C", "Bytes": 1}
+				,{"Address": "0203A93D", "Bytes": 1}
+				,{"Address": "0203A93E", "Bytes": 1}
+				,{"Address": "0203A93F", "Bytes": 1}
+				,{"Address": "0203A940", "Bytes": 1}
+				,{"Address": "0203A941", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A942", "Bytes": 1}
+				,{"Address": "0203A943", "Bytes": 1}
+				,{"Address": "0203A944", "Bytes": 1}
+				,{"Address": "0203A945", "Bytes": 1}
+				,{"Address": "0203A946", "Bytes": 1}
+				,{"Address": "0203A947", "Bytes": 1}
+				,{"Address": "0203A948", "Bytes": 1}
+				,{"Address": "0203A949", "Bytes": 1}
+				,{"Address": "0203A94A", "Bytes": 1}
+				,{"Address": "0203A94B", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A94C", "Bytes": 1}
+				,{"Address": "0203A94D", "Bytes": 1}
+				,{"Address": "0203A94E", "Bytes": 1}
+				,{"Address": "0203A94F", "Bytes": 1}
+				,{"Address": "0203A950", "Bytes": 1}
+				,{"Address": "0203A951", "Bytes": 1}
+				,{"Address": "0203A952", "Bytes": 1}
+				,{"Address": "0203A953", "Bytes": 1}
+				,{"Address": "0203A954", "Bytes": 1}
+				,{"Address": "0203A955", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A956", "Bytes": 1}
+				,{"Address": "0203A957", "Bytes": 1}
+				,{"Address": "0203A958", "Bytes": 1}
+				,{"Address": "0203A959", "Bytes": 1}
+				,{"Address": "0203A95A", "Bytes": 1}
+				,{"Address": "0203A95B", "Bytes": 1}
+				,{"Address": "0203A95C", "Bytes": 1}
+				,{"Address": "0203A95D", "Bytes": 1}
+				,{"Address": "0203A95E", "Bytes": 1}
+				,{"Address": "0203A95F", "Bytes": 1}
+			]
+		]
+		,"Blue": [
+			[
+				{"Address": "0203A960", "Bytes": 1}
+				,{"Address": "0203A961", "Bytes": 1}
+				,{"Address": "0203A962", "Bytes": 1}
+				,{"Address": "0203A963", "Bytes": 1}
+				,{"Address": "0203A964", "Bytes": 1}
+				,{"Address": "0203A965", "Bytes": 1}
+				,{"Address": "0203A966", "Bytes": 1}
+				,{"Address": "0203A967", "Bytes": 1}
+				,{"Address": "0203A968", "Bytes": 1}
+				,{"Address": "0203A969", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A96A", "Bytes": 1}
+				,{"Address": "0203A96B", "Bytes": 1}
+				,{"Address": "0203A96C", "Bytes": 1}
+				,{"Address": "0203A96D", "Bytes": 1}
+				,{"Address": "0203A96E", "Bytes": 1}
+				,{"Address": "0203A96F", "Bytes": 1}
+				,{"Address": "0203A970", "Bytes": 1}
+				,{"Address": "0203A971", "Bytes": 1}
+				,{"Address": "0203A972", "Bytes": 1}
+				,{"Address": "0203A973", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A974", "Bytes": 1}
+				,{"Address": "0203A975", "Bytes": 1}
+				,{"Address": "0203A976", "Bytes": 1}
+				,{"Address": "0203A977", "Bytes": 1}
+				,{"Address": "0203A978", "Bytes": 1}
+				,{"Address": "0203A979", "Bytes": 1}
+				,{"Address": "0203A97A", "Bytes": 1}
+				,{"Address": "0203A97B", "Bytes": 1}
+				,{"Address": "0203A97C", "Bytes": 1}
+				,{"Address": "0203A97D", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A97E", "Bytes": 1}
+				,{"Address": "0203A97F", "Bytes": 1}
+				,{"Address": "0203A980", "Bytes": 1}
+				,{"Address": "0203A981", "Bytes": 1}
+				,{"Address": "0203A982", "Bytes": 1}
+				,{"Address": "0203A983", "Bytes": 1}
+				,{"Address": "0203A984", "Bytes": 1}
+				,{"Address": "0203A985", "Bytes": 1}
+				,{"Address": "0203A986", "Bytes": 1}
+				,{"Address": "0203A987", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A988", "Bytes": 1}
+				,{"Address": "0203A989", "Bytes": 1}
+				,{"Address": "0203A98A", "Bytes": 1}
+				,{"Address": "0203A98B", "Bytes": 1}
+				,{"Address": "0203A98C", "Bytes": 1}
+				,{"Address": "0203A98D", "Bytes": 1}
+				,{"Address": "0203A98E", "Bytes": 1}
+				,{"Address": "0203A98F", "Bytes": 1}
+				,{"Address": "0203A990", "Bytes": 1}
+				,{"Address": "0203A991", "Bytes": 1}
+			]
+			,[
+				{"Address": "0203A992", "Bytes": 1}
+				,{"Address": "0203A993", "Bytes": 1}
+				,{"Address": "0203A994", "Bytes": 1}
+				,{"Address": "0203A995", "Bytes": 1}
+				,{"Address": "0203A996", "Bytes": 1}
+				,{"Address": "0203A997", "Bytes": 1}
+				,{"Address": "0203A998", "Bytes": 1}
+				,{"Address": "0203A999", "Bytes": 1}
+				,{"Address": "0203A99A", "Bytes": 1}
+				,{"Address": "0203A99B", "Bytes": 1}
+			]
+		]
+		,"Gold": {"KOB": {"Address": "0203A99D", "Bytes": 1}, "KOG": {"Address": "0203A9A7", "Bytes": 1}, "KOT": {"Address": "0203A9B1", "Bytes": 1}, "KOR": {"Address": "0203A9BB", "Bytes": 1}}
+		,"Stored Gold Cards": {
+			"KOB": [
+				{"Address": "0203A99C", "Bytes": 1}
+				,{"Address": "0203A99E", "Bytes": 1}
+				,{"Address": "0203A99F", "Bytes": 1}
+				,{"Address": "0203A9A0", "Bytes": 1}
+				,{"Address": "0203A9A1", "Bytes": 1}
+				,{"Address": "0203A9A2", "Bytes": 1}
+				,{"Address": "0203A9A3", "Bytes": 1}
+				,{"Address": "0203A9A4", "Bytes": 1}
+				,{"Address": "0203A9A5", "Bytes": 1}
+				,{"Address": "0203A99C", "Bytes": 1}
+				,{"Address": "0203A99E", "Bytes": 1}
+				,{"Address": "0203A99F", "Bytes": 1}
+				,{"Address": "0203A9A0", "Bytes": 1}
+			]
+			,"KOG": [
+				{"Address": "0203A9A6", "Bytes": 1}
+				,{"Address": "0203A9A8", "Bytes": 1}
+				,{"Address": "0203A9A9", "Bytes": 1}
+				,{"Address": "0203A9AA", "Bytes": 1}
+				,{"Address": "0203A9AB", "Bytes": 1}
+				,{"Address": "0203A9AC", "Bytes": 1}
+				,{"Address": "0203A9AD", "Bytes": 1}
+				,{"Address": "0203A9AE", "Bytes": 1}
+				,{"Address": "0203A9AF", "Bytes": 1}
+				,{"Address": "0203A9A6", "Bytes": 1}
+				,{"Address": "0203A9A8", "Bytes": 1}
+				,{"Address": "0203A9A9", "Bytes": 1}
+				,{"Address": "0203A9AA", "Bytes": 1}
+			]
+			,"KOT": [
+				{"Address": "0203A9B0", "Bytes": 1}
+				,{"Address": "0203A9B2", "Bytes": 1}
+				,{"Address": "0203A9B3", "Bytes": 1}
+				,{"Address": "0203A9B4", "Bytes": 1}
+				,{"Address": "0203A9B5", "Bytes": 1}
+				,{"Address": "0203A9B6", "Bytes": 1}
+				,{"Address": "0203A9B7", "Bytes": 1}
+				,{"Address": "0203A9B8", "Bytes": 1}
+				,{"Address": "0203A9B9", "Bytes": 1}
+				,{"Address": "0203A9B0", "Bytes": 1}
+				,{"Address": "0203A9B1", "Bytes": 1}
+				,{"Address": "0203A9B2", "Bytes": 1}
+				,{"Address": "0203A9B3", "Bytes": 1}
+			]
+		}
+	}
+	,"Battle Cards": {"Address": "0203A080", "Bytes": 1830}
+	,"Sleights": [
+		{
+			"Address": {"Address": "02039CBC", "Bytes": 1}
+			,"Bits": ["Ragnarok","Ars Arcanum","Sonic Blade","Strike Raid","Zantetsuken","Stun Impact","Blitz","Sliding Dash"]
+		}
+		,{
+			"Address": {"Address": "02039CBD", "Bytes": 1}
+			,"Bits": ["Cura", "Thundaga", "Thundara", "Blizzaga", "Blizzara", "Firaga", "Fira", "Trinity Limit"]
+		}
+		,{
+			"Address": {"Address": "02039CBE", "Bytes": 1}
+			,"Bits": ["Fire Raid", "Aeroga", "Aerora", "Stopga", "Stopra", "Graviga", "Gravira", "Curaga"]
+		}
+		,{
+			"Address": {"Address": "02039CBF", "Bytes": 1}
+			,"Bits": ["Unused", "Homing Fira", "Reflect Raid", "Judgement", "Stop Raid", "Gravity Raid", "Thunder Raid", "Blizzard Raid"]
+		}
+		,{
+			"Address": {"Address": "02039CC4", "Bytes": 1}
+			,"Bits": ["Warpinator", "Quake", "Tornado", "Shock Impact", "Aqua Splash", "Homing Blizzara", "Mega Flare", "Firaga Break"]
+		}
+		,{
+			"Address": {"Address": "02039CC5", "Bytes": 1}
+			,"Bits": ["Holy", "Teleport", "Gifted Miracle", "Synchro", "Terror", "Confuse", "Bind", "Warp"]
+		}
+		,{
+			"Address": {"Address": "02039CC6", "Bytes": 1}
+			,"Bits": ["Cross Slash", "Twinkle", "Showtime", "Flare Breath", "Idyll Romp", "Paradise", "Splash", "Proud Roar"]
+		}
+		,{
+			"Address": {"Address": "02039CC7", "Bytes": 1}
+			,"Bits": ["Surprise!", "Sandstorm", "Goofy Tornado", "Goofy Charge", "Blazing Donald", "Magic", "Cross-slash +", "Omnislash"]
+		}
+		,{
+			"Address": {"Address": "02039CC8", "Bytes": 1}
+			,"Bits": ["None", "None", "None", "None", "None", "Ferocious Lunge", "Hummingbird", "Spiral Wave"]
+		}
+	]
+	
+	,"Playtime": {"Address": "02039D8C", "Bytes": 3}
+	,"Deck Card Pointers": [
+		{"Address": "02039DE0", "Bytes": 198}
+		,{"Address": "02039EC0", "Bytes": 198}
+		,{"Address": "02039FA0", "Bytes": 198}
+	]
+}

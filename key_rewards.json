@@ -1,0 +1,318 @@
+{
+	"Traverse Town": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Guard Armor", "Value": "21D"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Traverse Town", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Wonderland": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Trickmaster", "Value": "21F"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Wonderland", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Olympus Coliseum": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Hades", "Value": "227"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Olympus Coliseum", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Agrabah": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Jafar", "Value": "228"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Agrabah", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Halloween Town": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Oogie Boogie", "Value": "229"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Halloween Town", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Atlantica": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Ursula", "Value": "22A"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Atlantica", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Monstro": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Monstro", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Monstro", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Monstro", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Monstro", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Monstro", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Monstro", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Parasite Cage", "Value": "21E"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Monstro", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Monstro", "Type": "Key of Guidance"}}
+			]
+		}
+	]
+	,"Neverland": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Hook", "Value": "22B"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Neverland", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Hollow Bastion": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Dragon Maleficent", "Value": "22C"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Hollow Bastion", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Twilight Town": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Vexen", "Value": "230"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"Destiny Islands": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Guidance"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Darkside", "Value": "220"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Guidance"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key to Truth"}}
+			]
+		}
+	]
+	,"100 Acre Wood" : []
+	,"Castle Oblivion": [
+		{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Castle Oblivion", "Type": "Key of Beginnings"}}
+			,"Requirements": []
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Castle Oblivion", "Type": "Key of Guidance"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Castle Oblivion", "Type": "Key of Beginnings"}}
+			]
+		}
+		,{
+			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Castle Oblivion", "Type": "Key to Truth"}}
+			,"Requirements": [
+				{"Type": "Gold Map Card", "Value": {"World": "Castle Oblivion", "Type": "Key of Beginnings"}}
+				,{"Type": "Gold Map Card", "Value": {"World": "Castle Oblivion", "Type": "Key of Guidance"}}
+			]
+		}
+	]
+}

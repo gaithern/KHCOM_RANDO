@@ -1,0 +1,144 @@
+{
+	"One Time Rewards": [
+		{"Name": "Shadow", "Value": "1C2", "Type": "Enemy Card"}
+		,{"Name": "Shadow", "Value": "1C3", "Type": "Enemy Card"}
+		,{"Name": "Shadow", "Value": "1C4", "Type": "Enemy Card"}
+		,{"Name": "Soldier", "Value": "1C5", "Type": "Enemy Card"}
+		,{"Name": "Soldier", "Value": "1C6", "Type": "Enemy Card"}
+		,{"Name": "Soldier", "Value": "1C7", "Type": "Enemy Card"}
+		,{"Name": "Large Body", "Value": "1C8", "Type": "Enemy Card"}
+		,{"Name": "Large Body", "Value": "1C9", "Type": "Enemy Card"}
+		,{"Name": "Large Body", "Value": "1CA", "Type": "Enemy Card"}
+		,{"Name": "Red Nocturne", "Value": "1CB", "Type": "Enemy Card"}
+		,{"Name": "Red Nocturne", "Value": "1CC", "Type": "Enemy Card"}
+		,{"Name": "Red Nocturne", "Value": "1CD", "Type": "Enemy Card"}
+		,{"Name": "Blue Rhapsody", "Value": "1CE", "Type": "Enemy Card"}
+		,{"Name": "Blue Rhapsody", "Value": "1CF", "Type": "Enemy Card"}
+		,{"Name": "Blue Rhapsody", "Value": "1D0", "Type": "Enemy Card"}
+		,{"Name": "Yellow Opera", "Value": "1D1", "Type": "Enemy Card"}
+		,{"Name": "Yellow Opera", "Value": "1D2", "Type": "Enemy Card"}
+		,{"Name": "Yellow Opera", "Value": "1D3", "Type": "Enemy Card"}
+		,{"Name": "Green Requiem", "Value": "1D4", "Type": "Enemy Card"}
+		,{"Name": "Green Requiem", "Value": "1D5", "Type": "Enemy Card"}
+		,{"Name": "Green Requiem", "Value": "1D6", "Type": "Enemy Card"}
+		,{"Name": "Powerwild", "Value": "1D7", "Type": "Enemy Card"}
+		,{"Name": "Powerwild", "Value": "1D8", "Type": "Enemy Card"}
+		,{"Name": "Powerwild", "Value": "1D9", "Type": "Enemy Card"}
+		,{"Name": "Bouncywild", "Value": "1DA", "Type": "Enemy Card"}
+		,{"Name": "Bouncywild", "Value": "1DB", "Type": "Enemy Card"}
+		,{"Name": "Bouncywild", "Value": "1DC", "Type": "Enemy Card"}
+		,{"Name": "Air Soldier", "Value": "1DD", "Type": "Enemy Card"}
+		,{"Name": "Air Soldier", "Value": "1DE", "Type": "Enemy Card"}
+		,{"Name": "Air Soldier", "Value": "1DF", "Type": "Enemy Card"}
+		,{"Name": "Bandit", "Value": "1E0", "Type": "Enemy Card"}
+		,{"Name": "Bandit", "Value": "1E1", "Type": "Enemy Card"}
+		,{"Name": "Bandit", "Value": "1E2", "Type": "Enemy Card"}
+		,{"Name": "Fat Bandit", "Value": "1E3", "Type": "Enemy Card"}
+		,{"Name": "Fat Bandit", "Value": "1E4", "Type": "Enemy Card"}
+		,{"Name": "Fat Bandit", "Value": "1E5", "Type": "Enemy Card"}
+		,{"Name": "Barrel Spider", "Value": "1E6", "Type": "Enemy Card"}
+		,{"Name": "Barrel Spider", "Value": "1E7", "Type": "Enemy Card"}
+		,{"Name": "Barrel Spider", "Value": "1E8", "Type": "Enemy Card"}
+		,{"Name": "Search Ghost", "Value": "1E9", "Type": "Enemy Card"}
+		,{"Name": "Search Ghost", "Value": "1EA", "Type": "Enemy Card"}
+		,{"Name": "Search Ghost", "Value": "1EB", "Type": "Enemy Card"}
+		,{"Name": "Sea Neon", "Value": "1EC", "Type": "Enemy Card"}
+		,{"Name": "Sea Neon", "Value": "1ED", "Type": "Enemy Card"}
+		,{"Name": "Sea Neon", "Value": "1EE", "Type": "Enemy Card"}
+		,{"Name": "Screwdriver", "Value": "1EF", "Type": "Enemy Card"}
+		,{"Name": "Screwdriver", "Value": "1F0", "Type": "Enemy Card"}
+		,{"Name": "Screwdriver", "Value": "1F1", "Type": "Enemy Card"}
+		,{"Name": "Aquatank", "Value": "1F2", "Type": "Enemy Card"}
+		,{"Name": "Aquatank", "Value": "1F3", "Type": "Enemy Card"}
+		,{"Name": "Aquatank", "Value": "1F4", "Type": "Enemy Card"}
+		,{"Name": "Wight Knight", "Value": "1F5", "Type": "Enemy Card"}
+		,{"Name": "Wight Knight", "Value": "1F6", "Type": "Enemy Card"}
+		,{"Name": "Wight Knight", "Value": "1F7", "Type": "Enemy Card"}
+		,{"Name": "Gargoyle", "Value": "1F8", "Type": "Enemy Card"}
+		,{"Name": "Gargoyle", "Value": "1F9", "Type": "Enemy Card"}
+		,{"Name": "Gargoyle", "Value": "1FA", "Type": "Enemy Card"}
+		,{"Name": "Pirate", "Value": "1FB", "Type": "Enemy Card"}
+		,{"Name": "Pirate", "Value": "1FC", "Type": "Enemy Card"}
+		,{"Name": "Pirate", "Value": "1FD", "Type": "Enemy Card"}
+		,{"Name": "Air Pirate", "Value": "1FE", "Type": "Enemy Card"}
+		,{"Name": "Air Pirate", "Value": "1FF", "Type": "Enemy Card"}
+		,{"Name": "Air Pirate", "Value": "200", "Type": "Enemy Card"}
+		,{"Name": "Darkball", "Value": "201", "Type": "Enemy Card"}
+		,{"Name": "Darkball", "Value": "202", "Type": "Enemy Card"}
+		,{"Name": "Darkball", "Value": "203", "Type": "Enemy Card"}
+		,{"Name": "Defender", "Value": "204", "Type": "Enemy Card"}
+		,{"Name": "Defender", "Value": "205", "Type": "Enemy Card"}
+		,{"Name": "Defender", "Value": "206", "Type": "Enemy Card"}
+		,{"Name": "Wyvern", "Value": "207", "Type": "Enemy Card"}
+		,{"Name": "Wyvern", "Value": "208", "Type": "Enemy Card"}
+		,{"Name": "Wyvern", "Value": "209", "Type": "Enemy Card"}
+		,{"Name": "Wizard", "Value": "20A", "Type": "Enemy Card"}
+		,{"Name": "Wizard", "Value": "20B", "Type": "Enemy Card"}
+		,{"Name": "Wizard", "Value": "20C", "Type": "Enemy Card"}
+		,{"Name": "Neoshadow", "Value": "20D", "Type": "Enemy Card"}
+		,{"Name": "Neoshadow", "Value": "20E", "Type": "Enemy Card"}
+		,{"Name": "Neoshadow", "Value": "20F", "Type": "Enemy Card"}
+		,{"Name": "White Mushroom", "Value": "210", "Type": "Enemy Card"}
+		,{"Name": "Black Fungus", "Value": "211", "Type": "Enemy Card"}
+		,{"Name": "Black Fungus", "Value": "212", "Type": "Enemy Card"}
+		,{"Name": "Black Fungus", "Value": "213", "Type": "Enemy Card"}
+		,{"Name": "Creeper Plant", "Value": "214", "Type": "Enemy Card"}
+		,{"Name": "Creeper Plant", "Value": "215", "Type": "Enemy Card"}
+		,{"Name": "Creeper Plant", "Value": "216", "Type": "Enemy Card"}
+		,{"Name": "Tornado Step", "Value": "217", "Type": "Enemy Card"}
+		,{"Name": "Tornado Step", "Value": "218", "Type": "Enemy Card"}
+		,{"Name": "Tornado Step", "Value": "219", "Type": "Enemy Card"}
+		,{"Name": "Crescendo", "Value": "21A", "Type": "Enemy Card"}
+		,{"Name": "Crescendo", "Value": "21B", "Type": "Enemy Card"}
+		,{"Name": "Crescendo", "Value": "21C", "Type": "Enemy Card"}
+		,{"Name": "Card Soldier (Red)", "Value": "221", "Type": "Enemy Card"}
+		,{"Name": "Card Soldier (Red)", "Value": "222", "Type": "Enemy Card"}
+		,{"Name": "Card Soldier (Red)", "Value": "223", "Type": "Enemy Card"}
+		,{"Name": "Card Soldier (Black)", "Value": "224", "Type": "Enemy Card"}
+		,{"Name": "Card Soldier (Black)", "Value": "225", "Type": "Enemy Card"}
+		,{"Name": "Card Soldier (Black)", "Value": "226", "Type": "Enemy Card"}
+		,{"Name": "Riku", "Value": "22D", "Type": "Enemy Card"}
+		,{"Name": "Axel", "Value": "22E", "Type": "Enemy Card"}
+		,{"Name": "Larxene", "Value": "22F", "Type": "Enemy Card"}
+		,{"Name": "Vexen", "Value": "230", "Type": "Enemy Card"}
+		,{"Name": "Marluxia", "Value": "231", "Type": "Enemy Card"}
+		,{"Name": "Lexaeus", "Value": "233", "Type": "Enemy Card"}
+		,{"Name": "Ansem", "Value": "234", "Type": "Enemy Card"}
+		,{"Value": "Sliding Dash", "Type": "Sleight"}
+		,{"Value": "Stun Impact", "Type": "Sleight"}
+		,{"Value": "Strike Raid", "Type": "Sleight"}
+		,{"Value": "Blitz", "Type": "Sleight"}
+		,{"Value": "Zantetsuken", "Type": "Sleight"}
+		,{"Value": "Sonic Blade", "Type": "Sleight"}
+		,{"Value": "Ars Arcanum", "Type": "Sleight"}
+		,{"Value": "Ragnarok", "Type": "Sleight"}
+		,{"Value": "Trinity Limit", "Type": "Sleight"}
+		,{"Value": "Fire Raid", "Type": "Sleight"}
+		,{"Value": "Blizzard Raid", "Type": "Sleight"}
+		,{"Value": "Thunder Raid", "Type": "Sleight"}
+		,{"Value": "Gravity Raid", "Type": "Sleight"}
+		,{"Value": "Stop Raid", "Type": "Sleight"}
+		,{"Value": "Judgement", "Type": "Sleight"}
+		,{"Value": "Reflect Raid", "Type": "Sleight"}
+		,{"Value": "Homing Fira", "Type": "Sleight"}
+		,{"Value": "Firaga Break", "Type": "Sleight"}
+		,{"Value": "Mega Flare", "Type": "Sleight"}
+		,{"Value": "Homing Blizzara", "Type": "Sleight"}
+		,{"Value": "Aqua Splash", "Type": "Sleight"}
+		,{"Value": "Shock Impact", "Type": "Sleight"}
+		,{"Value": "Tornado", "Type": "Sleight"}
+		,{"Value": "Quake", "Type": "Sleight"}
+		,{"Value": "Warpinator", "Type": "Sleight"}
+		,{"Value": "Warp", "Type": "Sleight"}
+		,{"Value": "Bind", "Type": "Sleight"}
+		,{"Value": "Confuse", "Type": "Sleight"}
+		,{"Value": "Firaga Burst", "Type": "Sleight"}
+		,{"Value": "Terror", "Type": "Sleight"}
+		,{"Value": "Synchro", "Type": "Sleight"}
+		,{"Value": "Gifted Miracle", "Type": "Sleight"}
+		,{"Value": "Teleport", "Type": "Sleight"}
+		,{"Value": "Holy", "Type": "Sleight"}
+		,{"Value": "Cross-slash +", "Type": "Sleight"}
+		,{"Value": "Blazing Donald", "Type": "Sleight"}
+	]
+}

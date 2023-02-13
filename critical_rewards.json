@@ -1,0 +1,14 @@
+{
+	"Critical Rewards": [
+		{"Name": "Guard Armor", "Value": "21D", "Type": "Enemy Card"}
+		,{"Name": "Parasite Cage", "Value": "21E", "Type": "Enemy Card"}
+		,{"Name": "Trickmaster", "Value": "21F", "Type": "Enemy Card"}
+		,{"Name": "Darkside", "Value": "220", "Type": "Enemy Card"}
+		,{"Name": "Hades", "Value": "227", "Type": "Enemy Card"}
+		,{"Name": "Jafar", "Value": "228", "Type": "Enemy Card"}
+		,{"Name": "Oogie Boogie", "Value": "229", "Type": "Enemy Card"}
+		,{"Name": "Ursula", "Value": "22A", "Type": "Enemy Card"}
+		,{"Name": "Hook", "Value": "22B", "Type": "Enemy Card"}
+		,{"Name": "Dragon Maleficent", "Value": "22C", "Type": "Enemy Card"}
+	]
+}
