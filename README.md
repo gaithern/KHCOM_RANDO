@@ -14,11 +14,16 @@ After that, complete 11,12,13 as normal.
 
 Some additional details:
 -Floor 1 is always Traverse Town
+
 -Floor 11 is always 100 Acre Wood
+
 -Floor 13 is always Castle Oblivion
 
 -Text/Card Image injection is a WIP.  For now, you will pick up what appears to be a Kingdom Key 9 for example, but when you check your inventory you will see what that card is mapped to (Cure 3 as an example)
+
 -You can check which keys you have for which floors by viewing the card descriptions for Key of Beginnings, Key of Guidance, and Key of Truth in your Map Cards inventory.
+
 -You can edit the frequency that battle cards are chosen for remapping (or turn them off entirely) by editing the weights in battle_cards.json
   (For example you can do a no Cure card challenge or a no 0 value card challenge by setting each card types weight to 0)
+  
 -Not every sleight is randomized, some the game does not appear to check to see if you have actually unlocked them or not (Fira/Firaga/Goofy Charge/etc) so these are left vanilla.
