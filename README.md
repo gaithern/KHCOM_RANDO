@@ -13,6 +13,7 @@ The goal is to find the Key of Beginnings, Key of Guidance, and Key of Truth for
 After that, complete 11,12,13 as normal.
 
 Some additional details:
+
 -Floor 1 is always Traverse Town
 
 -Floor 11 is always 100 Acre Wood
