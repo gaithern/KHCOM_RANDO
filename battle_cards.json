@@ -220,16 +220,16 @@
 		,{"Name": "Thunder 8", "Value": "0C6", "Weight": 75}
 		,{"Name": "Thunder 9", "Value": "0C7", "Weight": 75}
 		
-		,{"Name": "Cure 0", "Value": "0C8", "Weight": 0}
-		,{"Name": "Cure 1", "Value": "0C9", "Weight": 0}
-		,{"Name": "Cure 2", "Value": "0CA", "Weight": 0}
-		,{"Name": "Cure 3", "Value": "0CB", "Weight": 0}
-		,{"Name": "Cure 4", "Value": "0CC", "Weight": 0}
-		,{"Name": "Cure 5", "Value": "0CD", "Weight": 0}
-		,{"Name": "Cure 6", "Value": "0CE", "Weight": 0}
-		,{"Name": "Cure 7", "Value": "0CF", "Weight": 0}
-		,{"Name": "Cure 8", "Value": "0D0", "Weight": 0}
-		,{"Name": "Cure 9", "Value": "0D1", "Weight": 0}
+		,{"Name": "Cure 0", "Value": "0C8", "Weight": 75}
+		,{"Name": "Cure 1", "Value": "0C9", "Weight": 75}
+		,{"Name": "Cure 2", "Value": "0CA", "Weight": 75}
+		,{"Name": "Cure 3", "Value": "0CB", "Weight": 75}
+		,{"Name": "Cure 4", "Value": "0CC", "Weight": 75}
+		,{"Name": "Cure 5", "Value": "0CD", "Weight": 75}
+		,{"Name": "Cure 6", "Value": "0CE", "Weight": 75}
+		,{"Name": "Cure 7", "Value": "0CF", "Weight": 75}
+		,{"Name": "Cure 8", "Value": "0D0", "Weight": 75}
+		,{"Name": "Cure 9", "Value": "0D1", "Weight": 75}
 		
 		,{"Name": "Gravity 0", "Value": "0D2", "Weight": 65}
 		,{"Name": "Gravity 1", "Value": "0D3", "Weight": 65}
