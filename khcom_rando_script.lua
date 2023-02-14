@@ -937,7 +937,7 @@ function test()
 	end
 end
 
---main()
+main()
 --test()
-load_dictionaries()
-set_initial_map_cards()
+--load_dictionaries()
+--set_initial_map_cards()
