@@ -14,7 +14,7 @@
 		,"1000"
 		,"10B9"
 		,"1182"
-		,"10CF"
+		,"10CD"
 	]
 	,"Starting Map Cards": {
 		"Red": [
@@ -252,7 +252,7 @@
 			]
 			,[
 				{"Address": "0203A97E", "Bytes": 1, "Quantity": 0}
-				,{"Address": "0203A97F", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A97F", "Bytes": 1, "Quantity": 1}
 				,{"Address": "0203A980", "Bytes": 1, "Quantity": 0}
 				,{"Address": "0203A981", "Bytes": 1, "Quantity": 0}
 				,{"Address": "0203A982", "Bytes": 1, "Quantity": 0}
