@@ -818,6 +818,16 @@ function set_got_text()
 	end
 end
 
+function set_initial_map_cards()
+	for k,v in pairs(initializations["Starting Map Cards"]) do
+		for ik, iv in pairs(v) do
+			for iik, iiv in pairs(iv) do
+				memory.writebyte(to_hex(iiv["Address"]), iiv["Quantity"])
+			end
+		end
+	end
+end
+
 function main()
 	load_dictionaries()
 	set_floors()
@@ -839,6 +849,7 @@ function main()
 				set_starting_deck()
 				set_obtained_key_text(get_floor_number())
 				set_got_text()
+				set_initial_map_cards()
 			end
 			if not save_or_savestate_loaded(last_playtime, current_playtime) then
 				local current_floor = get_floor_number()
@@ -926,5 +937,7 @@ function test()
 	end
 end
 
-main()
+--main()
 --test()
+load_dictionaries()
+set_initial_map_cards()

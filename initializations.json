@@ -11,9 +11,281 @@
 		,"1002"
 		,"1002"
 		,"1001"
-		,"1000"
+		,"1001"
 		,"10B9"
 		,"1182"
-		,"10CF"
+		,"1001"
 	]
+	,"Starting Map Cards": {
+		"Red": [
+			[
+				{"Address": "0203A8C0", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C1", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C2", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C3", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C4", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C5", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C6", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C7", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C8", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8C9", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A8CA", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8CB", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8CC", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8CD", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8CE", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8CF", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D0", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D1", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D2", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D3", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A8D4", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D5", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D6", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D7", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D8", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8D9", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8DA", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8DB", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8DC", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8DD", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A8DE", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8DF", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E0", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E1", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E2", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E3", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E4", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E5", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E6", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E7", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A8E8", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8E9", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8EA", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8EB", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8EC", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8ED", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8EE", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8EF", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F0", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F1", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A8F2", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F3", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F4", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F5", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F6", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F7", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F8", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8F9", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8FA", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8FB", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A8FC", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8FD", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8FE", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A8FF", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A900", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A901", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A902", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A903", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A904", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A905", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A906", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A907", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A908", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A909", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A90A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A90B", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A90C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A90D", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A90E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A90F", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A910", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A911", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A912", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A913", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A914", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A915", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A916", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A917", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A918", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A919", "Bytes": 1, "Quantity": 0}
+			]
+		]
+		,"Green": [
+			[
+				{"Address": "0203A91A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A91B", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A91C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A91D", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A91E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A91F", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A920", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A921", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A922", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A923", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A924", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A925", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A926", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A927", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A928", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A929", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A92A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A92B", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A92C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A92D", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A92E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A92F", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A930", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A931", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A932", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A933", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A934", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A935", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A936", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A937", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A938", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A939", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A93A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A93B", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A93C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A93D", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A93E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A93F", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A940", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A941", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A942", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A943", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A944", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A945", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A946", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A947", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A948", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A949", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A94A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A94B", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A94C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A94D", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A94E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A94F", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A950", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A951", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A952", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A953", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A954", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A955", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A956", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A957", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A958", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A959", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A95A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A95B", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A95C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A95D", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A95E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A95F", "Bytes": 1, "Quantity": 0}
+			]
+		]
+		,"Blue": [
+			[
+				{"Address": "0203A960", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A961", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A962", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A963", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A964", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A965", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A966", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A967", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A968", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A969", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A96A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A96B", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A96C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A96D", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A96E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A96F", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A970", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A971", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A972", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A973", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A974", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A975", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A976", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A977", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A978", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A979", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A97A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A97B", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A97C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A97D", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A97E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A97F", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A980", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A981", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A982", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A983", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A984", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A985", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A986", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A987", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A988", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A989", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A98A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A98B", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A98C", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A98D", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A98E", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A98F", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A990", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A991", "Bytes": 1, "Quantity": 0}
+			]
+			,[
+				{"Address": "0203A992", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A993", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A994", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A995", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A996", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A997", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A998", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A999", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A99A", "Bytes": 1, "Quantity": 0}
+				,{"Address": "0203A99B", "Bytes": 1, "Quantity": 0}
+			]
+		]
+	}
 }
