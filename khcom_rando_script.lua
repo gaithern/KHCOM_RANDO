@@ -78,6 +78,7 @@ function load_dictionaries()
 	types = load_json("types.json")
 	binary_to_hex = load_json("binary_to_hex.json")
 	initializations = load_json("initializations.json")
+	got_text = load_json("got_text.json")
 end
 
 function get_floor_number()
@@ -780,6 +781,26 @@ function get_world_name(current_floor)
 	end
 end
 
+function set_obtained_key_text(current_floor)
+	for k,v in pairs(addresses["Text"]["Obtained Keys"]) do
+		local replacement_text = ""
+		local key_type = k..tostring(current_floor)
+		for ik,iv in pairs(randomization) do
+			if key_type == ik then
+				for iik,iiv in pairs(got_text) do
+						replacement_text = iiv
+					end
+				end
+			end
+		end
+		if replacement_text ~= "" then
+			for iiik,iiiv in pairs(v["Address"]) do
+				replace_text(iiiv["Address"], iiiv["Bytes"], replacement_text)
+			end
+		end
+	end
+end
+
 function main()
 	load_dictionaries()
 	set_floors()
@@ -791,12 +812,14 @@ function main()
 	local last_sleights = get_sleights()
 	local last_battle_cards = get_battle_cards()
 	local last_playtime = get_playtime()
+	set_obtained_key_text(get_floor_number())
 	while true do
 		local frame = emu.framecount()
 		if frame % 20 == 0 then
 			local current_playtime = get_playtime()
 			if current_playtime == 0 then
 				set_starting_deck()
+				set_obtained_key_text(get_floor_number())
 			end
 			if not save_or_savestate_loaded(last_playtime, current_playtime) then
 				local current_floor = get_floor_number()
@@ -813,6 +836,8 @@ function main()
 					new_world_cards = {}
 					new_world_cards[1] = world_name
 					set_world_cards(new_world_cards)
+					print("1")
+					set_obtained_key_text(current_floor)
 				end
 				local current_kob = get_current_gold_card_qty("KOB")
 				local current_kog = get_current_gold_card_qty("KOG")

@@ -15,7 +15,32 @@
 		,{"Status": {"Address": "02039D64","Bytes": 1}, "Assigned World": {"Address": "02039D66","Bytes": 1}, "Progression": {"Address": "02039D67", "Bytes": 1}}
 	]
 	,"Highest Warp Floor": {"Address": "0203C590", "Bytes": 1}
-	,"World Cards": [{"Address": "02039D30", "Bytes": 1}, {"Address": "02039D31", "Bytes": 1}]
+	,"World Cards": [
+		{"Address": "02039D30", "Bytes": 1, "Bits":
+			[
+				"Hollow Bastion"
+				,"Neverland"
+				,"Halloween Town"
+				,"Monstro"
+				,"Wonderland"
+				,"Olympus Coliseum"
+				,"Atlantica"
+				,"Agrabah"
+			]
+		}
+		, {"Address": "02039D31", "Bytes": 1, "Bits":
+			[
+				"Unused"
+				,"Unused"
+				,"Unused"
+				,"Castle Oblivion"
+				,"Twilight Town"
+				,"100 Acre Wood"
+				,"Traverse Town"
+				,"Destiny Islands"
+			]
+		}
+	]
 	,"Floor Number": {"Address": "02039BBE", "Bytes": 1}
 	,"Text": {
 		"O.b.t.a.i.n.e.d. .y@.K.e.y. .o.f. .B.e.g.i.n.n.i.n.g.s..@..": [
@@ -232,6 +257,29 @@
 			,"KOT": {
 				"Original Text": "A room where untold stories unfold."
 				,"Address": {"Address": "090450B6", "Bytes": 70}
+			}
+		}
+		,"Obtained Keys": {
+			"KOB": {
+				"Original Text": "Obtained Key of Beginnings"
+				,"Address": [
+					{"Address": "090414E6", "Bytes": 59}
+					,{"Address": "090415CA", "Bytes": 59}
+					,{"Address": "09041BA0", "Bytes": 59}
+				]
+			}
+			,"KOG": {
+				"Original Text": "Obtained Key of Guidance"
+				,"Address": [
+					{"Address": "09041BDC", "Bytes": 55}
+					,{"Address": "09041D60", "Bytes": 55}
+				]
+			}
+			,"KOT": {
+				"Original Text": "Obtained Key to Truth"
+				,"Address": [
+					{"Address": "0B041C14", "Bytes": 49}
+				]
 			}
 		}
 	}
