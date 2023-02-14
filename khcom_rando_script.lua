@@ -788,6 +788,7 @@ function set_obtained_key_text(current_floor)
 		for ik,iv in pairs(randomization) do
 			if key_type == ik then
 				for iik,iiv in pairs(got_text) do
+					if iv == iik then
 						replacement_text = iiv
 					end
 				end
