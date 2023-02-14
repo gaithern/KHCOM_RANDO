@@ -43,208 +43,214 @@
 	]
 	,"Floor Number": {"Address": "02039BBE", "Bytes": 1}
 	,"Text": {
-		"O.b.t.a.i.n.e.d. .y@.K.e.y. .o.f. .B.e.g.i.n.n.i.n.g.s..@..": [
-			{"Address": "090414FA", "Bytes": 59}
-			,{"Address": "090415DE", "Bytes": 59}
-			,{"Address": "09041BB4", "Bytes": 59}
-		]
-		,"O.b.t.a.i.n.e.d. .y@.K.e.y. .o.f. .G.u.i.d.a.n.c.e..@..": [
-			{"Address": "09041BF0", "Bytes": 55}
-			,{"Address": "09041D74", "Bytes": 55}
-		]
-		,"O.b.t.a.i.n.e.d. .y@.K.e.y. .t.o. .T.r.u.t.h..@..": [
-			{"Address": "0B041C28", "Bytes": 49}
-		]
-		,"O.b.t.a.i.n.e.d. .y@S.i.m.b.a..@": [
-			{"Address": "09041D38", "Bytes": 30}
-			, {"Address": "0B041D38", "Bytes": 30}
-			, {"Address": "0D041D38", "Bytes": 30}
-		]
-		,"O.b.t.a.i.n.e.d. .y@B.a.m.b.i..@": [
-			{"Address": "09041B10", "Bytes":32}
-			,{"Address": "0B041B10", "Bytes":32}
-			,{"Address": "0D041B10", "Bytes":32}
-		]
-		,"O.b.t.a.i.n.e.d. .y@C.l.o.u.d..@": [
-			{"Address": "09041A5C", "Bytes": 32}
-			,{"Address": "0B041A5C", "Bytes": 32}
-			,{"Address": "0D041A5C", "Bytes": 32}
-		]
-		,"O.b.t.a.i.n.e.d. .y@T.i.n.k.e.r. .B.e.l.l..@": [
-			{"Address": "09041C7C", "Bytes": 44}
-			,{"Address": "0B041C7C", "Bytes": 44}
-			,{"Address": "0D041C7C", "Bytes": 44}
-		]
-		,"O.b.t.a.i.n.e.d. .y@O.b.l.i.v.i.o.n..@": [
-			{"Address": "09041CAC", "Bytes": 38}
-			,{"Address": "0B041CAC", "Bytes": 38}
-			,{"Address": "0D041CAC", "Bytes": 38}
-		]
-		,"O.b.t.a.i.n.e.d. .y@O.a.t.h.k.e.e.p.e.r..@": [
-			{"Address": "09041AE2", "Bytes": 42}
-			,{"Address": "0B041AE2", "Bytes": 42}
-			,{"Address": "0D041AE2", "Bytes": 42}
-		]
-		,"O.b.t.a.i.n.e.d. .y@M.e.g.a. .E.t.h.e.r..@": [
-			{"Address": "090419B4", "Bytes": 42}
-			,{"Address": "0B0419B4", "Bytes": 42}
-			,{"Address": "0D0419B4", "Bytes": 42}
-		]
-		,"O.b.t.a.i.n.e.d. .y@M.e.g.a. .P.o.t.i.o.n..@": [
-			{"Address": "09041984", "Bytes": 44}
-			,{"Address": "0B041984", "Bytes": 44}
-			,{"Address": "0D041984", "Bytes": 44}
-		]
-		,"L.e.a.r.n.e.d. .y@W.a.r.p.i.n.a.t.o.r..@!": [
-			{"Address": "09041492", "Bytes": 41}
-			,{"Address": "0B041492", "Bytes": 41}
-			,{"Address": "0D041492", "Bytes": 41}
-		]
-		,"L.e.a.r.n.e.d. .y@S.y.n.c.h.r.o..@!": [
-			{"Address": "09041522", "Bytes": 35}
-			,{"Address": "0B041522", "Bytes": 35}
-			,{"Address": "0D041522", "Bytes": 35}
-		]
-		,"L.e.a.r.n.e.d. .y@B.i.n.d..@!": [
-			{"Address": "09041548", "Bytes": 29}
-			,{"Address": "0B041548", "Bytes": 29}
-			,{"Address": "0D041548", "Bytes": 29}
-		]
-		,"L.e.a.r.n.e.d. .y@I.d.y.l.l. .R.o.m.p..@!": [
-			{"Address": "09041568", "Bytes": 41}
-			,{"Address": "0B041568", "Bytes": 41}
-			,{"Address": "0D041568", "Bytes": 41}
-		]
-		,"L.e.a.r.n.e.d. .y@T.r.i.n.i.t.y. .L.i.m.i.t..@!": [
-			{"Address": "09041594", "Bytes": 47}
-			,{"Address": "0B041594", "Bytes": 47}
-			,{"Address": "0D041594", "Bytes": 47}
-		]
-		,"L.e.a.r.n.e.d. .y@C.o.f.u.s.e..@!": [
-			{"Address": "09041606", "Bytes": 33}
-			,{"Address": "0B041606", "Bytes": 33}
-			,{"Address": "0D041606", "Bytes": 33}
-		]
-		,"L.e.a.r.n.e.d. .y@T.h.u.n.d.e.r. .R.a.i.d..@!": [
-			{"Address": "0904162C", "Bytes":45}
-			,{"Address": "0B04162C", "Bytes":45}
-			,{"Address": "0D04162C", "Bytes":45}
-		]
-		,"L.e.a.r.n.e.d. .y@G.i.f.t.e.d. .M.i.r.a.c.l.e..@!": [
-			{"Address": "0904165C", "Bytes": 49}
-			,{"Address": "0B04165C", "Bytes": 49}
-			,{"Address": "0D04165C", "Bytes": 49}
-		]
-		,"L.e.a.r.n.e.d. .y@G.r.a.v.i.t.y. .R.a.i.d..@!": [
-			{"Address": "09041690", "Bytes": 45}
-			,{"Address": "0B041690", "Bytes": 45}
-			,{"Address": "0D041690", "Bytes": 45}
-		]
-		,"L.e.a.r.n.e.d. .y@F.i.r.e. .R.a.i.d..@!": [
-			{"Address": "090416C0", "Bytes":39}
-			,{"Address": "0B0416C0", "Bytes":39}
-			,{"Address": "0D0416C0", "Bytes":39}
-		]
-		,"L.e.a.r.n.e.d. .y@A.q.u.a. .S.p.l.a.s.h..@!": [
-			{"Address": "090416EA", "Bytes":43}
-			,{"Address": "0B0416EA", "Bytes":43}
-			,{"Address": "0D0416EA", "Bytes":43}
-		]
-		,"L.e.a.r.n.e.d. .y@B.l.i.z.z.a.r.d. .R.a.i.d..@!": [
-			{"Address": "09041718", "Bytes":47}
-			,{"Address": "0B041718", "Bytes":47}
-			,{"Address": "0D041718", "Bytes":47}
-		]
-		,"L.e.a.r.n.e.d. .y@S.t.o.p. .R.a.i.d..@!": [
-			{"Address": "0904174A", "Bytes":39}
-			,{"Address": "0B04174A", "Bytes":39}
-			,{"Address": "0D04174A", "Bytes":39}
-		]
-		,"L.e.a.r.n.e.d. .y@S.h.o.c.k. .I.m.p.a.c.t..@!": [
-			{"Address": "09041774", "Bytes": 45}
-			,{"Address": "0B041774", "Bytes": 45}
-			,{"Address": "0D041774", "Bytes": 45}
-		]
-		,"L.e.a.r.n.e.d. .y@H.o.m.i.n.g. .B.l.i.z.z.a.r.a..@!": [
-			{"Address": "090417A4", "Bytes": 51}
-			,{"Address": "0B0417A4", "Bytes": 51}
-			,{"Address": "0D0417A4", "Bytes": 51}
-		]
-		,"L.e.a.r.n.e.d. .y@Q.u.a.k.e..@!": [
-			{"Address": "090417DA", "Bytes": 31}
-			,{"Address": "0B0417DA", "Bytes": 31}
-			,{"Address": "0D0417DA", "Bytes": 31}
-		]
-		,"L.e.a.r.n.e.d. .y@B.l.a.z.i.n.g. .D.o.n.a.l.d..@!": [
-			{"Address": "090417FC", "Bytes": 49}
-			,{"Address": "0B0417FC", "Bytes": 49}
-			,{"Address": "0D0417FC", "Bytes": 49}
-		]
-		,"L.e.a.r.n.e.d. .y@H.o.m.i.n.g. .F.i.r.a..@!": [
-			{"Address": "09041830", "Bytes": 43}
-			,{"Address": "0B041830", "Bytes": 43}
-			,{"Address": "0D041830", "Bytes": 43}
-		]
-		,"L.e.a.r.n.e.d. .y@T.e.l.e.p.o.r.t..@!": [
-			{"Address": "0904185E", "Bytes": 37}
-			,{"Address": "0B04185E", "Bytes": 37}
-			,{"Address": "0D04185E", "Bytes": 37}
-		]
-		,"L.e.a.r.n.e.d. .y@T.o.r.n.a.d.o..@!": [
-			{"Address": "09041886", "Bytes": 35}
-			,{"Address": "0B041886", "Bytes": 35}
-			,{"Address": "0D041886", "Bytes": 35}
-		]
-		,"L.e.a.r.n.e.d. .y@C.r.o.s.s.-.s.l.a.s.h.+..@!": [
-			{"Address": "0904188C", "Bytes": 45}
-			,{"Address": "0B04188C", "Bytes": 45}
-			,{"Address": "0D04188C", "Bytes": 45}
-		]
-		,"L.e.a.r.n.e.d. .y@R.e.f.l.e.c.t. .R.a.i.d..@!": [
-			{"Address": "090418DC", "Bytes": 45}
-			,{"Address": "0B0418DC", "Bytes": 45}
-			,{"Address": "0D0418DC", "Bytes": 45}
-		]
-		,"L.e.a.r.n.e.d. .y@F.i.r.a.g.a. .B.r.e.a.k..@!": [
-			{"Address": "0904190C", "Bytes": 45}
-			,{"Address": "0B04190C", "Bytes": 45}
-			,{"Address": "0D04190C", "Bytes": 45}
-		]
-		,"L.e.a.r.n.e.d. .y@W.a.r.p..@!": [
-			{"Address": "0904193C", "Bytes": 29}
-			,{"Address": "0B04193C", "Bytes": 29}
-			,{"Address": "0D04193C", "Bytes": 29}
-		]
-		,"L.e.a.r.n.e.d. .y@J.u.d.g.m.e.n.t..@!": [
-			{"Address": "0904195C", "Bytes": 37}
-			,{"Address": "0B04195C", "Bytes": 37}
-			,{"Address": "0D04195C", "Bytes": 37}
-		]
-		,"O.b.t.a.i.n.e.d. .y@E.l.i.x.i.r..@": [
-			{"Address": "090419E2", "Bytes": 34}
-			,{"Address": "0B0419E2", "Bytes": 34}
-			,{"Address": "0D0419E2", "Bytes": 34}
-		]
-		,"O.b.t.a.i.n.e.d. .y@S.p.e.l.l.b.i.n.d.e.r..@": [
-			{"Address": "09041A08", "Bytes": 44}
-			,{"Address": "0B041A08", "Bytes": 44}
-			,{"Address": "0D041A08", "Bytes": 44}
-		]
-		,"O.b.t.a.i.n.e.d. .y@G.e.n.i.e..@": [
-			{"Address": "09041A38", "Bytes": 32}
-			,{"Address": "0B041A38", "Bytes": 32}
-			,{"Address": "0D041A38", "Bytes": 32}
-		]
-		,"O.b.t.a.i.n.e.d. .y@W.o.r.l.d. .C.a.r.d.s..@..": [
-			{"Address": "09041A80", "Bytes": 46}
-			,{"Address": "0B041A80", "Bytes": 46}
-			,{"Address": "0D041A80", "Bytes": 46}
-		]
-		,"L.e.a.r.n.e.d. .y@Z.a.n.t.e.t.s.u.k.e.n..@!": [
-			{"Address": "09041AB4", "Bytes": 43}
-			,{"Address": "0B041AB4", "Bytes": 43}
-			,{"Address": "0D041AB4", "Bytes": 43}
-		]
+		"Warpinator": {
+			"Original Text": "Learned Warpinator!"
+			,"Address":	[
+				{"Address": "09041492", "Bytes": 41}
+				,{"Address": "0B041492", "Bytes": 41}
+				,{"Address": "0D041492", "Bytes": 41}
+			]
+		}
+		,"Synchro": {
+			"Original Text": "Learned Synchro!"
+			,"Address": [
+				{"Address": "09041522", "Bytes": 35}
+				,{"Address": "0B041522", "Bytes": 35}
+				,{"Address": "0D041522", "Bytes": 35}
+			]
+		}
+		,"Bind": {
+			"Original Text": "Learned Bind!"
+			,"Address": [
+				{"Address": "09041548", "Bytes": 29}
+				,{"Address": "0B041548", "Bytes": 29}
+				,{"Address": "0D041548", "Bytes": 29}
+			]
+		}
+		,"Idyll Romp": {
+			"Original Text": "Learned Idyll Romp!"
+			,"Address": [
+				{"Address": "09041568", "Bytes": 41}
+				,{"Address": "0B041568", "Bytes": 41}
+				,{"Address": "0D041568", "Bytes": 41}
+			]
+		}
+		,"Trinity Limit": {
+			"Original Text": "Learned Trinity Limit!"
+			,"Address": [
+				{"Address": "09041594", "Bytes": 47}
+				,{"Address": "0B041594", "Bytes": 47}
+				,{"Address": "0D041594", "Bytes": 47}
+			]
+		}
+		,"Confuse": {
+			"Original Text": "Learned Confuse!"
+			,"Address": [
+				{"Address": "09041606", "Bytes": 33}
+				,{"Address": "0B041606", "Bytes": 33}
+				,{"Address": "0D041606", "Bytes": 33}
+			]
+		}
+		,"Thunder Raid": {
+			"Original Text": "Learned Thunder Raid!"
+			,"Address": [
+				{"Address": "0904162C", "Bytes":45}
+				,{"Address": "0B04162C", "Bytes":45}
+				,{"Address": "0D04162C", "Bytes":45}
+			]
+		}
+		,"Gifted Miracle": {
+			"Original Text": "Learned Gifted Miracle!"
+			,"Address": [
+				{"Address": "0904165C", "Bytes": 49}
+				,{"Address": "0B04165C", "Bytes": 49}
+				,{"Address": "0D04165C", "Bytes": 49}
+			]
+		}
+		,"Gravity Raid": {
+			"Original Text": "Learned Gravity Raid!"
+			,"Address": [
+				{"Address": "09041690", "Bytes": 45}
+				,{"Address": "0B041690", "Bytes": 45}
+				,{"Address": "0D041690", "Bytes": 45}
+			]
+		}
+		,"Fire Raid": {
+			"Original Text": "Learned Fire Raid!"
+			,"Address": [
+				{"Address": "090416C0", "Bytes":39}
+				,{"Address": "0B0416C0", "Bytes":39}
+				,{"Address": "0D0416C0", "Bytes":39}
+			]
+		}
+		,"Aqua Splash": {
+			"Original Text": "Learned Aqua Splash!"
+			,"Address": [
+				{"Address": "090416EA", "Bytes":43}
+				,{"Address": "0B0416EA", "Bytes":43}
+				,{"Address": "0D0416EA", "Bytes":43}
+			]
+		}
+		,"Blizzard Raid": {
+			"Original Text": "Learned Blizzard Raid!"
+			,"Address": [
+				{"Address": "09041718", "Bytes":47}
+				,{"Address": "0B041718", "Bytes":47}
+				,{"Address": "0D041718", "Bytes":47}
+			]
+		}
+		,"Stop Raid": {
+			"Original Text": "Learned Stop Raid!"
+			,"Address": [
+				{"Address": "0904174A", "Bytes":39}
+				,{"Address": "0B04174A", "Bytes":39}
+				,{"Address": "0D04174A", "Bytes":39}
+			]
+		}
+		,"Shock Impact": {
+			"Original Text": "Learned Shock Impact!"
+			,"Address": [
+				{"Address": "09041774", "Bytes": 45}
+				,{"Address": "0B041774", "Bytes": 45}
+				,{"Address": "0D041774", "Bytes": 45}
+			]
+		}
+		,"Homing Blizzara": {
+			"Original Text": "Learned Homing Blizzara!"
+			,"Address": [
+				{"Address": "090417A4", "Bytes": 51}
+				,{"Address": "0B0417A4", "Bytes": 51}
+				,{"Address": "0D0417A4", "Bytes": 51}
+			]
+		}
+		,"Quake": {
+			"Original Text": "Learned Quake!"
+			,"Address": [
+				{"Address": "090417DA", "Bytes": 31}
+				,{"Address": "0B0417DA", "Bytes": 31}
+				,{"Address": "0D0417DA", "Bytes": 31}
+			]
+		}
+		,"Blazing Donald": {
+			"Original Text": "Learned Blazing Donald!"
+			,"Address": [
+				{"Address": "090417FC", "Bytes": 49}
+				,{"Address": "0B0417FC", "Bytes": 49}
+				,{"Address": "0D0417FC", "Bytes": 49}
+			]
+		}
+		,"Homing Fira": {
+			"Original Text": "Learned Homing Fira!"
+			,"Address": [
+				{"Address": "09041830", "Bytes": 43}
+				,{"Address": "0B041830", "Bytes": 43}
+				,{"Address": "0D041830", "Bytes": 43}
+			]
+		}
+		,"Teleport": {
+			"Original Text": "Learned Teleport!"
+			,"Address": [
+				{"Address": "0904185E", "Bytes": 37}
+				,{"Address": "0B04185E", "Bytes": 37}
+				,{"Address": "0D04185E", "Bytes": 37}
+			]
+		}
+		,"Tornado": {
+			"Original Text": "Learned Tornado!"
+			,"Address": [
+				{"Address": "09041886", "Bytes": 35}
+				,{"Address": "0B041886", "Bytes": 35}
+				,{"Address": "0D041886", "Bytes": 35}
+			]
+		}
+		,"Cross-slash +": {
+			"Original Text": "Learned Cross-slash +!"
+			,"Address": [
+				{"Address": "0904188C", "Bytes": 45}
+				,{"Address": "0B04188C", "Bytes": 45}
+				,{"Address": "0D04188C", "Bytes": 45}
+			]
+		}
+		,"Reflect Raid": {
+			"Original Text": "Learned Reflect Raid!"
+			,"Address": [
+				{"Address": "090418DC", "Bytes": 45}
+				,{"Address": "0B0418DC", "Bytes": 45}
+				,{"Address": "0D0418DC", "Bytes": 45}
+			]
+		}
+		,"Firaga Break": {
+			"Original Text": "Learned Firaga Break!"
+			,"Address": [
+				{"Address": "0904190C", "Bytes": 45}
+				,{"Address": "0B04190C", "Bytes": 45}
+				,{"Address": "0D04190C", "Bytes": 45}
+			]
+		}
+		,"Warp": {
+			"Original Text": "Learned Warp!"
+			,"Address": [
+				{"Address": "0904193C", "Bytes": 29}
+				,{"Address": "0B04193C", "Bytes": 29}
+				,{"Address": "0D04193C", "Bytes": 29}
+			]
+		}
+		,"Judgement": {
+			"Original Text": "Learned Judgement!"
+			,"Address": [
+				{"Address": "0904195C", "Bytes": 37}
+				,{"Address": "0B04195C", "Bytes": 37}
+				,{"Address": "0D04195C", "Bytes": 37}
+			]
+		}
+		,"Zantetsuken": {
+			"Original Text": "Learned Zantetsuken!"
+			,"Address": [
+				{"Address": "09041AB4", "Bytes": 43}
+				,{"Address": "0B041AB4", "Bytes": 43}
+				,{"Address": "0D041AB4", "Bytes": 43}
+			]
+		}
 		,"Key Descriptions": {
 			"KOB": {
 				"Original Text": "A room where untold stories unfold."

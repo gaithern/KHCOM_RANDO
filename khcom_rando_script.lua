@@ -802,6 +802,22 @@ function set_obtained_key_text(current_floor)
 	end
 end
 
+function set_learned_sleight_text()
+	for k,v in pairs(randomization) do
+		for ik,iv in pairs(addresses["Text"]) do
+			if k == ik then
+				for iik, iiv in pairs(got_text) do
+					if v == iik  then
+						for iiik,iiiv in pairs(iv["Address"]) do
+							replace_text(iiiv["Address"], iiiv["Bytes"], iiv)
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
 function main()
 	load_dictionaries()
 	set_floors()
@@ -814,6 +830,7 @@ function main()
 	local last_battle_cards = get_battle_cards()
 	local last_playtime = get_playtime()
 	set_obtained_key_text(get_floor_number())
+	set_learned_sleight_text()
 	while true do
 		local frame = emu.framecount()
 		if frame % 20 == 0 then
@@ -838,6 +855,7 @@ function main()
 					new_world_cards[1] = world_name
 					set_world_cards(new_world_cards)
 					set_obtained_key_text(current_floor)
+					set_learned_sleight_text()
 				end
 				local current_kob = get_current_gold_card_qty("KOB")
 				local current_kog = get_current_gold_card_qty("KOG")
