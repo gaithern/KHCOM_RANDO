@@ -802,7 +802,7 @@ function set_obtained_key_text(current_floor)
 	end
 end
 
-function set_learned_sleight_text()
+function set_got_text()
 	for k,v in pairs(randomization) do
 		for ik,iv in pairs(addresses["Text"]) do
 			if k == ik then
@@ -830,7 +830,7 @@ function main()
 	local last_battle_cards = get_battle_cards()
 	local last_playtime = get_playtime()
 	set_obtained_key_text(get_floor_number())
-	set_learned_sleight_text()
+	set_got_text()
 	while true do
 		local frame = emu.framecount()
 		if frame % 20 == 0 then
@@ -838,6 +838,7 @@ function main()
 			if current_playtime == 0 then
 				set_starting_deck()
 				set_obtained_key_text(get_floor_number())
+				set_got_text()
 			end
 			if not save_or_savestate_loaded(last_playtime, current_playtime) then
 				local current_floor = get_floor_number()
@@ -855,7 +856,7 @@ function main()
 					new_world_cards[1] = world_name
 					set_world_cards(new_world_cards)
 					set_obtained_key_text(current_floor)
-					set_learned_sleight_text()
+					set_got_text()
 				end
 				local current_kob = get_current_gold_card_qty("KOB")
 				local current_kog = get_current_gold_card_qty("KOG")
