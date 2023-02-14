@@ -836,7 +836,6 @@ function main()
 					new_world_cards = {}
 					new_world_cards[1] = world_name
 					set_world_cards(new_world_cards)
-					print("1")
 					set_obtained_key_text(current_floor)
 				end
 				local current_kob = get_current_gold_card_qty("KOB")
