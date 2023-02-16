@@ -3,7 +3,7 @@ import argparse
 import random
 import time
 
-settings = {"F1TT": True, "F13CO": True, "FG": 6, "SG": 10}
+settings = {"F1TT": True, "F13CO": True, "FG": 6, "SG": 10, "BCTM": False}
 parser = argparse.ArgumentParser()
 parser.add_argument("--F1TT", required = False) #Defines if the first floor should be Traverse Town
 parser.add_argument("--F13CO", required = False) #Defines if the last floor should be Castle Oblivion
@@ -63,6 +63,28 @@ def reassign_battle_cards(seed):
     for card in possible_battle_cards_values:
         battle_card_reassignments[card] = random.choices(possible_battle_cards_values, possible_battle_card_weights)
     return battle_card_reassignments
+
+def reassign_battle_cards_type_for_type(seed):
+    random.seed(a=seed)
+    possible_battle_cards = load_json_data("battle_cards.json")["Battle Cards"]
+    possible_battle_cards_for_reassignment = []
+    card_types_reassigned = []
+    for card in possible_battle_cards:
+        possible_battle_cards_for_reassignment.append({"Value": card["Value"], "Weight": card["Weight"], "Type": card["Name"][:-2], "Number": card["Name"][-1]})
+    possible_types = []
+    for card in possible_battle_cards_for_reassignment:
+        if card["Type"] not in possible_types:
+            possible_types.append(card["Type"])
+    type_reassignments = {}
+    for type in possible_types:
+        type_reassignments[type] = random.choice(possible_types)
+    battle_card_reassignments = {}
+    for card in possible_battle_cards_for_reassignment:
+        for i_card in possible_battle_cards_for_reassignment:
+            if type_reassignments[card["Type"]] == i_card["Type"] and card["Number"] == i_card["Number"]:
+                battle_card_reassignments[card["Value"]] = [i_card["Value"]]
+    return battle_card_reassignments
+        
 
 def reassign_one_time_rewards(seed):
     random.seed(a=seed)
@@ -259,7 +281,10 @@ def remove_items_from_leftover_one_time_rewards(reassigned_key_rewards, leftover
 
 def main():
     worlds = choose_worlds_for_each_floor(seed)
-    battle_card_reassignments = reassign_battle_cards(seed)
+    if settings["BCTM"]:
+        battle_card_reassignments = reassign_battle_cards_type_for_type(seed)
+    else:
+        battle_card_reassignments = reassign_battle_cards(seed)
     results = reassign_one_time_rewards(seed)
     one_time_rewards_reassignments = results[0]
     leftover_one_time_rewards = results[1]
