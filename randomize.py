@@ -32,20 +32,20 @@ def load_json_data(filename):
     return data
 
 def choose_worlds_for_each_floor(seed):
-    goals = [1,settings["FG"],settings["SG"],11,12,13]
+    goals = [1,settings["FG"],7,settings["SG"],11,12,13]
     random.seed(a=seed)
     worlds = [None,None,None,None,None,None,None,None,None,None,None,None,None]
     possible_worlds = load_json_data("worlds.json")["Worlds"]
-    i = 0 #index for world assignment
-    if settings["F1TT"]:
-        worlds[0] = possible_worlds.pop(9) #Traverse Town
-        i = 1
-    worlds[10] = possible_worlds.pop(len(possible_worlds)-1) #100 Acre Wood
-    if settings["F13CO"]:
-        worlds[12] = possible_worlds.pop(len(possible_worlds)-1) #Castle Oblivion
+    i = 1 #index for world assignment
+    
+    worlds[6] = possible_worlds.pop(-1) #100 Acre Wood
+    worlds[12] = possible_worlds.pop(-1) #Castle Oblivion
+    worlds[10] = possible_worlds.pop(-1) #Twilight Town
+    worlds[0] = possible_worlds.pop(-1) #Traverse Town
+    worlds[11] = possible_worlds.pop(-1) #Destiny Islands
     target_index = len(possible_worlds)+1
     while i <= target_index:
-        if i != 10:
+        if i != 6:
             choice = random.randint(0,len(possible_worlds)-1)
             worlds[i] = possible_worlds.pop(choice)
         i = i + 1

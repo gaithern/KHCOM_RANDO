@@ -95,7 +95,7 @@ function get_highest_warp_floor_number()
 	return highest_warp_floor_number
 end
 
-function set_highest_wrap_floor_number(x)
+function set_highest_warp_floor_number(x)
 	x = x-1
 	local highest_warp_floor_number = memory.writebyte(to_hex(addresses["Highest Warp Floor"]["Address"]), x*2)
 end
@@ -380,14 +380,20 @@ function set_floors()
 	end
 end
 
-function handle_highest_warp()
+function handle_highest_warp(current_floor, last_highest_warp_floor)
 	local highest_warp_floor_number = get_highest_warp_floor_number()
-	for k,v in pairs(randomization["Goals"]) do
-		if highest_warp_floor_number <= v then
-			set_highest_wrap_floor_number(v)
-			return
+	local set = false
+	if last_highest_warp_floor ~= highest_warp_floor_number then
+		for k,v in pairs(randomization["Goals"]) do
+			if highest_warp_floor_number <= v and k ~= 1 then
+				if current_floor == randomization["Goals"][k-1]+1 then
+					set_highest_warp_floor_number(v)
+					return
+				end
+			end
 		end
 	end
+	set_highest_warp_floor_number(last_highest_warp_floor)
 end
 
 function find_new_keys(old_keys, current_keys, gold_card_type, floor_number)
@@ -831,7 +837,6 @@ end
 function main()
 	load_dictionaries()
 	set_floors()
-	handle_highest_warp()
 	local last_floor = get_floor_number()
 	local last_kob = get_current_gold_card_qty("KOB")
 	local last_kog = get_current_gold_card_qty("KOG")
@@ -839,6 +844,7 @@ function main()
 	local last_sleights = get_sleights()
 	local last_battle_cards = get_battle_cards()
 	local last_playtime = get_playtime()
+	local last_highest_warp_floor = get_highest_warp_floor_number()
 	set_obtained_key_text(get_floor_number())
 	set_got_text()
 	while true do
@@ -854,7 +860,7 @@ function main()
 			if not save_or_savestate_loaded(last_playtime, current_playtime) then
 				local current_floor = get_floor_number()
 				if current_floor ~= last_floor then
-					handle_highest_warp()
+					handle_highest_warp(current_floor, last_highest_warp_floor)
 					set_floors()
 					set_current_gold_card_qty("KOB", get_stored_gold_cards("KOB", current_floor))
 					set_current_gold_card_qty("KOG", get_stored_gold_cards("KOG", current_floor))
@@ -894,7 +900,6 @@ function main()
 				set_current_gold_card_qty("KOG", get_stored_gold_cards("KOG", current_floor))
 				set_current_gold_card_qty("KOT", get_stored_gold_cards("KOT", current_floor))
 			else
-				handle_highest_warp()
 				set_floors()
 			end
 			last_floor = get_floor_number()
@@ -906,6 +911,7 @@ function main()
 			end
 			last_battle_cards = get_battle_cards()
 			last_playtime = current_playtime
+			last_highest_warp_floor = get_highest_warp_floor_number()
 			set_key_description_text()
 		end
 		emu.frameadvance()

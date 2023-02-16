@@ -251,6 +251,22 @@
 				,{"Address": "0D041AB4", "Bytes": 43}
 			]
 		}
+		,"10A": {
+			"Original Text": "Obtained Simba"
+			,"Address": [
+				{"Address": "09041D38", "Bytes": 30}
+				,{"Address": "0B041D38", "Bytes": 30}
+				,{"Address": "0D041D38", "Bytes": 30}
+			]
+		}
+		,"07C": {
+			"Original Text": "Obtained Oathkeeper"
+			,"Address": [
+				{"Address": "09041AE2", "Bytes": 42}
+				,{"Address": "0B041AE2", "Bytes": 42}
+				,{"Address": "0D041AE2", "Bytes": 42}
+			]
+		}
 		,"Key Descriptions": {
 			"KOB": {
 				"Original Text": "A room where untold stories unfold."

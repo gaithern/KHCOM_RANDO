@@ -247,24 +247,9 @@
 			,"Requirements": []
 		}
 		,{
-			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Guidance"}}
-			,"Requirements": [
-				{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Beginnings"}}
-			]
-		}
-		,{
-			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key to Truth"}}
-			,"Requirements": [
-				{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Beginnings"}}
-				,{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Guidance"}}
-			]
-		}
-		,{
 			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Vexen", "Value": "230"}}
 			,"Requirements": [
 				{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Beginnings"}}
-				,{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key of Guidance"}}
-				,{"Type": "Gold Map Card", "Value": {"World": "Twilight Town", "Type": "Key to Truth"}}
 			]
 		}
 	]
@@ -280,18 +265,10 @@
 			]
 		}
 		,{
-			"Reward": {"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key to Truth"}}
-			,"Requirements": [
-				{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Beginnings"}}
-				,{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Guidance"}}
-			]
-		}
-		,{
 			"Reward": {"Type": "Enemy Card", "Value": {"Type": "Enemy Card", "Name": "Darkside", "Value": "220"}}
 			,"Requirements": [
 				{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Beginnings"}}
 				,{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key of Guidance"}}
-				,{"Type": "Gold Map Card", "Value": {"World": "Destiny Islands", "Type": "Key to Truth"}}
 			]
 		}
 	]
