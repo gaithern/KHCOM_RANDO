@@ -283,6 +283,14 @@
 				,{"Address": "0D041C7C", "Bytes": 44}
 			]
 		}
+		,"Terror": {
+			"Original Text": "Learned Terror!"
+			,"Address": [
+				{"Address": "090414BE", "Bytes": 33}
+				,{"Address": "0B0414BE", "Bytes": 33}
+				,{"Address": "0D0414BE", "Bytes": 33}
+			]
+		}
 		,"Key Descriptions": {
 			"KOB": {
 				"Original Text": "A room where untold stories unfold."
