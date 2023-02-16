@@ -267,6 +267,22 @@
 				,{"Address": "0D041AE2", "Bytes": 42}
 			]
 		}
+		,"144": {
+			"Original Text": "Obtained Cloud"
+			,"Address": [
+				{"Address": "09041A5C", "Bytes": 30}
+				,{"Address": "0B041A5C", "Bytes": 30}
+				,{"Address": "0D041A5C", "Bytes": 30}
+			]
+		}
+		,"130": {
+			"Original Text": "Obtained Tinkerbell"
+			,"Address": [
+				{"Address": "09041C7C", "Bytes": 44}
+				,{"Address": "0B041C7C", "Bytes": 44}
+				,{"Address": "0D041C7C", "Bytes": 44}
+			]
+		}
 		,"Key Descriptions": {
 			"KOB": {
 				"Original Text": "A room where untold stories unfold."

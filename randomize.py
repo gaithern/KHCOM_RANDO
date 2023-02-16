@@ -3,7 +3,7 @@ import argparse
 import random
 import time
 
-settings = {"F1TT": True, "F13CO": True, "FG": 6, "SG": 10, "BCTM": False}
+settings = {"F1TT": True, "F13CO": True, "FG": 6, "SG": 10, "BCTM": True}
 parser = argparse.ArgumentParser()
 parser.add_argument("--F1TT", required = False) #Defines if the first floor should be Traverse Town
 parser.add_argument("--F13CO", required = False) #Defines if the last floor should be Castle Oblivion
@@ -84,7 +84,6 @@ def reassign_battle_cards_type_for_type(seed):
             if type_reassignments[card["Type"]] == i_card["Type"] and card["Number"] == i_card["Number"]:
                 battle_card_reassignments[card["Value"]] = [i_card["Value"]]
     return battle_card_reassignments
-        
 
 def reassign_one_time_rewards(seed):
     random.seed(a=seed)
@@ -265,7 +264,7 @@ def get_reassignments(worlds, battle_card_reassignments, one_time_rewards_reassi
     for key in reassigned_key_rewards.keys():
         item_reassignment_output[key] = reassigned_key_rewards[key]
     item_reassignment_output["Worlds"] = world_output
-    item_reassignment_output["Goals"] = [1,settings["FG"],settings["SG"],11,12,13]
+    item_reassignment_output["Goals"] = [1,settings["FG"],7,settings["SG"],11,12,13]
     return item_reassignment_output
 
 def output_reassignments(item_reassignments):
