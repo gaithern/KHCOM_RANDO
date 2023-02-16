@@ -381,19 +381,17 @@ function set_floors()
 end
 
 function handle_highest_warp(current_floor, last_highest_warp_floor)
-	local highest_warp_floor_number = get_highest_warp_floor_number()
-	local set = false
+	highest_warp_floor_number = get_highest_warp_floor_number()
 	if last_highest_warp_floor ~= highest_warp_floor_number then
 		for k,v in pairs(randomization["Goals"]) do
-			if highest_warp_floor_number <= v and k ~= 1 then
-				if current_floor == randomization["Goals"][k-1]+1 then
-					set_highest_warp_floor_number(v)
-					return
-				end
+			if current_floor > randomization["Goals"][k-1] and v > last_highest_warp_floor then
+				set_highest_warp_floor_number(v)
+				return
 			end
 		end
 	end
 	set_highest_warp_floor_number(last_highest_warp_floor)
+	return
 end
 
 function find_new_keys(old_keys, current_keys, gold_card_type, floor_number)
