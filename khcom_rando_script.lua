@@ -901,6 +901,8 @@ function main()
 				set_current_gold_card_qty("KOT", get_stored_gold_cards("KOT", current_floor))
 			else
 				set_floors()
+				set_obtained_key_text(get_floor_number())
+				set_got_text()
 			end
 			last_floor = get_floor_number()
 			last_kob = get_current_gold_card_qty("KOB")
