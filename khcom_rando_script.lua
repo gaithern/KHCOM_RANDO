@@ -384,9 +384,11 @@ function handle_highest_warp(current_floor, last_highest_warp_floor)
 	highest_warp_floor_number = get_highest_warp_floor_number()
 	if last_highest_warp_floor ~= highest_warp_floor_number then
 		for k,v in pairs(randomization["Goals"]) do
-			if current_floor > randomization["Goals"][k-1] and v > last_highest_warp_floor then
-				set_highest_warp_floor_number(v)
-				return
+			if k ~= 1 then
+				if current_floor > randomization["Goals"][k-1] and v > last_highest_warp_floor then
+					set_highest_warp_floor_number(v)
+					return
+				end
 			end
 		end
 	end
