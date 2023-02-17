@@ -860,7 +860,6 @@ function main()
 			if not save_or_savestate_loaded(last_playtime, current_playtime) then
 				local current_floor = get_floor_number()
 				if current_floor ~= last_floor then
-					handle_highest_warp(current_floor, last_highest_warp_floor)
 					set_floors()
 					set_current_gold_card_qty("KOB", get_stored_gold_cards("KOB", current_floor))
 					set_current_gold_card_qty("KOG", get_stored_gold_cards("KOG", current_floor))
@@ -875,6 +874,7 @@ function main()
 					set_obtained_key_text(current_floor)
 					set_got_text()
 				end
+				handle_highest_warp(current_floor, last_highest_warp_floor)
 				local current_kob = get_current_gold_card_qty("KOB")
 				local current_kog = get_current_gold_card_qty("KOG")
 				local current_kot = get_current_gold_card_qty("KOT")
@@ -945,7 +945,8 @@ function test()
 	end
 end
 
-main()
+--main()
 --test()
---load_dictionaries()
+load_dictionaries()
 --set_initial_map_cards()
+print(get_floor_number())
