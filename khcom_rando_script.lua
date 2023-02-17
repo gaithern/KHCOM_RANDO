@@ -945,8 +945,8 @@ function test()
 	end
 end
 
---main()
+main()
 --test()
-load_dictionaries()
+--load_dictionaries()
 --set_initial_map_cards()
-print(get_floor_number())
+--print(get_floor_number())
