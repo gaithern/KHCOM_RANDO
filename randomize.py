@@ -251,7 +251,10 @@ def initializations(seed, starting_deck, one_of_each_map_card, zeroes_allowed, c
                 if one_of_each_map_card == "Yes":
                     card["Quantity"] = 1
                 else:
-                    card["Quantity"] = 0
+                    if card["Address"] != "0203A97F":
+                        card["Quantity"] = 0
+                    else:
+                        card["Quantity"] = 1
     json_object = json.dumps(initializations, indent=4)
     with open('initializations.json', 'w') as f:
         f.write(json_object)
