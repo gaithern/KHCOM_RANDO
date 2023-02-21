@@ -623,8 +623,16 @@ function reassign_deck_pointers(old_deck_pointers)
 end
 
 function set_starting_deck()
+	local i = 1
 	for k,v in pairs(initializations["Starting Deck"]) do
 		memory.write_u16_le(to_hex(addresses["Battle Cards"]["Address"]) + 2*(k-1), to_hex(v))
+		i = i + 1
+	end
+	print(i)
+	while i <= 15 do
+		memory.write_u16_le(to_hex(addresses["Battle Cards"]["Address"]) + 2*(i-1), to_hex("0FFF"))
+		set_deck_pointer(1, i - 1, "FFFF")
+		i = i + 1
 	end
 end
 
@@ -851,8 +859,9 @@ function main()
 		local frame = emu.framecount()
 		if frame % 20 == 0 then
 			local current_playtime = get_playtime()
-			if current_playtime == 0 then
+			if current_playtime == 1 then
 				set_starting_deck()
+				last_battle_cards = get_battle_cards()
 				set_obtained_key_text(get_floor_number())
 				set_got_text()
 				set_initial_map_cards()

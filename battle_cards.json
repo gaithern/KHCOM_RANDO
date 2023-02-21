@@ -1,421 +1,421 @@
 {"Battle Cards":
 	[
-		{"Name": "Kingdom Key 0", "Value": "000", "Weight": 100}
-		,{"Name": "Kingdom Key 1", "Value": "001", "Weight": 100}
-		,{"Name": "Kingdom Key 2", "Value": "002", "Weight": 100}
-		,{"Name": "Kingdom Key 3", "Value": "003", "Weight": 100}
-		,{"Name": "Kingdom Key 4", "Value": "004", "Weight": 100}
-		,{"Name": "Kingdom Key 5", "Value": "005", "Weight": 100}
-		,{"Name": "Kingdom Key 6", "Value": "006", "Weight": 100}
-		,{"Name": "Kingdom Key 7", "Value": "007", "Weight": 100}
-		,{"Name": "Kingdom Key 8", "Value": "008", "Weight": 100}
-		,{"Name": "Kingdom Key 9", "Value": "009", "Weight": 100}
+		{"Name": "Kingdom Key 0", "Value": "000", "Weight": 100, "CP Cost": 19}
+		,{"Name": "Kingdom Key 1", "Value": "001", "Weight": 100, "CP Cost": 10}
+		,{"Name": "Kingdom Key 2", "Value": "002", "Weight": 100, "CP Cost": 11}
+		,{"Name": "Kingdom Key 3", "Value": "003", "Weight": 100, "CP Cost": 12}
+		,{"Name": "Kingdom Key 4", "Value": "004", "Weight": 100, "CP Cost": 13}
+		,{"Name": "Kingdom Key 5", "Value": "005", "Weight": 100, "CP Cost": 14}
+		,{"Name": "Kingdom Key 6", "Value": "006", "Weight": 100, "CP Cost": 15}
+		,{"Name": "Kingdom Key 7", "Value": "007", "Weight": 100, "CP Cost": 16}
+		,{"Name": "Kingdom Key 8", "Value": "008", "Weight": 100, "CP Cost": 17}
+		,{"Name": "Kingdom Key 9", "Value": "009", "Weight": 100, "CP Cost": 18}
 		
-		,{"Name": "Three Wishes 0", "Value": "00A", "Weight": 95}
-		,{"Name": "Three Wishes 1", "Value": "00B", "Weight": 95}
-		,{"Name": "Three Wishes 2", "Value": "00C", "Weight": 95}
-		,{"Name": "Three Wishes 3", "Value": "00D", "Weight": 95}
-		,{"Name": "Three Wishes 4", "Value": "00E", "Weight": 95}
-		,{"Name": "Three Wishes 5", "Value": "00F", "Weight": 95}
-		,{"Name": "Three Wishes 6", "Value": "010", "Weight": 95}
-		,{"Name": "Three Wishes 7", "Value": "011", "Weight": 95}
-		,{"Name": "Three Wishes 8", "Value": "012", "Weight": 95}
-		,{"Name": "Three Wishes 9", "Value": "013", "Weight": 95}
+		,{"Name": "Three Wishes 0", "Value": "00A", "Weight": 95, "CP Cost": 24}
+		,{"Name": "Three Wishes 1", "Value": "00B", "Weight": 95, "CP Cost": 15}
+		,{"Name": "Three Wishes 2", "Value": "00C", "Weight": 95, "CP Cost": 16}
+		,{"Name": "Three Wishes 3", "Value": "00D", "Weight": 95, "CP Cost": 17}
+		,{"Name": "Three Wishes 4", "Value": "00E", "Weight": 95, "CP Cost": 18}
+		,{"Name": "Three Wishes 5", "Value": "00F", "Weight": 95, "CP Cost": 19}
+		,{"Name": "Three Wishes 6", "Value": "010", "Weight": 95, "CP Cost": 20}
+		,{"Name": "Three Wishes 7", "Value": "011", "Weight": 95, "CP Cost": 21}
+		,{"Name": "Three Wishes 8", "Value": "012", "Weight": 95, "CP Cost": 22}
+		,{"Name": "Three Wishes 9", "Value": "013", "Weight": 95, "CP Cost": 23}
 		
-		,{"Name": "Crabclaw 0", "Value": "014", "Weight": 95}
-		,{"Name": "Crabclaw 1", "Value": "015", "Weight": 95}
-		,{"Name": "Crabclaw 2", "Value": "016", "Weight": 95}
-		,{"Name": "Crabclaw 3", "Value": "017", "Weight": 95}
-		,{"Name": "Crabclaw 4", "Value": "018", "Weight": 95}
-		,{"Name": "Crabclaw 5", "Value": "019", "Weight": 95}
-		,{"Name": "Crabclaw 6", "Value": "01A", "Weight": 95}
-		,{"Name": "Crabclaw 7", "Value": "01B", "Weight": 95}
-		,{"Name": "Crabclaw 8", "Value": "01C", "Weight": 95}
-		,{"Name": "Crabclaw 9", "Value": "01D", "Weight": 95}
+		,{"Name": "Crabclaw 0", "Value": "014", "Weight": 95, "CP Cost": 38}
+		,{"Name": "Crabclaw 1", "Value": "015", "Weight": 95, "CP Cost": 20}
+		,{"Name": "Crabclaw 2", "Value": "016", "Weight": 95, "CP Cost": 22}
+		,{"Name": "Crabclaw 3", "Value": "017", "Weight": 95, "CP Cost": 24}
+		,{"Name": "Crabclaw 4", "Value": "018", "Weight": 95, "CP Cost": 26}
+		,{"Name": "Crabclaw 5", "Value": "019", "Weight": 95, "CP Cost": 28}
+		,{"Name": "Crabclaw 6", "Value": "01A", "Weight": 95, "CP Cost": 30}
+		,{"Name": "Crabclaw 7", "Value": "01B", "Weight": 95, "CP Cost": 32}
+		,{"Name": "Crabclaw 8", "Value": "01C", "Weight": 95, "CP Cost": 34}
+		,{"Name": "Crabclaw 9", "Value": "01D", "Weight": 95, "CP Cost": 36}
 		
-		,{"Name": "Pumpkinhead 0", "Value": "01E", "Weight": 95}
-		,{"Name": "Pumpkinhead 1", "Value": "01F", "Weight": 95}
-		,{"Name": "Pumpkinhead 2", "Value": "020", "Weight": 95}
-		,{"Name": "Pumpkinhead 3", "Value": "021", "Weight": 95}
-		,{"Name": "Pumpkinhead 4", "Value": "022", "Weight": 95}
-		,{"Name": "Pumpkinhead 5", "Value": "023", "Weight": 95}
-		,{"Name": "Pumpkinhead 6", "Value": "024", "Weight": 95}
-		,{"Name": "Pumpkinhead 7", "Value": "025", "Weight": 95}
-		,{"Name": "Pumpkinhead 8", "Value": "026", "Weight": 95}
-		,{"Name": "Pumpkinhead 9", "Value": "027", "Weight": 95}
+		,{"Name": "Pumpkinhead 0", "Value": "01E", "Weight": 95, "CP Cost": 24}
+		,{"Name": "Pumpkinhead 1", "Value": "01F", "Weight": 95, "CP Cost": 15}
+		,{"Name": "Pumpkinhead 2", "Value": "020", "Weight": 95, "CP Cost": 16}
+		,{"Name": "Pumpkinhead 3", "Value": "021", "Weight": 95, "CP Cost": 17}
+		,{"Name": "Pumpkinhead 4", "Value": "022", "Weight": 95, "CP Cost": 18}
+		,{"Name": "Pumpkinhead 5", "Value": "023", "Weight": 95, "CP Cost": 19}
+		,{"Name": "Pumpkinhead 6", "Value": "024", "Weight": 95, "CP Cost": 20}
+		,{"Name": "Pumpkinhead 7", "Value": "025", "Weight": 95, "CP Cost": 21}
+		,{"Name": "Pumpkinhead 8", "Value": "026", "Weight": 95, "CP Cost": 22}
+		,{"Name": "Pumpkinhead 9", "Value": "027", "Weight": 95, "CP Cost": 23}
 		
-		,{"Name": "Fairy Harp 0", "Value": "028", "Weight": 95}
-		,{"Name": "Fairy Harp 1", "Value": "029", "Weight": 95}
-		,{"Name": "Fairy Harp 2", "Value": "02A", "Weight": 95}
-		,{"Name": "Fairy Harp 3", "Value": "02B", "Weight": 95}
-		,{"Name": "Fairy Harp 4", "Value": "02C", "Weight": 95}
-		,{"Name": "Fairy Harp 5", "Value": "02D", "Weight": 95}
-		,{"Name": "Fairy Harp 6", "Value": "02E", "Weight": 95}
-		,{"Name": "Fairy Harp 7", "Value": "02F", "Weight": 95}
-		,{"Name": "Fairy Harp 8", "Value": "030", "Weight": 95}
-		,{"Name": "Fairy Harp 9", "Value": "031", "Weight": 95}
+		,{"Name": "Fairy Harp 0", "Value": "028", "Weight": 95, "CP Cost": 38}
+		,{"Name": "Fairy Harp 1", "Value": "029", "Weight": 95, "CP Cost": 20}
+		,{"Name": "Fairy Harp 2", "Value": "02A", "Weight": 95, "CP Cost": 22}
+		,{"Name": "Fairy Harp 3", "Value": "02B", "Weight": 95, "CP Cost": 24}
+		,{"Name": "Fairy Harp 4", "Value": "02C", "Weight": 95, "CP Cost": 26}
+		,{"Name": "Fairy Harp 5", "Value": "02D", "Weight": 95, "CP Cost": 28}
+		,{"Name": "Fairy Harp 6", "Value": "02E", "Weight": 95, "CP Cost": 30}
+		,{"Name": "Fairy Harp 7", "Value": "02F", "Weight": 95, "CP Cost": 32}
+		,{"Name": "Fairy Harp 8", "Value": "030", "Weight": 95, "CP Cost": 34}
+		,{"Name": "Fairy Harp 9", "Value": "031", "Weight": 95, "CP Cost": 36}
 		
-		,{"Name": "Wishing Star 0", "Value": "032", "Weight": 95}
-		,{"Name": "Wishing Star 1", "Value": "033", "Weight": 95}
-		,{"Name": "Wishing Star 2", "Value": "034", "Weight": 95}
-		,{"Name": "Wishing Star 3", "Value": "035", "Weight": 95}
-		,{"Name": "Wishing Star 4", "Value": "036", "Weight": 95}
-		,{"Name": "Wishing Star 5", "Value": "037", "Weight": 95}
-		,{"Name": "Wishing Star 6", "Value": "038", "Weight": 95}
-		,{"Name": "Wishing Star 7", "Value": "039", "Weight": 95}
-		,{"Name": "Wishing Star 8", "Value": "03A", "Weight": 95}
-		,{"Name": "Wishing Star 9", "Value": "03B", "Weight": 95}
+		,{"Name": "Wishing Star 0", "Value": "032", "Weight": 95, "CP Cost": 24}
+		,{"Name": "Wishing Star 1", "Value": "033", "Weight": 95, "CP Cost": 15}
+		,{"Name": "Wishing Star 2", "Value": "034", "Weight": 95, "CP Cost": 16}
+		,{"Name": "Wishing Star 3", "Value": "035", "Weight": 95, "CP Cost": 17}
+		,{"Name": "Wishing Star 4", "Value": "036", "Weight": 95, "CP Cost": 18}
+		,{"Name": "Wishing Star 5", "Value": "037", "Weight": 95, "CP Cost": 19}
+		,{"Name": "Wishing Star 6", "Value": "038", "Weight": 95, "CP Cost": 20}
+		,{"Name": "Wishing Star 7", "Value": "039", "Weight": 95, "CP Cost": 21}
+		,{"Name": "Wishing Star 8", "Value": "03A", "Weight": 95, "CP Cost": 22}
+		,{"Name": "Wishing Star 9", "Value": "03B", "Weight": 95, "CP Cost": 23}
 		
-		,{"Name": "Spellbinder 0", "Value": "03C", "Weight": 85}
-		,{"Name": "Spellbinder 1", "Value": "03D", "Weight": 85}
-		,{"Name": "Spellbinder 2", "Value": "03E", "Weight": 85}
-		,{"Name": "Spellbinder 3", "Value": "03F", "Weight": 85}
-		,{"Name": "Spellbinder 4", "Value": "040", "Weight": 85}
-		,{"Name": "Spellbinder 5", "Value": "041", "Weight": 85}
-		,{"Name": "Spellbinder 6", "Value": "042", "Weight": 85}
-		,{"Name": "Spellbinder 7", "Value": "043", "Weight": 85}
-		,{"Name": "Spellbinder 8", "Value": "044", "Weight": 85}
-		,{"Name": "Spellbinder 9", "Value": "045", "Weight": 85}
+		,{"Name": "Spellbinder 0", "Value": "03C", "Weight": 85, "CP Cost": 38}
+		,{"Name": "Spellbinder 1", "Value": "03D", "Weight": 85, "CP Cost": 20}
+		,{"Name": "Spellbinder 2", "Value": "03E", "Weight": 85, "CP Cost": 22}
+		,{"Name": "Spellbinder 3", "Value": "03F", "Weight": 85, "CP Cost": 24}
+		,{"Name": "Spellbinder 4", "Value": "040", "Weight": 85, "CP Cost": 26}
+		,{"Name": "Spellbinder 5", "Value": "041", "Weight": 85, "CP Cost": 28}
+		,{"Name": "Spellbinder 6", "Value": "042", "Weight": 85, "CP Cost": 30}
+		,{"Name": "Spellbinder 7", "Value": "043", "Weight": 85, "CP Cost": 32}
+		,{"Name": "Spellbinder 8", "Value": "044", "Weight": 85, "CP Cost": 34}
+		,{"Name": "Spellbinder 9", "Value": "045", "Weight": 85, "CP Cost": 36}
 		
-		,{"Name": "Metal Chocobo 0", "Value": "046", "Weight": 85}
-		,{"Name": "Metal Chocobo 1", "Value": "047", "Weight": 85}
-		,{"Name": "Metal Chocobo 2", "Value": "048", "Weight": 85}
-		,{"Name": "Metal Chocobo 3", "Value": "049", "Weight": 85}
-		,{"Name": "Metal Chocobo 4", "Value": "04A", "Weight": 85}
-		,{"Name": "Metal Chocobo 5", "Value": "04B", "Weight": 85}
-		,{"Name": "Metal Chocobo 6", "Value": "04C", "Weight": 85}
-		,{"Name": "Metal Chocobo 7", "Value": "04D", "Weight": 85}
-		,{"Name": "Metal Chocobo 8", "Value": "04E", "Weight": 85}
-		,{"Name": "Metal Chocobo 9", "Value": "04F", "Weight": 85}
+		,{"Name": "Metal Chocobo 0", "Value": "046", "Weight": 85, "CP Cost": 38}
+		,{"Name": "Metal Chocobo 1", "Value": "047", "Weight": 85, "CP Cost": 20}
+		,{"Name": "Metal Chocobo 2", "Value": "048", "Weight": 85, "CP Cost": 22}
+		,{"Name": "Metal Chocobo 3", "Value": "049", "Weight": 85, "CP Cost": 24}
+		,{"Name": "Metal Chocobo 4", "Value": "04A", "Weight": 85, "CP Cost": 26}
+		,{"Name": "Metal Chocobo 5", "Value": "04B", "Weight": 85, "CP Cost": 28}
+		,{"Name": "Metal Chocobo 6", "Value": "04C", "Weight": 85, "CP Cost": 30}
+		,{"Name": "Metal Chocobo 7", "Value": "04D", "Weight": 85, "CP Cost": 32}
+		,{"Name": "Metal Chocobo 8", "Value": "04E", "Weight": 85, "CP Cost": 34}
+		,{"Name": "Metal Chocobo 9", "Value": "04F", "Weight": 85, "CP Cost": 36}
 		
-		,{"Name": "Olympia 0", "Value": "050", "Weight": 95}
-		,{"Name": "Olympia 1", "Value": "051", "Weight": 95}
-		,{"Name": "Olympia 2", "Value": "052", "Weight": 95}
-		,{"Name": "Olympia 3", "Value": "053", "Weight": 95}
-		,{"Name": "Olympia 4", "Value": "054", "Weight": 95}
-		,{"Name": "Olympia 5", "Value": "055", "Weight": 95}
-		,{"Name": "Olympia 6", "Value": "056", "Weight": 95}
-		,{"Name": "Olympia 7", "Value": "057", "Weight": 95}
-		,{"Name": "Olympia 8", "Value": "058", "Weight": 95}
-		,{"Name": "Olympia 9", "Value": "059", "Weight": 95}
+		,{"Name": "Olympia 0", "Value": "050", "Weight": 95, "CP Cost": 24}
+		,{"Name": "Olympia 1", "Value": "051", "Weight": 95, "CP Cost": 15}
+		,{"Name": "Olympia 2", "Value": "052", "Weight": 95, "CP Cost": 16}
+		,{"Name": "Olympia 3", "Value": "053", "Weight": 95, "CP Cost": 17}
+		,{"Name": "Olympia 4", "Value": "054", "Weight": 95, "CP Cost": 18}
+		,{"Name": "Olympia 5", "Value": "055", "Weight": 95, "CP Cost": 19}
+		,{"Name": "Olympia 6", "Value": "056", "Weight": 95, "CP Cost": 20}
+		,{"Name": "Olympia 7", "Value": "057", "Weight": 95, "CP Cost": 21}
+		,{"Name": "Olympia 8", "Value": "058", "Weight": 95, "CP Cost": 22}
+		,{"Name": "Olympia 9", "Value": "059", "Weight": 95, "CP Cost": 23}
 		
-		,{"Name": "Lionheart 0", "Value": "05A", "Weight": 85}
-		,{"Name": "Lionheart 1", "Value": "05B", "Weight": 85}
-		,{"Name": "Lionheart 2", "Value": "05C", "Weight": 85}
-		,{"Name": "Lionheart 3", "Value": "05D", "Weight": 85}
-		,{"Name": "Lionheart 4", "Value": "05E", "Weight": 85}
-		,{"Name": "Lionheart 5", "Value": "05F", "Weight": 85}
-		,{"Name": "Lionheart 6", "Value": "060", "Weight": 85}
-		,{"Name": "Lionheart 7", "Value": "061", "Weight": 85}
-		,{"Name": "Lionheart 8", "Value": "062", "Weight": 85}
-		,{"Name": "Lionheart 9", "Value": "063", "Weight": 85}
+		,{"Name": "Lionheart 0", "Value": "05A", "Weight": 85, "CP Cost": 38}
+		,{"Name": "Lionheart 1", "Value": "05B", "Weight": 85, "CP Cost": 20}
+		,{"Name": "Lionheart 2", "Value": "05C", "Weight": 85, "CP Cost": 22}
+		,{"Name": "Lionheart 3", "Value": "05D", "Weight": 85, "CP Cost": 24}
+		,{"Name": "Lionheart 4", "Value": "05E", "Weight": 85, "CP Cost": 26}
+		,{"Name": "Lionheart 5", "Value": "05F", "Weight": 85, "CP Cost": 28}
+		,{"Name": "Lionheart 6", "Value": "060", "Weight": 85, "CP Cost": 30}
+		,{"Name": "Lionheart 7", "Value": "061", "Weight": 85, "CP Cost": 32}
+		,{"Name": "Lionheart 8", "Value": "062", "Weight": 85, "CP Cost": 34}
+		,{"Name": "Lionheart 9", "Value": "063", "Weight": 85, "CP Cost": 36}
 		
-		,{"Name": "Lady Luck 0", "Value": "064", "Weight": 95}
-		,{"Name": "Lady Luck 1", "Value": "065", "Weight": 95}
-		,{"Name": "Lady Luck 2", "Value": "066", "Weight": 95}
-		,{"Name": "Lady Luck 3", "Value": "067", "Weight": 95}
-		,{"Name": "Lady Luck 4", "Value": "068", "Weight": 95}
-		,{"Name": "Lady Luck 5", "Value": "069", "Weight": 95}
-		,{"Name": "Lady Luck 6", "Value": "06A", "Weight": 95}
-		,{"Name": "Lady Luck 7", "Value": "06B", "Weight": 95}
-		,{"Name": "Lady Luck 8", "Value": "06C", "Weight": 95}
-		,{"Name": "Lady Luck 9", "Value": "06D", "Weight": 95}
+		,{"Name": "Lady Luck 0", "Value": "064", "Weight": 95, "CP Cost": 24}
+		,{"Name": "Lady Luck 1", "Value": "065", "Weight": 95, "CP Cost": 15}
+		,{"Name": "Lady Luck 2", "Value": "066", "Weight": 95, "CP Cost": 16}
+		,{"Name": "Lady Luck 3", "Value": "067", "Weight": 95, "CP Cost": 17}
+		,{"Name": "Lady Luck 4", "Value": "068", "Weight": 95, "CP Cost": 18}
+		,{"Name": "Lady Luck 5", "Value": "069", "Weight": 95, "CP Cost": 19}
+		,{"Name": "Lady Luck 6", "Value": "06A", "Weight": 95, "CP Cost": 20}
+		,{"Name": "Lady Luck 7", "Value": "06B", "Weight": 95, "CP Cost": 21}
+		,{"Name": "Lady Luck 8", "Value": "06C", "Weight": 95, "CP Cost": 22}
+		,{"Name": "Lady Luck 9", "Value": "06D", "Weight": 95, "CP Cost": 23}
 		
-		,{"Name": "Divine Rose 0", "Value": "06F", "Weight": 95}
-		,{"Name": "Divine Rose 1", "Value": "070", "Weight": 95}
-		,{"Name": "Divine Rose 2", "Value": "071", "Weight": 95}
-		,{"Name": "Divine Rose 3", "Value": "072", "Weight": 95}
-		,{"Name": "Divine Rose 4", "Value": "073", "Weight": 95}
-		,{"Name": "Divine Rose 5", "Value": "074", "Weight": 95}
-		,{"Name": "Divine Rose 6", "Value": "075", "Weight": 95}
-		,{"Name": "Divine Rose 7", "Value": "076", "Weight": 95}
-		,{"Name": "Divine Rose 8", "Value": "077", "Weight": 95}
-		,{"Name": "Divine Rose 9", "Value": "078", "Weight": 95}
+		,{"Name": "Divine Rose 0", "Value": "06E", "Weight": 95, "CP Cost": 38}
+		,{"Name": "Divine Rose 1", "Value": "06F", "Weight": 95, "CP Cost": 20}
+		,{"Name": "Divine Rose 2", "Value": "070", "Weight": 95, "CP Cost": 22}
+		,{"Name": "Divine Rose 3", "Value": "071", "Weight": 95, "CP Cost": 24}
+		,{"Name": "Divine Rose 4", "Value": "072", "Weight": 95, "CP Cost": 26}
+		,{"Name": "Divine Rose 5", "Value": "073", "Weight": 95, "CP Cost": 28}
+		,{"Name": "Divine Rose 6", "Value": "074", "Weight": 95, "CP Cost": 30}
+		,{"Name": "Divine Rose 7", "Value": "075", "Weight": 95, "CP Cost": 32}
+		,{"Name": "Divine Rose 8", "Value": "076", "Weight": 95, "CP Cost": 34}
+		,{"Name": "Divine Rose 9", "Value": "077", "Weight": 95, "CP Cost": 36}
 		
-		,{"Name": "Oathkeeper 0", "Value": "079", "Weight": 85}
-		,{"Name": "Oathkeeper 1", "Value": "07A", "Weight": 85}
-		,{"Name": "Oathkeeper 2", "Value": "07B", "Weight": 85}
-		,{"Name": "Oathkeeper 3", "Value": "07C", "Weight": 85}
-		,{"Name": "Oathkeeper 4", "Value": "07D", "Weight": 85}
-		,{"Name": "Oathkeeper 5", "Value": "07E", "Weight": 85}
-		,{"Name": "Oathkeeper 6", "Value": "07F", "Weight": 85}
-		,{"Name": "Oathkeeper 7", "Value": "080", "Weight": 85}
-		,{"Name": "Oathkeeper 8", "Value": "081", "Weight": 85}
-		,{"Name": "Oathkeeper 9", "Value": "082", "Weight": 85}
+		,{"Name": "Oathkeeper 0", "Value": "078", "Weight": 85, "CP Cost": 43}
+		,{"Name": "Oathkeeper 1", "Value": "079", "Weight": 85, "CP Cost": 25}
+		,{"Name": "Oathkeeper 2", "Value": "07A", "Weight": 85, "CP Cost": 27}
+		,{"Name": "Oathkeeper 3", "Value": "07B", "Weight": 85, "CP Cost": 29}
+		,{"Name": "Oathkeeper 4", "Value": "07C", "Weight": 85, "CP Cost": 31}
+		,{"Name": "Oathkeeper 5", "Value": "07D", "Weight": 85, "CP Cost": 33}
+		,{"Name": "Oathkeeper 6", "Value": "07E", "Weight": 85, "CP Cost": 35}
+		,{"Name": "Oathkeeper 7", "Value": "07F", "Weight": 85, "CP Cost": 37}
+		,{"Name": "Oathkeeper 8", "Value": "080", "Weight": 85, "CP Cost": 39}
+		,{"Name": "Oathkeeper 9", "Value": "081", "Weight": 85, "CP Cost": 41}
 		
-		,{"Name": "Oblivion 0", "Value": "083", "Weight": 85}
-		,{"Name": "Oblivion 1", "Value": "084", "Weight": 85}
-		,{"Name": "Oblivion 2", "Value": "085", "Weight": 85}
-		,{"Name": "Oblivion 3", "Value": "086", "Weight": 85}
-		,{"Name": "Oblivion 4", "Value": "087", "Weight": 85}
-		,{"Name": "Oblivion 5", "Value": "088", "Weight": 85}
-		,{"Name": "Oblivion 6", "Value": "089", "Weight": 85}
-		,{"Name": "Oblivion 7", "Value": "08A", "Weight": 85}
-		,{"Name": "Oblivion 8", "Value": "08B", "Weight": 85}
-		,{"Name": "Oblivion 9", "Value": "08C", "Weight": 85}
+		,{"Name": "Oblivion 0", "Value": "082", "Weight": 85, "CP Cost": 43}
+		,{"Name": "Oblivion 1", "Value": "083", "Weight": 85, "CP Cost": 25}
+		,{"Name": "Oblivion 2", "Value": "084", "Weight": 85, "CP Cost": 27}
+		,{"Name": "Oblivion 3", "Value": "085", "Weight": 85, "CP Cost": 29}
+		,{"Name": "Oblivion 4", "Value": "086", "Weight": 85, "CP Cost": 31}
+		,{"Name": "Oblivion 5", "Value": "087", "Weight": 85, "CP Cost": 33}
+		,{"Name": "Oblivion 6", "Value": "088", "Weight": 85, "CP Cost": 35}
+		,{"Name": "Oblivion 7", "Value": "089", "Weight": 85, "CP Cost": 37}
+		,{"Name": "Oblivion 8", "Value": "08A", "Weight": 85, "CP Cost": 39}
+		,{"Name": "Oblivion 9", "Value": "08B", "Weight": 85, "CP Cost": 41}
 		
-		,{"Name": "Diamond Dust 0", "Value": "08C", "Weight": 75}
-		,{"Name": "Diamond Dust 1", "Value": "08D", "Weight": 75}
-		,{"Name": "Diamond Dust 2", "Value": "08E", "Weight": 75}
-		,{"Name": "Diamond Dust 3", "Value": "08F", "Weight": 75}
-		,{"Name": "Diamond Dust 4", "Value": "090", "Weight": 75}
-		,{"Name": "Diamond Dust 5", "Value": "091", "Weight": 75}
-		,{"Name": "Diamond Dust 6", "Value": "092", "Weight": 75}
-		,{"Name": "Diamond Dust 7", "Value": "093", "Weight": 75}
-		,{"Name": "Diamond Dust 8", "Value": "094", "Weight": 75}
-		,{"Name": "Diamond Dust 9", "Value": "095", "Weight": 75}
+		,{"Name": "Diamond Dust 0", "Value": "08C", "Weight": 75, "CP Cost": 43}
+		,{"Name": "Diamond Dust 1", "Value": "08D", "Weight": 75, "CP Cost": 25}
+		,{"Name": "Diamond Dust 2", "Value": "08E", "Weight": 75, "CP Cost": 27}
+		,{"Name": "Diamond Dust 3", "Value": "08F", "Weight": 75, "CP Cost": 29}
+		,{"Name": "Diamond Dust 4", "Value": "090", "Weight": 75, "CP Cost": 31}
+		,{"Name": "Diamond Dust 5", "Value": "091", "Weight": 75, "CP Cost": 33}
+		,{"Name": "Diamond Dust 6", "Value": "092", "Weight": 75, "CP Cost": 35}
+		,{"Name": "Diamond Dust 7", "Value": "093", "Weight": 75, "CP Cost": 37}
+		,{"Name": "Diamond Dust 8", "Value": "094", "Weight": 75, "CP Cost": 39}
+		,{"Name": "Diamond Dust 9", "Value": "095", "Weight": 75, "CP Cost": 41}
 		
-		,{"Name": "One Winged Angel 0", "Value": "096", "Weight": 75}
-		,{"Name": "One Winged Angel 1", "Value": "097", "Weight": 75}
-		,{"Name": "One Winged Angel 2", "Value": "098", "Weight": 75}
-		,{"Name": "One Winged Angel 3", "Value": "099", "Weight": 75}
-		,{"Name": "One Winged Angel 4", "Value": "09A", "Weight": 75}
-		,{"Name": "One Winged Angel 5", "Value": "09B", "Weight": 75}
-		,{"Name": "One Winged Angel 6", "Value": "09C", "Weight": 75}
-		,{"Name": "One Winged Angel 7", "Value": "09D", "Weight": 75}
-		,{"Name": "One Winged Angel 8", "Value": "09E", "Weight": 75}
-		,{"Name": "One Winged Angel 9", "Value": "09F", "Weight": 75}
+		,{"Name": "One Winged Angel 0", "Value": "096", "Weight": 75, "CP Cost": 43}
+		,{"Name": "One Winged Angel 1", "Value": "097", "Weight": 75, "CP Cost": 25}
+		,{"Name": "One Winged Angel 2", "Value": "098", "Weight": 75, "CP Cost": 27}
+		,{"Name": "One Winged Angel 3", "Value": "099", "Weight": 75, "CP Cost": 29}
+		,{"Name": "One Winged Angel 4", "Value": "09A", "Weight": 75, "CP Cost": 31}
+		,{"Name": "One Winged Angel 5", "Value": "09B", "Weight": 75, "CP Cost": 33}
+		,{"Name": "One Winged Angel 6", "Value": "09C", "Weight": 75, "CP Cost": 35}
+		,{"Name": "One Winged Angel 7", "Value": "09D", "Weight": 75, "CP Cost": 37}
+		,{"Name": "One Winged Angel 8", "Value": "09E", "Weight": 75, "CP Cost": 39}
+		,{"Name": "One Winged Angel 9", "Value": "09F", "Weight": 75, "CP Cost": 41}
 		
-		,{"Name": "Ultima Weapon 0", "Value": "0A0", "Weight": 75}
-		,{"Name": "Ultima Weapon 1", "Value": "0A1", "Weight": 75}
-		,{"Name": "Ultima Weapon 2", "Value": "0A2", "Weight": 75}
-		,{"Name": "Ultima Weapon 3", "Value": "0A3", "Weight": 75}
-		,{"Name": "Ultima Weapon 4", "Value": "0A4", "Weight": 75}
-		,{"Name": "Ultima Weapon 5", "Value": "0A5", "Weight": 75}
-		,{"Name": "Ultima Weapon 6", "Value": "0A6", "Weight": 75}
-		,{"Name": "Ultima Weapon 7", "Value": "0A7", "Weight": 75}
-		,{"Name": "Ultima Weapon 8", "Value": "0A8", "Weight": 75}
-		,{"Name": "Ultima Weapon 9", "Value": "0A9", "Weight": 75}
+		,{"Name": "Ultima Weapon 0", "Value": "0A0", "Weight": 75, "CP Cost": 57}
+		,{"Name": "Ultima Weapon 1", "Value": "0A1", "Weight": 75, "CP Cost": 30}
+		,{"Name": "Ultima Weapon 2", "Value": "0A2", "Weight": 75, "CP Cost": 33}
+		,{"Name": "Ultima Weapon 3", "Value": "0A3", "Weight": 75, "CP Cost": 36}
+		,{"Name": "Ultima Weapon 4", "Value": "0A4", "Weight": 75, "CP Cost": 39}
+		,{"Name": "Ultima Weapon 5", "Value": "0A5", "Weight": 75, "CP Cost": 42}
+		,{"Name": "Ultima Weapon 6", "Value": "0A6", "Weight": 75, "CP Cost": 45}
+		,{"Name": "Ultima Weapon 7", "Value": "0A7", "Weight": 75, "CP Cost": 48}
+		,{"Name": "Ultima Weapon 8", "Value": "0A8", "Weight": 75, "CP Cost": 51}
+		,{"Name": "Ultima Weapon 9", "Value": "0A9", "Weight": 75, "CP Cost": 54}
 		
-		,{"Name": "Fire 0", "Value": "0AA", "Weight": 75}
-		,{"Name": "Fire 1", "Value": "0AB", "Weight": 75}
-		,{"Name": "Fire 2", "Value": "0AC", "Weight": 75}
-		,{"Name": "Fire 3", "Value": "0AD", "Weight": 75}
-		,{"Name": "Fire 4", "Value": "0AE", "Weight": 75}
-		,{"Name": "Fire 5", "Value": "0AF", "Weight": 75}
-		,{"Name": "Fire 6", "Value": "0B0", "Weight": 75}
-		,{"Name": "Fire 7", "Value": "0B1", "Weight": 75}
-		,{"Name": "Fire 8", "Value": "0B2", "Weight": 75}
-		,{"Name": "Fire 9", "Value": "0B3", "Weight": 75}
+		,{"Name": "Fire 0", "Value": "0AA", "Weight": 75, "CP Cost": 24}
+		,{"Name": "Fire 1", "Value": "0AB", "Weight": 75, "CP Cost": 15}
+		,{"Name": "Fire 2", "Value": "0AC", "Weight": 75, "CP Cost": 16}
+		,{"Name": "Fire 3", "Value": "0AD", "Weight": 75, "CP Cost": 17}
+		,{"Name": "Fire 4", "Value": "0AE", "Weight": 75, "CP Cost": 18}
+		,{"Name": "Fire 5", "Value": "0AF", "Weight": 75, "CP Cost": 19}
+		,{"Name": "Fire 6", "Value": "0B0", "Weight": 75, "CP Cost": 20}
+		,{"Name": "Fire 7", "Value": "0B1", "Weight": 75, "CP Cost": 21}
+		,{"Name": "Fire 8", "Value": "0B2", "Weight": 75, "CP Cost": 22}
+		,{"Name": "Fire 9", "Value": "0B3", "Weight": 75, "CP Cost": 23}
 		
-		,{"Name": "Blizzard 0", "Value": "0B4", "Weight": 75}
-		,{"Name": "Blizzard 1", "Value": "0B5", "Weight": 75}
-		,{"Name": "Blizzard 2", "Value": "0B6", "Weight": 75}
-		,{"Name": "Blizzard 3", "Value": "0B7", "Weight": 75}
-		,{"Name": "Blizzard 4", "Value": "0B8", "Weight": 75}
-		,{"Name": "Blizzard 5", "Value": "0B9", "Weight": 75}
-		,{"Name": "Blizzard 6", "Value": "0BA", "Weight": 75}
-		,{"Name": "Blizzard 7", "Value": "0BB", "Weight": 75}
-		,{"Name": "Blizzard 8", "Value": "0BC", "Weight": 75}
-		,{"Name": "Blizzard 9", "Value": "0BD", "Weight": 75}
+		,{"Name": "Blizzard 0", "Value": "0B4", "Weight": 75, "CP Cost": 24}
+		,{"Name": "Blizzard 1", "Value": "0B5", "Weight": 75, "CP Cost": 15}
+		,{"Name": "Blizzard 2", "Value": "0B6", "Weight": 75, "CP Cost": 16}
+		,{"Name": "Blizzard 3", "Value": "0B7", "Weight": 75, "CP Cost": 17}
+		,{"Name": "Blizzard 4", "Value": "0B8", "Weight": 75, "CP Cost": 18}
+		,{"Name": "Blizzard 5", "Value": "0B9", "Weight": 75, "CP Cost": 19}
+		,{"Name": "Blizzard 6", "Value": "0BA", "Weight": 75, "CP Cost": 20}
+		,{"Name": "Blizzard 7", "Value": "0BB", "Weight": 75, "CP Cost": 21}
+		,{"Name": "Blizzard 8", "Value": "0BC", "Weight": 75, "CP Cost": 22}
+		,{"Name": "Blizzard 9", "Value": "0BD", "Weight": 75, "CP Cost": 23}
 		
-		,{"Name": "Thunder 0", "Value": "0BE", "Weight": 75}
-		,{"Name": "Thunder 1", "Value": "0BF", "Weight": 75}
-		,{"Name": "Thunder 2", "Value": "0C0", "Weight": 75}
-		,{"Name": "Thunder 3", "Value": "0C1", "Weight": 75}
-		,{"Name": "Thunder 4", "Value": "0C2", "Weight": 75}
-		,{"Name": "Thunder 5", "Value": "0C3", "Weight": 75}
-		,{"Name": "Thunder 6", "Value": "0C4", "Weight": 75}
-		,{"Name": "Thunder 7", "Value": "0C5", "Weight": 75}
-		,{"Name": "Thunder 8", "Value": "0C6", "Weight": 75}
-		,{"Name": "Thunder 9", "Value": "0C7", "Weight": 75}
+		,{"Name": "Thunder 0", "Value": "0BE", "Weight": 75, "CP Cost": 24}
+		,{"Name": "Thunder 1", "Value": "0BF", "Weight": 75, "CP Cost": 15}
+		,{"Name": "Thunder 2", "Value": "0C0", "Weight": 75, "CP Cost": 16}
+		,{"Name": "Thunder 3", "Value": "0C1", "Weight": 75, "CP Cost": 17}
+		,{"Name": "Thunder 4", "Value": "0C2", "Weight": 75, "CP Cost": 18}
+		,{"Name": "Thunder 5", "Value": "0C3", "Weight": 75, "CP Cost": 19}
+		,{"Name": "Thunder 6", "Value": "0C4", "Weight": 75, "CP Cost": 20}
+		,{"Name": "Thunder 7", "Value": "0C5", "Weight": 75, "CP Cost": 21}
+		,{"Name": "Thunder 8", "Value": "0C6", "Weight": 75, "CP Cost": 22}
+		,{"Name": "Thunder 9", "Value": "0C7", "Weight": 75, "CP Cost": 23}
 		
-		,{"Name": "Cure 0", "Value": "0C8", "Weight": 75}
-		,{"Name": "Cure 1", "Value": "0C9", "Weight": 75}
-		,{"Name": "Cure 2", "Value": "0CA", "Weight": 75}
-		,{"Name": "Cure 3", "Value": "0CB", "Weight": 75}
-		,{"Name": "Cure 4", "Value": "0CC", "Weight": 75}
-		,{"Name": "Cure 5", "Value": "0CD", "Weight": 75}
-		,{"Name": "Cure 6", "Value": "0CE", "Weight": 75}
-		,{"Name": "Cure 7", "Value": "0CF", "Weight": 75}
-		,{"Name": "Cure 8", "Value": "0D0", "Weight": 75}
-		,{"Name": "Cure 9", "Value": "0D1", "Weight": 75}
+		,{"Name": "Cure 0", "Value": "0C8", "Weight": 0, "CP Cost": 43}
+		,{"Name": "Cure 1", "Value": "0C9", "Weight": 0, "CP Cost": 25}
+		,{"Name": "Cure 2", "Value": "0CA", "Weight": 0, "CP Cost": 27}
+		,{"Name": "Cure 3", "Value": "0CB", "Weight": 0, "CP Cost": 29}
+		,{"Name": "Cure 4", "Value": "0CC", "Weight": 0, "CP Cost": 31}
+		,{"Name": "Cure 5", "Value": "0CD", "Weight": 0, "CP Cost": 33}
+		,{"Name": "Cure 6", "Value": "0CE", "Weight": 0, "CP Cost": 35}
+		,{"Name": "Cure 7", "Value": "0CF", "Weight": 0, "CP Cost": 37}
+		,{"Name": "Cure 8", "Value": "0D0", "Weight": 0, "CP Cost": 39}
+		,{"Name": "Cure 9", "Value": "0D1", "Weight": 0, "CP Cost": 41}
 		
-		,{"Name": "Gravity 0", "Value": "0D2", "Weight": 65}
-		,{"Name": "Gravity 1", "Value": "0D3", "Weight": 65}
-		,{"Name": "Gravity 2", "Value": "0D4", "Weight": 65}
-		,{"Name": "Gravity 3", "Value": "0D5", "Weight": 65}
-		,{"Name": "Gravity 4", "Value": "0D6", "Weight": 65}
-		,{"Name": "Gravity 5", "Value": "0D7", "Weight": 65}
-		,{"Name": "Gravity 6", "Value": "0D8", "Weight": 65}
-		,{"Name": "Gravity 7", "Value": "0D9", "Weight": 65}
-		,{"Name": "Gravity 8", "Value": "0DA", "Weight": 65}
-		,{"Name": "Gravity 9", "Value": "0DB", "Weight": 65}
+		,{"Name": "Gravity 0", "Value": "0D2", "Weight": 65, "CP Cost": 38}
+		,{"Name": "Gravity 1", "Value": "0D3", "Weight": 65, "CP Cost": 20}
+		,{"Name": "Gravity 2", "Value": "0D4", "Weight": 65, "CP Cost": 22}
+		,{"Name": "Gravity 3", "Value": "0D5", "Weight": 65, "CP Cost": 24}
+		,{"Name": "Gravity 4", "Value": "0D6", "Weight": 65, "CP Cost": 26}
+		,{"Name": "Gravity 5", "Value": "0D7", "Weight": 65, "CP Cost": 28}
+		,{"Name": "Gravity 6", "Value": "0D8", "Weight": 65, "CP Cost": 30}
+		,{"Name": "Gravity 7", "Value": "0D9", "Weight": 65, "CP Cost": 32}
+		,{"Name": "Gravity 8", "Value": "0DA", "Weight": 65, "CP Cost": 34}
+		,{"Name": "Gravity 9", "Value": "0DB", "Weight": 65, "CP Cost": 36}
 		
-		,{"Name": "Stop 0", "Value": "0DC", "Weight": 65}
-		,{"Name": "Stop 1", "Value": "0DD", "Weight": 65}
-		,{"Name": "Stop 2", "Value": "0DE", "Weight": 65}
-		,{"Name": "Stop 3", "Value": "0DF", "Weight": 65}
-		,{"Name": "Stop 4", "Value": "0E0", "Weight": 65}
-		,{"Name": "Stop 5", "Value": "0E1", "Weight": 65}
-		,{"Name": "Stop 6", "Value": "0E2", "Weight": 65}
-		,{"Name": "Stop 7", "Value": "0E3", "Weight": 65}
-		,{"Name": "Stop 8", "Value": "0E4", "Weight": 65}
-		,{"Name": "Stop 9", "Value": "0E5", "Weight": 65}
+		,{"Name": "Stop 0", "Value": "0DC", "Weight": 65, "CP Cost": 38}
+		,{"Name": "Stop 1", "Value": "0DD", "Weight": 65, "CP Cost": 20}
+		,{"Name": "Stop 2", "Value": "0DE", "Weight": 65, "CP Cost": 22}
+		,{"Name": "Stop 3", "Value": "0DF", "Weight": 65, "CP Cost": 24}
+		,{"Name": "Stop 4", "Value": "0E0", "Weight": 65, "CP Cost": 26}
+		,{"Name": "Stop 5", "Value": "0E1", "Weight": 65, "CP Cost": 28}
+		,{"Name": "Stop 6", "Value": "0E2", "Weight": 65, "CP Cost": 30}
+		,{"Name": "Stop 7", "Value": "0E3", "Weight": 65, "CP Cost": 32}
+		,{"Name": "Stop 8", "Value": "0E4", "Weight": 65, "CP Cost": 34}
+		,{"Name": "Stop 9", "Value": "0E5", "Weight": 65, "CP Cost": 36}
 		
-		,{"Name": "Aero 0", "Value": "0E6", "Weight": 65}
-		,{"Name": "Aero 1", "Value": "0E7", "Weight": 65}
-		,{"Name": "Aero 2", "Value": "0E8", "Weight": 65}
-		,{"Name": "Aero 3", "Value": "0E9", "Weight": 65}
-		,{"Name": "Aero 4", "Value": "0EA", "Weight": 65}
-		,{"Name": "Aero 5", "Value": "0EB", "Weight": 65}
-		,{"Name": "Aero 6", "Value": "0EC", "Weight": 65}
-		,{"Name": "Aero 7", "Value": "0ED", "Weight": 65}
-		,{"Name": "Aero 8", "Value": "0EE", "Weight": 65}
-		,{"Name": "Aero 9", "Value": "0EF", "Weight": 65}
+		,{"Name": "Aero 0", "Value": "0E6", "Weight": 65, "CP Cost": 38}
+		,{"Name": "Aero 1", "Value": "0E7", "Weight": 65, "CP Cost": 20}
+		,{"Name": "Aero 2", "Value": "0E8", "Weight": 65, "CP Cost": 22}
+		,{"Name": "Aero 3", "Value": "0E9", "Weight": 65, "CP Cost": 24}
+		,{"Name": "Aero 4", "Value": "0EA", "Weight": 65, "CP Cost": 26}
+		,{"Name": "Aero 5", "Value": "0EB", "Weight": 65, "CP Cost": 28}
+		,{"Name": "Aero 6", "Value": "0EC", "Weight": 65, "CP Cost": 30}
+		,{"Name": "Aero 7", "Value": "0ED", "Weight": 65, "CP Cost": 32}
+		,{"Name": "Aero 8", "Value": "0EE", "Weight": 65, "CP Cost": 34}
+		,{"Name": "Aero 9", "Value": "0EF", "Weight": 65, "CP Cost": 36}
 		
-		,{"Name": "Simba 0", "Value": "104", "Weight": 75}
-		,{"Name": "Simba 1", "Value": "105", "Weight": 75}
-		,{"Name": "Simba 2", "Value": "106", "Weight": 75}
-		,{"Name": "Simba 3", "Value": "107", "Weight": 75}
-		,{"Name": "Simba 4", "Value": "108", "Weight": 75}
-		,{"Name": "Simba 5", "Value": "109", "Weight": 75}
-		,{"Name": "Simba 6", "Value": "10A", "Weight": 75}
-		,{"Name": "Simba 7", "Value": "10B", "Weight": 75}
-		,{"Name": "Simba 8", "Value": "10C", "Weight": 75}
-		,{"Name": "Simba 9", "Value": "10D", "Weight": 75}
+		,{"Name": "Simba 0", "Value": "104", "Weight": 75, "CP Cost": 38}
+		,{"Name": "Simba 1", "Value": "105", "Weight": 75, "CP Cost": 20}
+		,{"Name": "Simba 2", "Value": "106", "Weight": 75, "CP Cost": 22}
+		,{"Name": "Simba 3", "Value": "107", "Weight": 75, "CP Cost": 24}
+		,{"Name": "Simba 4", "Value": "108", "Weight": 75, "CP Cost": 26}
+		,{"Name": "Simba 5", "Value": "109", "Weight": 75, "CP Cost": 28}
+		,{"Name": "Simba 6", "Value": "10A", "Weight": 75, "CP Cost": 30}
+		,{"Name": "Simba 7", "Value": "10B", "Weight": 75, "CP Cost": 32}
+		,{"Name": "Simba 8", "Value": "10C", "Weight": 75, "CP Cost": 34}
+		,{"Name": "Simba 9", "Value": "10D", "Weight": 75, "CP Cost": 36}
 		
-		,{"Name": "Genie 0", "Value": "10E", "Weight": 75}
-		,{"Name": "Genie 1", "Value": "10F", "Weight": 75}
-		,{"Name": "Genie 2", "Value": "110", "Weight": 75}
-		,{"Name": "Genie 3", "Value": "111", "Weight": 75}
-		,{"Name": "Genie 4", "Value": "112", "Weight": 75}
-		,{"Name": "Genie 5", "Value": "113", "Weight": 75}
-		,{"Name": "Genie 6", "Value": "114", "Weight": 75}
-		,{"Name": "Genie 7", "Value": "115", "Weight": 75}
-		,{"Name": "Genie 8", "Value": "116", "Weight": 75}
-		,{"Name": "Genie 9", "Value": "117", "Weight": 75}
+		,{"Name": "Genie 0", "Value": "10E", "Weight": 75, "CP Cost": 38}
+		,{"Name": "Genie 1", "Value": "10F", "Weight": 75, "CP Cost": 20}
+		,{"Name": "Genie 2", "Value": "110", "Weight": 75, "CP Cost": 22}
+		,{"Name": "Genie 3", "Value": "111", "Weight": 75, "CP Cost": 24}
+		,{"Name": "Genie 4", "Value": "112", "Weight": 75, "CP Cost": 26}
+		,{"Name": "Genie 5", "Value": "113", "Weight": 75, "CP Cost": 28}
+		,{"Name": "Genie 6", "Value": "114", "Weight": 75, "CP Cost": 30}
+		,{"Name": "Genie 7", "Value": "115", "Weight": 75, "CP Cost": 32}
+		,{"Name": "Genie 8", "Value": "116", "Weight": 75, "CP Cost": 34}
+		,{"Name": "Genie 9", "Value": "117", "Weight": 75, "CP Cost": 36}
 		
-		,{"Name": "Bambi 0", "Value": "118", "Weight": 75}
-		,{"Name": "Bambi 1", "Value": "119", "Weight": 75}
-		,{"Name": "Bambi 2", "Value": "11A", "Weight": 75}
-		,{"Name": "Bambi 3", "Value": "11B", "Weight": 75}
-		,{"Name": "Bambi 4", "Value": "11C", "Weight": 75}
-		,{"Name": "Bambi 5", "Value": "11D", "Weight": 75}
-		,{"Name": "Bambi 6", "Value": "11E", "Weight": 75}
-		,{"Name": "Bambi 7", "Value": "11F", "Weight": 75}
-		,{"Name": "Bambi 8", "Value": "120", "Weight": 75}
-		,{"Name": "Bambi 9", "Value": "121", "Weight": 75}
+		,{"Name": "Bambi 0", "Value": "118", "Weight": 75, "CP Cost": 38}
+		,{"Name": "Bambi 1", "Value": "119", "Weight": 75, "CP Cost": 20}
+		,{"Name": "Bambi 2", "Value": "11A", "Weight": 75, "CP Cost": 22}
+		,{"Name": "Bambi 3", "Value": "11B", "Weight": 75, "CP Cost": 24}
+		,{"Name": "Bambi 4", "Value": "11C", "Weight": 75, "CP Cost": 26}
+		,{"Name": "Bambi 5", "Value": "11D", "Weight": 75, "CP Cost": 28}
+		,{"Name": "Bambi 6", "Value": "11E", "Weight": 75, "CP Cost": 30}
+		,{"Name": "Bambi 7", "Value": "11F", "Weight": 75, "CP Cost": 32}
+		,{"Name": "Bambi 8", "Value": "120", "Weight": 75, "CP Cost": 34}
+		,{"Name": "Bambi 9", "Value": "121", "Weight": 75, "CP Cost": 36}
 		
-		,{"Name": "Dumbo 0", "Value": "122", "Weight": 65}
-		,{"Name": "Dumbo 1", "Value": "123", "Weight": 65}
-		,{"Name": "Dumbo 2", "Value": "124", "Weight": 65}
-		,{"Name": "Dumbo 3", "Value": "125", "Weight": 65}
-		,{"Name": "Dumbo 4", "Value": "126", "Weight": 65}
-		,{"Name": "Dumbo 5", "Value": "127", "Weight": 65}
-		,{"Name": "Dumbo 6", "Value": "128", "Weight": 65}
-		,{"Name": "Dumbo 7", "Value": "129", "Weight": 65}
-		,{"Name": "Dumbo 8", "Value": "12A", "Weight": 65}
-		,{"Name": "Dumbo 9", "Value": "12B", "Weight": 65}
+		,{"Name": "Dumbo 0", "Value": "122", "Weight": 65, "CP Cost": 38}
+		,{"Name": "Dumbo 1", "Value": "123", "Weight": 65, "CP Cost": 20}
+		,{"Name": "Dumbo 2", "Value": "124", "Weight": 65, "CP Cost": 22}
+		,{"Name": "Dumbo 3", "Value": "125", "Weight": 65, "CP Cost": 24}
+		,{"Name": "Dumbo 4", "Value": "126", "Weight": 65, "CP Cost": 26}
+		,{"Name": "Dumbo 5", "Value": "127", "Weight": 65, "CP Cost": 28}
+		,{"Name": "Dumbo 6", "Value": "128", "Weight": 65, "CP Cost": 30}
+		,{"Name": "Dumbo 7", "Value": "129", "Weight": 65, "CP Cost": 32}
+		,{"Name": "Dumbo 8", "Value": "12A", "Weight": 65, "CP Cost": 34}
+		,{"Name": "Dumbo 9", "Value": "12B", "Weight": 65, "CP Cost": 36}
 		
-		,{"Name": "Tinker Bell 0", "Value": "12C", "Weight": 65}
-		,{"Name": "Tinker Bell 1", "Value": "12D", "Weight": 65}
-		,{"Name": "Tinker Bell 2", "Value": "12E", "Weight": 65}
-		,{"Name": "Tinker Bell 3", "Value": "12F", "Weight": 65}
-		,{"Name": "Tinker Bell 4", "Value": "130", "Weight": 65}
-		,{"Name": "Tinker Bell 5", "Value": "131", "Weight": 65}
-		,{"Name": "Tinker Bell 6", "Value": "132", "Weight": 65}
-		,{"Name": "Tinker Bell 7", "Value": "133", "Weight": 65}
-		,{"Name": "Tinker Bell 8", "Value": "134", "Weight": 65}
-		,{"Name": "Tinker Bell 9", "Value": "135", "Weight": 65}
+		,{"Name": "Tinker Bell 0", "Value": "12C", "Weight": 65, "CP Cost": 38}
+		,{"Name": "Tinker Bell 1", "Value": "12D", "Weight": 65, "CP Cost": 20}
+		,{"Name": "Tinker Bell 2", "Value": "12E", "Weight": 65, "CP Cost": 22}
+		,{"Name": "Tinker Bell 3", "Value": "12F", "Weight": 65, "CP Cost": 24}
+		,{"Name": "Tinker Bell 4", "Value": "130", "Weight": 65, "CP Cost": 26}
+		,{"Name": "Tinker Bell 5", "Value": "131", "Weight": 65, "CP Cost": 28}
+		,{"Name": "Tinker Bell 6", "Value": "132", "Weight": 65, "CP Cost": 30}
+		,{"Name": "Tinker Bell 7", "Value": "133", "Weight": 65, "CP Cost": 32}
+		,{"Name": "Tinker Bell 8", "Value": "134", "Weight": 65, "CP Cost": 34}
+		,{"Name": "Tinker Bell 9", "Value": "135", "Weight": 65, "CP Cost": 36}
 		
-		,{"Name": "Mushu 0", "Value": "136", "Weight": 65}
-		,{"Name": "Mushu 1", "Value": "137", "Weight": 65}
-		,{"Name": "Mushu 2", "Value": "138", "Weight": 65}
-		,{"Name": "Mushu 3", "Value": "139", "Weight": 65}
-		,{"Name": "Mushu 4", "Value": "13A", "Weight": 65}
-		,{"Name": "Mushu 5", "Value": "13B", "Weight": 65}
-		,{"Name": "Mushu 6", "Value": "13C", "Weight": 65}
-		,{"Name": "Mushu 7", "Value": "13D", "Weight": 65}
-		,{"Name": "Mushu 8", "Value": "13E", "Weight": 65}
-		,{"Name": "Mushu 9", "Value": "13F", "Weight": 65}
+		,{"Name": "Mushu 0", "Value": "136", "Weight": 65, "CP Cost": 43}
+		,{"Name": "Mushu 1", "Value": "137", "Weight": 65, "CP Cost": 25}
+		,{"Name": "Mushu 2", "Value": "138", "Weight": 65, "CP Cost": 27}
+		,{"Name": "Mushu 3", "Value": "139", "Weight": 65, "CP Cost": 29}
+		,{"Name": "Mushu 4", "Value": "13A", "Weight": 65, "CP Cost": 31}
+		,{"Name": "Mushu 5", "Value": "13B", "Weight": 65, "CP Cost": 33}
+		,{"Name": "Mushu 6", "Value": "13C", "Weight": 65, "CP Cost": 35}
+		,{"Name": "Mushu 7", "Value": "13D", "Weight": 65, "CP Cost": 37}
+		,{"Name": "Mushu 8", "Value": "13E", "Weight": 65, "CP Cost": 39}
+		,{"Name": "Mushu 9", "Value": "13F", "Weight": 65, "CP Cost": 41}
 		
-		,{"Name": "Cloud 0", "Value": "140", "Weight": 75}
-		,{"Name": "Cloud 1", "Value": "141", "Weight": 75}
-		,{"Name": "Cloud 2", "Value": "142", "Weight": 75}
-		,{"Name": "Cloud 3", "Value": "143", "Weight": 75}
-		,{"Name": "Cloud 4", "Value": "144", "Weight": 75}
-		,{"Name": "Cloud 5", "Value": "145", "Weight": 75}
-		,{"Name": "Cloud 6", "Value": "146", "Weight": 75}
-		,{"Name": "Cloud 7", "Value": "147", "Weight": 75}
-		,{"Name": "Cloud 8", "Value": "148", "Weight": 75}
-		,{"Name": "Cloud 9", "Value": "149", "Weight": 75}
+		,{"Name": "Cloud 0", "Value": "140", "Weight": 75, "CP Cost": 43}
+		,{"Name": "Cloud 1", "Value": "141", "Weight": 75, "CP Cost": 25}
+		,{"Name": "Cloud 2", "Value": "142", "Weight": 75, "CP Cost": 27}
+		,{"Name": "Cloud 3", "Value": "143", "Weight": 75, "CP Cost": 29}
+		,{"Name": "Cloud 4", "Value": "144", "Weight": 75, "CP Cost": 31}
+		,{"Name": "Cloud 5", "Value": "145", "Weight": 75, "CP Cost": 33}
+		,{"Name": "Cloud 6", "Value": "146", "Weight": 75, "CP Cost": 35}
+		,{"Name": "Cloud 7", "Value": "147", "Weight": 75, "CP Cost": 37}
+		,{"Name": "Cloud 8", "Value": "148", "Weight": 75, "CP Cost": 39}
+		,{"Name": "Cloud 9", "Value": "149", "Weight": 75, "CP Cost": 41}
 		
-		,{"Name": "Potion 0", "Value": "17C", "Weight": 75}
-		,{"Name": "Potion 1", "Value": "17D", "Weight": 75}
-		,{"Name": "Potion 2", "Value": "17E", "Weight": 75}
-		,{"Name": "Potion 3", "Value": "17F", "Weight": 75}
-		,{"Name": "Potion 4", "Value": "180", "Weight": 75}
-		,{"Name": "Potion 5", "Value": "181", "Weight": 75}
-		,{"Name": "Potion 6", "Value": "182", "Weight": 75}
-		,{"Name": "Potion 7", "Value": "183", "Weight": 75}
-		,{"Name": "Potion 8", "Value": "184", "Weight": 75}
-		,{"Name": "Potion 9", "Value": "185", "Weight": 75}
+		,{"Name": "Potion 0", "Value": "17C", "Weight": 75, "CP Cost": 57}
+		,{"Name": "Potion 1", "Value": "17D", "Weight": 75, "CP Cost": 30}
+		,{"Name": "Potion 2", "Value": "17E", "Weight": 75, "CP Cost": 33}
+		,{"Name": "Potion 3", "Value": "17F", "Weight": 75, "CP Cost": 36}
+		,{"Name": "Potion 4", "Value": "180", "Weight": 75, "CP Cost": 39}
+		,{"Name": "Potion 5", "Value": "181", "Weight": 75, "CP Cost": 42}
+		,{"Name": "Potion 6", "Value": "182", "Weight": 75, "CP Cost": 45}
+		,{"Name": "Potion 7", "Value": "183", "Weight": 75, "CP Cost": 48}
+		,{"Name": "Potion 8", "Value": "184", "Weight": 75, "CP Cost": 51}
+		,{"Name": "Potion 9", "Value": "185", "Weight": 75, "CP Cost": 54}
 		
-		,{"Name": "Hi-Potion 0", "Value": "186", "Weight": 65}
-		,{"Name": "Hi-Potion 1", "Value": "187", "Weight": 65}
-		,{"Name": "Hi-Potion 2", "Value": "188", "Weight": 65}
-		,{"Name": "Hi-Potion 3", "Value": "189", "Weight": 65}
-		,{"Name": "Hi-Potion 4", "Value": "18A", "Weight": 65}
-		,{"Name": "Hi-Potion 5", "Value": "18B", "Weight": 65}
-		,{"Name": "Hi-Potion 6", "Value": "18C", "Weight": 65}
-		,{"Name": "Hi-Potion 7", "Value": "18D", "Weight": 65}
-		,{"Name": "Hi-Potion 8", "Value": "18E", "Weight": 65}
-		,{"Name": "Hi-Potion 9", "Value": "18F", "Weight": 65}
+		,{"Name": "Hi-Potion 0", "Value": "186", "Weight": 65, "CP Cost": 76}
+		,{"Name": "Hi-Potion 1", "Value": "187", "Weight": 65, "CP Cost": 40}
+		,{"Name": "Hi-Potion 2", "Value": "188", "Weight": 65, "CP Cost": 44}
+		,{"Name": "Hi-Potion 3", "Value": "189", "Weight": 65, "CP Cost": 48}
+		,{"Name": "Hi-Potion 4", "Value": "18A", "Weight": 65, "CP Cost": 52}
+		,{"Name": "Hi-Potion 5", "Value": "18B", "Weight": 65, "CP Cost": 56}
+		,{"Name": "Hi-Potion 6", "Value": "18C", "Weight": 65, "CP Cost": 60}
+		,{"Name": "Hi-Potion 7", "Value": "18D", "Weight": 65, "CP Cost": 64}
+		,{"Name": "Hi-Potion 8", "Value": "18E", "Weight": 65, "CP Cost": 68}
+		,{"Name": "Hi-Potion 9", "Value": "18F", "Weight": 65, "CP Cost": 72}
 		
-		,{"Name": "Mega-Potion 0", "Value": "190", "Weight": 55}
-		,{"Name": "Mega-Potion 1", "Value": "191", "Weight": 55}
-		,{"Name": "Mega-Potion 2", "Value": "192", "Weight": 55}
-		,{"Name": "Mega-Potion 3", "Value": "193", "Weight": 55}
-		,{"Name": "Mega-Potion 4", "Value": "194", "Weight": 55}
-		,{"Name": "Mega-Potion 5", "Value": "195", "Weight": 55}
-		,{"Name": "Mega-Potion 6", "Value": "196", "Weight": 55}
-		,{"Name": "Mega-Potion 7", "Value": "197", "Weight": 55}
-		,{"Name": "Mega-Potion 8", "Value": "198", "Weight": 55}
-		,{"Name": "Mega-Potion 9", "Value": "199", "Weight": 55}
+		,{"Name": "Mega-Potion 0", "Value": "190", "Weight": 55, "CP Cost": 81}
+		,{"Name": "Mega-Potion 1", "Value": "191", "Weight": 55, "CP Cost": 45}
+		,{"Name": "Mega-Potion 2", "Value": "192", "Weight": 55, "CP Cost": 49}
+		,{"Name": "Mega-Potion 3", "Value": "193", "Weight": 55, "CP Cost": 53}
+		,{"Name": "Mega-Potion 4", "Value": "194", "Weight": 55, "CP Cost": 57}
+		,{"Name": "Mega-Potion 5", "Value": "195", "Weight": 55, "CP Cost": 61}
+		,{"Name": "Mega-Potion 6", "Value": "196", "Weight": 55, "CP Cost": 65}
+		,{"Name": "Mega-Potion 7", "Value": "197", "Weight": 55, "CP Cost": 69}
+		,{"Name": "Mega-Potion 8", "Value": "198", "Weight": 55, "CP Cost": 73}
+		,{"Name": "Mega-Potion 9", "Value": "199", "Weight": 55, "CP Cost": 77}
 		
-		,{"Name": "Ether 0", "Value": "19A", "Weight": 65}
-		,{"Name": "Ether 1", "Value": "19B", "Weight": 65}
-		,{"Name": "Ether 2", "Value": "19C", "Weight": 65}
-		,{"Name": "Ether 3", "Value": "19D", "Weight": 65}
-		,{"Name": "Ether 4", "Value": "19E", "Weight": 65}
-		,{"Name": "Ether 5", "Value": "19F", "Weight": 65}
-		,{"Name": "Ether 6", "Value": "1A0", "Weight": 65}
-		,{"Name": "Ether 7", "Value": "1A1", "Weight": 65}
-		,{"Name": "Ether 8", "Value": "1A2", "Weight": 65}
-		,{"Name": "Ether 9", "Value": "1A3", "Weight": 65}
+		,{"Name": "Ether 0", "Value": "19A", "Weight": 65, "CP Cost": 38}
+		,{"Name": "Ether 1", "Value": "19B", "Weight": 65, "CP Cost": 20}
+		,{"Name": "Ether 2", "Value": "19C", "Weight": 65, "CP Cost": 22}
+		,{"Name": "Ether 3", "Value": "19D", "Weight": 65, "CP Cost": 24}
+		,{"Name": "Ether 4", "Value": "19E", "Weight": 65, "CP Cost": 26}
+		,{"Name": "Ether 5", "Value": "19F", "Weight": 65, "CP Cost": 28}
+		,{"Name": "Ether 6", "Value": "1A0", "Weight": 65, "CP Cost": 30}
+		,{"Name": "Ether 7", "Value": "1A1", "Weight": 65, "CP Cost": 32}
+		,{"Name": "Ether 8", "Value": "1A2", "Weight": 65, "CP Cost": 34}
+		,{"Name": "Ether 9", "Value": "1A3", "Weight": 65, "CP Cost": 36}
 		
-		,{"Name": "Mega-Ether 0", "Value": "1A4", "Weight": 55}
-		,{"Name": "Mega-Ether 1", "Value": "1A5", "Weight": 55}
-		,{"Name": "Mega-Ether 2", "Value": "1A6", "Weight": 55}
-		,{"Name": "Mega-Ether 3", "Value": "1A7", "Weight": 55}
-		,{"Name": "Mega-Ether 4", "Value": "1A8", "Weight": 55}
-		,{"Name": "Mega-Ether 5", "Value": "1A9", "Weight": 55}
-		,{"Name": "Mega-Ether 6", "Value": "1AA", "Weight": 55}
-		,{"Name": "Mega-Ether 7", "Value": "1AB", "Weight": 55}
-		,{"Name": "Mega-Ether 8", "Value": "1AC", "Weight": 55}
-		,{"Name": "Mega-Ether 9", "Value": "1AD", "Weight": 55}
+		,{"Name": "Mega-Ether 0", "Value": "1A4", "Weight": 55, "CP Cost": 62}
+		,{"Name": "Mega-Ether 1", "Value": "1A5", "Weight": 55, "CP Cost": 35}
+		,{"Name": "Mega-Ether 2", "Value": "1A6", "Weight": 55, "CP Cost": 38}
+		,{"Name": "Mega-Ether 3", "Value": "1A7", "Weight": 55, "CP Cost": 41}
+		,{"Name": "Mega-Ether 4", "Value": "1A8", "Weight": 55, "CP Cost": 44}
+		,{"Name": "Mega-Ether 5", "Value": "1A9", "Weight": 55, "CP Cost": 47}
+		,{"Name": "Mega-Ether 6", "Value": "1AA", "Weight": 55, "CP Cost": 50}
+		,{"Name": "Mega-Ether 7", "Value": "1AB", "Weight": 55, "CP Cost": 53}
+		,{"Name": "Mega-Ether 8", "Value": "1AC", "Weight": 55, "CP Cost": 56}
+		,{"Name": "Mega-Ether 9", "Value": "1AD", "Weight": 55, "CP Cost": 59}
 		
-		,{"Name": "Elixir 0", "Value": "1AE", "Weight": 65}
-		,{"Name": "Elixir 1", "Value": "1AF", "Weight": 65}
-		,{"Name": "Elixir 2", "Value": "1B0", "Weight": 65}
-		,{"Name": "Elixir 3", "Value": "1B1", "Weight": 65}
-		,{"Name": "Elixir 4", "Value": "1B2", "Weight": 65}
-		,{"Name": "Elixir 5", "Value": "1B3", "Weight": 65}
-		,{"Name": "Elixir 6", "Value": "1B4", "Weight": 65}
-		,{"Name": "Elixir 7", "Value": "1B5", "Weight": 65}
-		,{"Name": "Elixir 8", "Value": "1B6", "Weight": 65}
-		,{"Name": "Elixir 9", "Value": "1B7", "Weight": 65}
+		,{"Name": "Elixir 0", "Value": "1AE", "Weight": 65, "CP Cost": 81}
+		,{"Name": "Elixir 1", "Value": "1AF", "Weight": 65, "CP Cost": 45}
+		,{"Name": "Elixir 2", "Value": "1B0", "Weight": 65, "CP Cost": 49}
+		,{"Name": "Elixir 3", "Value": "1B1", "Weight": 65, "CP Cost": 53}
+		,{"Name": "Elixir 4", "Value": "1B2", "Weight": 65, "CP Cost": 57}
+		,{"Name": "Elixir 5", "Value": "1B3", "Weight": 65, "CP Cost": 61}
+		,{"Name": "Elixir 6", "Value": "1B4", "Weight": 65, "CP Cost": 65}
+		,{"Name": "Elixir 7", "Value": "1B5", "Weight": 65, "CP Cost": 69}
+		,{"Name": "Elixir 8", "Value": "1B6", "Weight": 65, "CP Cost": 73}
+		,{"Name": "Elixir 9", "Value": "1B7", "Weight": 65, "CP Cost": 77}
 		
-		,{"Name": "Megalixir 0", "Value": "1B8", "Weight": 45}
-		,{"Name": "Megalixir 1", "Value": "1B9", "Weight": 45}
-		,{"Name": "Megalixir 2", "Value": "1BA", "Weight": 45}
-		,{"Name": "Megalixir 3", "Value": "1BB", "Weight": 45}
-		,{"Name": "Megalixir 4", "Value": "1BC", "Weight": 45}
-		,{"Name": "Megalixir 5", "Value": "1BD", "Weight": 45}
-		,{"Name": "Megalixir 6", "Value": "1BE", "Weight": 45}
-		,{"Name": "Megalixir 7", "Value": "1BF", "Weight": 45}
-		,{"Name": "Megalixir 8", "Value": "1C0", "Weight": 45}
-		,{"Name": "Megalixir 9", "Value": "1C1", "Weight": 45}
+		,{"Name": "Megalixir 0", "Value": "1B8", "Weight": 45, "CP Cost": 95}
+		,{"Name": "Megalixir 1", "Value": "1B9", "Weight": 45, "CP Cost": 50}
+		,{"Name": "Megalixir 2", "Value": "1BA", "Weight": 45, "CP Cost": 55}
+		,{"Name": "Megalixir 3", "Value": "1BB", "Weight": 45, "CP Cost": 60}
+		,{"Name": "Megalixir 4", "Value": "1BC", "Weight": 45, "CP Cost": 65}
+		,{"Name": "Megalixir 5", "Value": "1BD", "Weight": 45, "CP Cost": 70}
+		,{"Name": "Megalixir 6", "Value": "1BE", "Weight": 45, "CP Cost": 75}
+		,{"Name": "Megalixir 7", "Value": "1BF", "Weight": 45, "CP Cost": 80}
+		,{"Name": "Megalixir 8", "Value": "1C0", "Weight": 45, "CP Cost": 85}
+		,{"Name": "Megalixir 9", "Value": "1C1", "Weight": 45, "CP Cost": 90}
 	]
 }

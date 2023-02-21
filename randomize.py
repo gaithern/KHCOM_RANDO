@@ -1,30 +1,9 @@
 import json
-import argparse
 import random
 import time
+import PySimpleGUI as sg
 
 settings = {"F1TT": True, "F13CO": True, "FG": 6, "SG": 10, "BCTM": True}
-parser = argparse.ArgumentParser()
-parser.add_argument("--F1TT", required = False) #Defines if the first floor should be Traverse Town
-parser.add_argument("--F13CO", required = False) #Defines if the last floor should be Castle Oblivion
-parser.add_argument("--FG", required = False) #Defines the first goal floor
-parser.add_argument("--SG", required = False) #Defines the second goal floor
-parser.add_argument("--seed", required = False) #Defines the seed if you wish to use a specific seed
-args = parser.parse_args()
-if args.F1TT is not None:
-    if args.F1TT == "False":
-        settings["F1TT"] = False
-if args.F13CO is not None:
-    if args.F13CO == "False":
-        settings["F13CO"] = False
-if args.seed is not None:
-    seed = args.seed
-else:
-    seed = time.time()
-if args.FG is not None:
-    settings["FG"] = args.FG
-if args.SG is not None:
-    settings["SG"] = args.SG
 
 def load_json_data(filename):
     with open(filename) as json_file:
@@ -51,20 +30,23 @@ def choose_worlds_for_each_floor(seed):
         i = i + 1
     return worlds
 
-def reassign_battle_cards(seed):
+def reassign_battle_cards(seed, zeroes_allowed, cures_allowed):
     random.seed(a=seed)
     possible_battle_cards = load_json_data("battle_cards.json")["Battle Cards"]
     possible_battle_cards_values = []
     possible_battle_card_weights = []
     for card in possible_battle_cards:
         possible_battle_cards_values.append(card["Value"])
-        possible_battle_card_weights.append(card["Weight"])
+        if (card["Name"][:-1] == 0 and zeroes_allowed == "No") or (card["Name"][:4] == "Cure" and cures_allowed == "No"):
+            possible_battle_card_weights.append(0)
+        else:
+            possible_battle_card_weights.append(card["Weight"])
     battle_card_reassignments = {}
     for card in possible_battle_cards_values:
         battle_card_reassignments[card] = random.choices(possible_battle_cards_values, possible_battle_card_weights)
     return battle_card_reassignments
 
-def reassign_battle_cards_type_for_type(seed):
+def reassign_battle_cards_type_for_type(seed, zeroes_allowed, cures_allowed):
     random.seed(a=seed)
     possible_battle_cards = load_json_data("battle_cards.json")["Battle Cards"]
     possible_battle_cards_for_reassignment = []
@@ -78,11 +60,16 @@ def reassign_battle_cards_type_for_type(seed):
     type_reassignments = {}
     for type in possible_types:
         type_reassignments[type] = random.choice(possible_types)
+        while type_reassignments[type] == "Cure" and cures_allowed == "No":
+            type_reassignments[type] = random.choice(possible_types)
     battle_card_reassignments = {}
     for card in possible_battle_cards_for_reassignment:
         for i_card in possible_battle_cards_for_reassignment:
             if type_reassignments[card["Type"]] == i_card["Type"] and card["Number"] == i_card["Number"]:
-                battle_card_reassignments[card["Value"]] = [i_card["Value"]]
+                if zeroes_allowed == "No" and card["Number"] == "0":
+                    battle_card_reassignments[card["Value"]] = [possible_battle_cards_for_reassignment[possible_battle_cards_for_reassignment.index(i_card)+1]["Value"]]
+                else:
+                    battle_card_reassignments[card["Value"]] = [i_card["Value"]]
     return battle_card_reassignments
 
 def reassign_one_time_rewards(seed):
@@ -104,73 +91,7 @@ def reassign_one_time_rewards(seed):
         one_time_rewards_reassignments.append({"OG": enemy_card, "RE": possible_enemy_cards_reassignments.pop(random.randrange(0,len(possible_enemy_cards_reassignments)))})
     return [one_time_rewards_reassignments]+[possible_sleight_reassignments + possible_enemy_cards_reassignments]
 
-def reassign_key_rewards(seed, worlds, leftover_one_time_rewards):
-    random.seed(a=seed)
-    key_rewards = load_json_data("key_rewards.json")
-    reward_pool = []
-    locations = []
-    rewards_to_be_placed = []
-    rewards_placed = []
-    reassignments = {}
-    rewards_to_be_removed_from_rewards_to_be_placed = []
-    for reward in leftover_one_time_rewards:
-        reward_pool.append(reward["Value"])
-    i = 0
-    goals = [1, settings["FG"], settings["SG"], 12, 13]
-    for goal in goals:
-        print("Goal: " + str(goal))
-        while i < goal:
-            print(i)
-            locations = locations + get_locations(key_rewards, worlds, i)
-            for location in locations:  
-                print("Location: " + str(location))
-                if location["Value"].startswith("KO") and location["Value"] not in reward_pool and location["Value"] not in rewards_placed:
-                    reward_pool.append(location["Value"])
-                    #print("Added " + str(location["Value"]) + " to the reward pool")
-            i = i + 1
-        rewards_to_be_placed =[]
-        rewards_to_be_placed = rewards_to_be_placed + ["KOB" + str(goal), "KOG" + str(goal), "KOT" + str(goal)]
-        print(rewards_to_be_placed)
-        reward_pool.remove("KOB" + str(goal))
-        reward_pool.remove("KOG" + str(goal))
-        reward_pool.remove("KOT" + str(goal))
-        for reward in rewards_to_be_placed:
-            print(reward)
-            while reward not in rewards_placed:
-                possible_location = random.choices(locations)[0]
-                if reward not in possible_location["Requirements"]:
-                    reassignments[possible_location["Value"]] = reward
-                    rewards_placed.append(reward)
-                    for requirement in possible_location["Requirements"]: 
-                        if requirement not in rewards_placed and requirement not in rewards_to_be_placed and requirement in reward_pool:
-                            rewards_to_be_placed.append(requirement)
-                    for location in locations:
-                        if reward == location and location != possible_location:
-                            location["Requirements"] = location["Requirements"] + possible_location["Requirements"]
-                    locations.remove(possible_location)
-                    print("Removed location: " + str(possible_location))
-                    if reward in reward_pool:
-                        reward_pool.remove(reward)
-        rewards_to_be_placed =[]
-        for location in locations:
-            print("This location: " + str(location))
-            if len(reward_pool) > 0:
-                while location["Value"] not in reassignments.keys():
-                    reward = random.choices(reward_pool)[0]
-                    print("Leftover: " + str(reward))
-                    if reward not in location["Requirements"]:
-                        reassignments[location["Value"]] = reward
-                        rewards_placed.append(reward)
-                        #locations.remove(location)
-                        print("Removed location: " + str(location))
-                        for requirement in location["Requirements"]: 
-                            if requirement not in rewards_placed and requirement not in rewards_to_be_placed and requirement in reward_pool:
-                                rewards_to_be_placed.append(requirement)
-                        reward_pool.remove(reward)
-        locations = []
-    return reassignments
-
-def reassign_key_rewards_2(seed, worlds, leftover_one_time_rewards, bottom_floor, top_floor):
+def reassign_key_rewards(seed, worlds, leftover_one_time_rewards, bottom_floor, top_floor):
     random.seed(a=seed)
     key_rewards = load_json_data("key_rewards.json")
     battle_cards = load_json_data("battle_cards.json")
@@ -278,28 +199,112 @@ def remove_items_from_leftover_one_time_rewards(reassigned_key_rewards, leftover
             if reassigned_key_rewards[key] == reward["Value"]:
                 leftover_one_time_rewards.remove(reward)
 
-def main():
-    worlds = choose_worlds_for_each_floor(seed)
-    if settings["BCTM"]:
-        battle_card_reassignments = reassign_battle_cards_type_for_type(seed)
+def initializations(seed, starting_deck, one_of_each_map_card, zeroes_allowed, cures_allowed):
+    random.seed(a=seed)
+    initializations = load_json_data("initializations.json")
+    battle_cards = load_json_data("battle_cards.json")
+    if starting_deck == "Randomize":
+        valid = False
+        while not valid:
+            selected_cards = random.choices(battle_cards["Battle Cards"], k=10)
+            cp_cost = 0
+            for card in selected_cards:
+                cp_cost = cp_cost + card["CP Cost"]
+            if cp_cost <= 275:
+                valid = True
+                if zeroes_allowed == "No":
+                    for card in selected_cards:
+                        if card["Name"][-1] == "0":
+                            valid = False
+                if cures_allowed == "No":
+                    for card in selected_cards:
+                        if card["Name"][:4] == "Cure":
+                            valid = False
+            else:
+                valid = False
+        i = 0
+        while i < len(selected_cards):
+            selected_cards[i] = "1" + selected_cards[i]["Value"]
+            i = i + 1
     else:
-        battle_card_reassignments = reassign_battle_cards(seed)
+        selected_cards = [
+            "1007"
+            ,"1006"
+            ,"1005"
+            ,"1005"
+            ,"1004"
+            ,"1003"
+            ,"1004"
+            ,"1003"
+            ,"1002"
+            ,"1002"
+            ,"1001"
+            ,"1000"
+            ,"10B9"
+            ,"1182"
+            ,"10CD"
+        ]
+    initializations["Starting Deck"] = selected_cards
+    for color in initializations["Starting Map Cards"]:
+        for card_type in initializations["Starting Map Cards"][color]:
+            for card in card_type:
+                if one_of_each_map_card == "Yes":
+                    card["Quantity"] = 1
+                else:
+                    card["Quantity"] = 0
+    json_object = json.dumps(initializations, indent=4)
+    with open('initializations.json', 'w') as f:
+        f.write(json_object)
+
+def randomize(battle_cards, starting_deck, goal_floor_1, goal_floor_2, one_of_each_map_card, zeroes_allowed, cures_allowed, seed):
+    seed = seed
+    settings["FG"] = int(goal_floor_1)
+    settings["SG"] = int(goal_floor_2)
+    worlds = choose_worlds_for_each_floor(seed)
+    battle_card_reassignments = {}
+    if battle_cards == "Match Type for Type":
+        battle_card_reassignments = reassign_battle_cards_type_for_type(seed, zeroes_allowed, cures_allowed)
+    elif battle_cards == "Random":
+        battle_card_reassignments = reassign_battle_cards(seed, zeroes_allowed, cures_allowed)
     results = reassign_one_time_rewards(seed)
     one_time_rewards_reassignments = results[0]
     leftover_one_time_rewards = results[1]
-    reassigned_key_rewards = reassign_key_rewards_2(seed, worlds, leftover_one_time_rewards, 1,1)
+    reassigned_key_rewards = reassign_key_rewards(seed, worlds, leftover_one_time_rewards, 1,1)
     remove_items_from_leftover_one_time_rewards(reassigned_key_rewards, leftover_one_time_rewards)
-    reassigned_key_rewards.update(reassign_key_rewards_2(seed, worlds, leftover_one_time_rewards, 2,6))
+    reassigned_key_rewards.update(reassign_key_rewards(seed, worlds, leftover_one_time_rewards, 2,6))
     remove_items_from_leftover_one_time_rewards(reassigned_key_rewards, leftover_one_time_rewards)
-    reassigned_key_rewards.update(reassign_key_rewards_2(seed, worlds, leftover_one_time_rewards, 7,10))
+    reassigned_key_rewards.update(reassign_key_rewards(seed, worlds, leftover_one_time_rewards, 7,10))
     remove_items_from_leftover_one_time_rewards(reassigned_key_rewards, leftover_one_time_rewards)
-    reassigned_key_rewards.update(reassign_key_rewards_2(seed, worlds, leftover_one_time_rewards, 11,11))
+    reassigned_key_rewards.update(reassign_key_rewards(seed, worlds, leftover_one_time_rewards, 11,11))
     remove_items_from_leftover_one_time_rewards(reassigned_key_rewards, leftover_one_time_rewards)
-    reassigned_key_rewards.update(reassign_key_rewards_2(seed, worlds, leftover_one_time_rewards, 12,12))
+    reassigned_key_rewards.update(reassign_key_rewards(seed, worlds, leftover_one_time_rewards, 12,12))
     remove_items_from_leftover_one_time_rewards(reassigned_key_rewards, leftover_one_time_rewards)
-    reassigned_key_rewards.update(reassign_key_rewards_2(seed, worlds, leftover_one_time_rewards, 13,13))
+    reassigned_key_rewards.update(reassign_key_rewards(seed, worlds, leftover_one_time_rewards, 13,13))
     remove_items_from_leftover_one_time_rewards(reassigned_key_rewards, leftover_one_time_rewards)
-    #reassigned_key_rewards = reassign_key_rewards(seed, worlds, leftover_one_time_rewards)
     item_reassignment_output = get_reassignments(worlds, battle_card_reassignments, one_time_rewards_reassignments, reassigned_key_rewards)
     output_reassignments(item_reassignment_output)
-main()
+    initializations(seed, starting_deck, one_of_each_map_card, zeroes_allowed, cures_allowed)
+#randomize()
+
+
+sg.theme('DarkAmber')
+
+layout = [  [sg.Text("Battle Cards", size = (20,1)), sg.Combo(["Vanilla", "Random", "Match Type for Type"], default_value = "Vanilla")],
+            [sg.Text("Starting Deck", size = (20,1)), sg.Combo(["Vanilla", "Randomize"], default_value = "Vanilla")],
+            [sg.Text("Goal Floor 1", size = (20,1)), sg.Combo(["6"], default_value = "6")],
+            [sg.Text("Goal Floor 2", size = (20,1)), sg.Combo(["10"], default_value = "10")],
+            [sg.Text("One of Each Map Card", size = (20,1)), sg.Combo(["Yes", "No"], default_value = "Yes")],
+            [sg.Text("0s Allowed", size = (20,1)), sg.Combo(["Yes", "No"], default_value = "Yes")],
+            [sg.Text("Cure Allowed", size = (20,1)), sg.Combo(["Yes", "No"], default_value = "Yes")],
+            [sg.Text("Seed", size = (20,1)), sg.InputText(str(time.time()))],
+            [sg.Button("Generate json", key="Randomize")]
+         ]
+
+window = sg.Window("KHCOM_RANDO", layout)
+
+while True:
+    event, values = window.read()
+    if event == sg.WIN_CLOSED or event == "Cancel":
+        break
+    elif event == "Randomize":
+        randomize(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7])
