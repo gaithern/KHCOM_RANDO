@@ -628,7 +628,6 @@ function set_starting_deck()
 		memory.write_u16_le(to_hex(addresses["Battle Cards"]["Address"]) + 2*(k-1), to_hex(v))
 		i = i + 1
 	end
-	print(i)
 	while i <= 15 do
 		memory.write_u16_le(to_hex(addresses["Battle Cards"]["Address"]) + 2*(i-1), to_hex("0FFF"))
 		set_deck_pointer(1, i - 1, "FFFF")

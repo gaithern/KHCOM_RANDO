@@ -291,6 +291,14 @@
 				,{"Address": "0D0414BE", "Bytes": 33}
 			]
 		}
+		,"11D": {
+			"Original Text": "Obtained Bambi"
+			,"Address": [
+				{"Address": "09041B10", "Bytes": 32}
+				,{"Address": "0B041B10", "Bytes": 32}
+				,{"Address": "0D041B10", "Bytes": 32}
+			]
+		}
 		,"Key Descriptions": {
 			"KOB": {
 				"Original Text": "A room where untold stories unfold."

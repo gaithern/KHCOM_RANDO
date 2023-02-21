@@ -104,42 +104,5 @@
 		,{"Name": "Marluxia", "Value": "231", "Type": "Enemy Card"}
 		,{"Name": "Lexaeus", "Value": "233", "Type": "Enemy Card"}
 		,{"Name": "Ansem", "Value": "234", "Type": "Enemy Card"}
-		,{"Value": "Sliding Dash", "Type": "Sleight"}
-		,{"Value": "Stun Impact", "Type": "Sleight"}
-		,{"Value": "Strike Raid", "Type": "Sleight"}
-		,{"Value": "Blitz", "Type": "Sleight"}
-		,{"Value": "Zantetsuken", "Type": "Sleight"}
-		,{"Value": "Sonic Blade", "Type": "Sleight"}
-		,{"Value": "Ars Arcanum", "Type": "Sleight"}
-		,{"Value": "Ragnarok", "Type": "Sleight"}
-		,{"Value": "Trinity Limit", "Type": "Sleight"}
-		,{"Value": "Fire Raid", "Type": "Sleight"}
-		,{"Value": "Blizzard Raid", "Type": "Sleight"}
-		,{"Value": "Thunder Raid", "Type": "Sleight"}
-		,{"Value": "Gravity Raid", "Type": "Sleight"}
-		,{"Value": "Stop Raid", "Type": "Sleight"}
-		,{"Value": "Judgement", "Type": "Sleight"}
-		,{"Value": "Reflect Raid", "Type": "Sleight"}
-		,{"Value": "Homing Fira", "Type": "Sleight"}
-		,{"Value": "Firaga Break", "Type": "Sleight"}
-		,{"Value": "Mega Flare", "Type": "Sleight"}
-		,{"Value": "Homing Blizzara", "Type": "Sleight"}
-		,{"Value": "Aqua Splash", "Type": "Sleight"}
-		,{"Value": "Idyll Romp", "Type": "Sleight"}
-		,{"Value": "Shock Impact", "Type": "Sleight"}
-		,{"Value": "Tornado", "Type": "Sleight"}
-		,{"Value": "Quake", "Type": "Sleight"}
-		,{"Value": "Warpinator", "Type": "Sleight"}
-		,{"Value": "Warp", "Type": "Sleight"}
-		,{"Value": "Bind", "Type": "Sleight"}
-		,{"Value": "Confuse", "Type": "Sleight"}
-		,{"Value": "Firaga Burst", "Type": "Sleight"}
-		,{"Value": "Terror", "Type": "Sleight"}
-		,{"Value": "Synchro", "Type": "Sleight"}
-		,{"Value": "Gifted Miracle", "Type": "Sleight"}
-		,{"Value": "Teleport", "Type": "Sleight"}
-		,{"Value": "Holy", "Type": "Sleight"}
-		,{"Value": "Cross-slash +", "Type": "Sleight"}
-		,{"Value": "Blazing Donald", "Type": "Sleight"}
 	]
 }
