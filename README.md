@@ -26,5 +26,3 @@ Some additional details:
 
 -You can edit the frequency that battle cards are chosen for remapping (or turn them off entirely) by editing the weights in battle_cards.json
   (For example you can do a no Cure card challenge or a no 0 value card challenge by setting each card types weight to 0)
-  
--Not every sleight is randomized, some the game does not appear to check to see if you have actually unlocked them or not (Fira/Firaga/Goofy Charge/etc) so these are left vanilla.
