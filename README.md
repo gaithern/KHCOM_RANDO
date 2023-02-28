@@ -9,14 +9,18 @@ Randomizer logic works via "goal" floors.  The goal floors as of now are:
 1,6,10,11,12,13.
 
 This means that you must complete floor 1 as normal, then the Key of Beginnings, Key of Guidance, and Key to Truth (as well as other enemy cards) for floors 2-6 can be scattered anywhere on the assigned worlds from floors 2-6.
-The goal is to find the Key of Beginnings, Key of Guidance, and Key of Truth for floor 6 and move onto the same situation for floors 7-10.
+The goal is to find the Key of Beginnings, Key of Guidance, and Key of Truth for floor 6, complete 100 Acre Wood on Floor 7, and move onto the same situation for floors 8-10.
 After that, complete 11,12,13 as normal.
 
 Some additional details:
 
 -Floor 1 is always Traverse Town
 
--Floor 11 is always 100 Acre Wood
+-Floor 7 is always 100 Acre Wood
+
+-Floor 11 is always Twilight Town
+
+-Floor 12 is always Destiny Islands
 
 -Floor 13 is always Castle Oblivion
 
