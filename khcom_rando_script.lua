@@ -469,9 +469,15 @@ function handle_new_items(new_battle_cards, new_premium_battle_cards, new_keys, 
 							remove_battle_card(v, true)
 							print("Got SL: " .. tostring(iv))
 						elseif new_item_type == "Battle Card" then
-							remove_battle_card(v, true)
-							add_battle_card(iv, true)
-							print("Got PBC: " .. tostring(iv))
+							if to_hex(iv) < 380 or to_hex(iv) > 449 then
+								remove_battle_card(v, true)
+								add_battle_card(iv, true)
+								print("Got PBC: " .. tostring(iv))
+							else
+								remove_battle_card(v, true)
+								add_battle_card(iv, false)
+								print("Got BC: " .. tostring(iv))
+							end
 						end
 					end
 				end
