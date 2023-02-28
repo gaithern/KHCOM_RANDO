@@ -6,7 +6,7 @@ In Bizhawk, run KHCOM, open Lua Console, and run khcom_rando_script.lua. This sc
 
 Randomizer logic works via "goal" floors.  The goal floors as of now are:
 
-1,6,10,11,12,13.
+1,6,7,10,11,12,13.
 
 This means that you must complete floor 1 as normal, then the Key of Beginnings, Key of Guidance, and Key to Truth (as well as other enemy cards) for floors 2-6 can be scattered anywhere on the assigned worlds from floors 2-6.
 The goal is to find the Key of Beginnings, Key of Guidance, and Key of Truth for floor 6, complete 100 Acre Wood on Floor 7, and move onto the same situation for floors 8-10.
