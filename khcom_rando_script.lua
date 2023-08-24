@@ -16,7 +16,7 @@ function DEC_HEX(IN)
     local B,K,OUT,I,D=16,"0123456789ABCDEF","",0
     while IN>0 do
         I=I+1
-        IN,D=math.floor(IN/B),math.mod(IN,B)+1
+        IN,D=math.floor(IN/B),math.fmod(IN,B)+1
         OUT=string.sub(K,D,D)..OUT
     end
     return OUT
@@ -105,8 +105,20 @@ function get_current_gold_card_qty(gold_card_type)
 	return num_of_gold_cards
 end
 
-function set_current_gold_card_qty(gold_card_type, x)
-	memory.writebyte(to_hex(addresses["Map Cards"]["Gold"][gold_card_type]["Address"]),to_hex(x))
+function set_current_gold_card_qty(gold_card_type, amt, current_floor)
+	if amt > 0 then
+		if gold_card_type == "KOT" then
+			if get_stored_gold_cards("KOG", current_floor) < 1 then
+				return
+			end
+		end
+		if gold_card_type == "KOG" then
+			if get_stored_gold_cards("KOB", current_floor) < 1 then
+				return
+			end
+		end
+	end
+	memory.writebyte(to_hex(addresses["Map Cards"]["Gold"][gold_card_type]["Address"]),to_hex(amt))
 end
 
 function get_stored_gold_cards(gold_card_type, floor_number)
@@ -526,15 +538,15 @@ function handle_new_items(new_battle_cards, new_premium_battle_cards, new_keys, 
 							local key_type = string.sub(iv,1,3)
 							local key_floor = tonumber(string.sub(iv,4))
 							set_stored_gold_cards(key_type, key_floor, 1)
-							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1)
+							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1, tonumber(this_key_floor))
 							print("Got GC: " .. tostring(iv))
 						elseif new_item_type == "Sleight" then
 							add_sleight(iv)
-							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1)
+							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1, tonumber(this_key_floor))
 							print("Got SL: " .. tostring(iv))
 						elseif new_item_type == "Battle Card" then
 							add_battle_card(iv, false)
-							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1)
+							set_current_gold_card_qty(this_key_type, get_current_gold_card_qty(this_key_type)-1, tonumber(this_key_floor))
 							print("Got BC: " .. tostring(iv))
 						end
 					end
@@ -850,89 +862,101 @@ end
 function main()
 	load_dictionaries()
 	set_floors()
-	local last_floor = get_floor_number()
-	local last_kob = get_current_gold_card_qty("KOB")
-	local last_kog = get_current_gold_card_qty("KOG")
-	local last_kot = get_current_gold_card_qty("KOT")
-	local last_sleights = get_sleights()
-	local last_battle_cards = get_battle_cards()
-	local last_playtime = get_playtime()
-	local last_highest_warp_floor = get_highest_warp_floor_number()
+	local last_variables = {}
+	last_variables["last_floor"] = get_floor_number()
+	last_variables["last_kob"] = get_current_gold_card_qty("KOB")
+	last_variables["last_kog"] = get_current_gold_card_qty("KOG")
+	last_variables["last_kot"] = get_current_gold_card_qty("KOT")
+	last_variables["last_sleights"] = get_sleights()
+	last_variables["last_battle_cards"] = get_battle_cards()
+	last_variables["last_playtime"] = get_playtime()
+	last_variables["last_highest_warp_floor"] = get_highest_warp_floor_number()
 	set_obtained_key_text(get_floor_number())
 	set_got_text()
 	while true do
 		local frame = emu.framecount()
 		if frame % 20 == 0 then
-			local current_playtime = get_playtime()
-			if current_playtime == 1 then
-				set_starting_deck()
-				last_battle_cards = get_battle_cards()
-				set_obtained_key_text(get_floor_number())
-				set_got_text()
-				set_initial_map_cards()
+			local success,err = pcall(main_loop, last_variables)
+			if not success then
+				print(err)
+				client.pause()
+				return
 			end
-			if not save_or_savestate_loaded(last_playtime, current_playtime) then
-				local current_floor = get_floor_number()
-				if current_floor ~= last_floor then
-					set_floors()
-					set_current_gold_card_qty("KOB", get_stored_gold_cards("KOB", current_floor))
-					set_current_gold_card_qty("KOG", get_stored_gold_cards("KOG", current_floor))
-					set_current_gold_card_qty("KOT", get_stored_gold_cards("KOT", current_floor))
-					last_kob = get_current_gold_card_qty("KOB")
-					last_kog = get_current_gold_card_qty("KOG")
-					last_kot = get_current_gold_card_qty("KOT")
-					local world_name = get_world_name(current_floor)
-					new_world_cards = {}
-					new_world_cards[1] = world_name
-					set_world_cards(new_world_cards)
-					set_obtained_key_text(current_floor)
-					set_got_text()
-				end
-				handle_highest_warp(current_floor, last_highest_warp_floor)
-				local current_kob = get_current_gold_card_qty("KOB")
-				local current_kog = get_current_gold_card_qty("KOG")
-				local current_kot = get_current_gold_card_qty("KOT")
-				local new_kob = find_new_keys(last_kob, current_kob, "KOB", current_floor)
-				local new_kog = find_new_keys(last_kog, current_kog, "KOG", current_floor)
-				local new_kot = find_new_keys(last_kot, current_kot, "KOT", current_floor)
-				local new_keys = combine_new_keys(new_kob, new_kog, new_kot)
-				local current_sleights = {}
-				if sleights_temporarily_removed() then
-					current_sleights = copy_table(last_sleights)
-				else
-					current_sleights = get_sleights()
-				end
-				local new_sleights = find_new_sleights(last_sleights, current_sleights)
-				local current_battle_cards = get_battle_cards()
-				local results = find_new_battle_cards(last_battle_cards, current_battle_cards)
-				local new_battle_cards = results["Regular"]
-				local new_premium_battle_cards = results["Premium"]
-				last_deck_pointers = get_deck_pointers()
-				handle_new_items(new_battle_cards, new_premium_battle_cards, new_keys, new_sleights)
-				reassign_deck_pointers(last_deck_pointers)
-				set_current_gold_card_qty("KOB", get_stored_gold_cards("KOB", current_floor))
-				set_current_gold_card_qty("KOG", get_stored_gold_cards("KOG", current_floor))
-				set_current_gold_card_qty("KOT", get_stored_gold_cards("KOT", current_floor))
-			else
-				set_floors()
-				set_obtained_key_text(get_floor_number())
-				set_got_text()
-			end
-			last_floor = get_floor_number()
-			last_kob = get_current_gold_card_qty("KOB")
-			last_kog = get_current_gold_card_qty("KOG")
-			last_kot = get_current_gold_card_qty("KOT")
-			if not sleights_temporarily_removed() then
-				last_sleights = get_sleights()
-			end
-			last_battle_cards = get_battle_cards()
-			last_playtime = current_playtime
-			last_highest_warp_floor = get_highest_warp_floor_number()
-			set_key_description_text()
 		end
 		emu.frameadvance()
 	end
 end
+
+function main_loop(last_variables)
+	local current_playtime = get_playtime()
+	if current_playtime == 1 then
+		set_starting_deck()
+		last_variables["last_battle_cards"] = get_battle_cards()
+		set_obtained_key_text(get_floor_number())
+		set_got_text()
+		set_initial_map_cards()
+	end
+	if not save_or_savestate_loaded(last_variables["last_playtime"], current_playtime) then
+		local current_floor = get_floor_number()
+		if current_floor ~= last_variables["last_floor"] then
+			set_floors()
+			set_current_gold_card_qty("KOB", get_stored_gold_cards("KOB", current_floor), current_floor)
+			set_current_gold_card_qty("KOG", get_stored_gold_cards("KOG", current_floor), current_floor)
+			set_current_gold_card_qty("KOT", get_stored_gold_cards("KOT", current_floor), current_floor)
+			last_variables["last_kob"] = get_current_gold_card_qty("KOB")
+			last_variables["last_kog"] = get_current_gold_card_qty("KOG")
+			last_variables["last_kot"] = get_current_gold_card_qty("KOT")
+			local world_name = get_world_name(current_floor)
+			new_world_cards = {}
+			new_world_cards[1] = world_name
+			set_world_cards(new_world_cards)
+			set_obtained_key_text(current_floor)
+			set_got_text()
+		end
+		handle_highest_warp(current_floor, last_variables["last_highest_warp_floor"])
+		local current_kob = get_current_gold_card_qty("KOB")
+		local current_kog = get_current_gold_card_qty("KOG")
+		local current_kot = get_current_gold_card_qty("KOT")
+		local new_kob = find_new_keys(last_variables["last_kob"], current_kob, "KOB", current_floor)
+		local new_kog = find_new_keys(last_variables["last_kog"], current_kog, "KOG", current_floor)
+		local new_kot = find_new_keys(last_variables["last_kot"], current_kot, "KOT", current_floor)
+		local new_keys = combine_new_keys(new_kob, new_kog, new_kot)
+		local current_sleights = {}
+		if sleights_temporarily_removed() then
+			current_sleights = copy_table(last_variables["last_sleights"])
+		else
+			current_sleights = get_sleights()
+		end
+		local new_sleights = find_new_sleights(last_variables["last_sleights"], current_sleights)
+		local current_battle_cards = get_battle_cards()
+		local results = find_new_battle_cards(last_variables["last_battle_cards"], current_battle_cards)
+		local new_battle_cards = results["Regular"]
+		local new_premium_battle_cards = results["Premium"]
+		last_deck_pointers = get_deck_pointers()
+		handle_new_items(new_battle_cards, new_premium_battle_cards, new_keys, new_sleights)
+		reassign_deck_pointers(last_deck_pointers)
+		set_current_gold_card_qty("KOB", get_stored_gold_cards("KOB", current_floor), current_floor)
+		set_current_gold_card_qty("KOG", get_stored_gold_cards("KOG", current_floor), current_floor)
+		set_current_gold_card_qty("KOT", get_stored_gold_cards("KOT", current_floor), current_floor)
+	else
+		set_floors()
+		set_obtained_key_text(get_floor_number())
+		set_got_text()
+	end
+	last_variables["last_floor"] = get_floor_number()
+	last_variables["last_kob"] = get_current_gold_card_qty("KOB")
+	last_variables["last_kog"] = get_current_gold_card_qty("KOG")
+	last_variables["last_kot"] = get_current_gold_card_qty("KOT")
+	if not sleights_temporarily_removed() then
+		last_variables["last_sleights"] = get_sleights()
+	end
+	last_variables["last_battle_cards"] = get_battle_cards()
+	last_variables["last_playtime"] = current_playtime
+	last_variables["last_highest_warp_floor"] = get_highest_warp_floor_number()
+	set_key_description_text()
+	return last_variables
+end
+
 
 function test()
 	load_dictionaries()
@@ -957,6 +981,11 @@ function test()
 		end
 		emu.frameadvance()
 	end
+end
+
+function this_should_fail()
+	local a = 1
+	a = 1 + "fish"
 end
 
 main()
