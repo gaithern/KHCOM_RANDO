@@ -9,6 +9,7 @@ function load_json(filename)
 end
 
 function to_hex(input_str)
+	input_str = tostring(input_str)
 	return tonumber(input_str,16)
 end
 
@@ -938,6 +939,7 @@ function main_loop(last_variables)
 		set_current_gold_card_qty("KOB", get_stored_gold_cards("KOB", current_floor), current_floor)
 		set_current_gold_card_qty("KOG", get_stored_gold_cards("KOG", current_floor), current_floor)
 		set_current_gold_card_qty("KOT", get_stored_gold_cards("KOT", current_floor), current_floor)
+		
 	else
 		set_floors()
 		set_obtained_key_text(get_floor_number())
